@@ -1,0 +1,16 @@
+# Netlify Configuration for Single Page App + Backend API
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# Forward API requests to API endpoint or avoid rewriting API to HTML
+[[redirects]]
+  from = "/api/*"
+  to = "/api/:splat"
+  status = 200
+
+# Client-side routing fallback for SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

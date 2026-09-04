@@ -1,0 +1,63 @@
+[
+  {
+    "id": "sess_1788092856280_ze0s7ru",
+    "token": "sess_1788092856280_ze0s7ru",
+    "userId": "usr_1784816103149",
+    "createdAt": "2026-08-30T12:27:36.280Z",
+    "expiresAt": "2026-09-29T12:27:36.280Z"
+  },
+  {
+    "id": "sess_1788091953946_wz1b6fy",
+    "token": "sess_1788091953946_wz1b6fy",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-08-30T12:12:33.946Z",
+    "expiresAt": "2026-09-29T12:12:33.946Z"
+  },
+  {
+    "id": "sess_1788091741237_oit8fqx",
+    "token": "sess_1788091741237_oit8fqx",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-08-30T12:09:00.130Z",
+    "expiresAt": "2026-09-29T12:09:01.237Z"
+  },
+  {
+    "id": "sess_1788091322172_mgw27s3",
+    "token": "sess_1788091322172_mgw27s3",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-08-30T12:02:02.172Z",
+    "expiresAt": "2026-09-29T12:02:02.172Z"
+  },
+  {
+    "id": "sess_1788091316904_y9mnkdw",
+    "token": "sess_1788091316904_y9mnkdw",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-08-30T12:01:56.904Z",
+    "expiresAt": "2026-09-29T12:01:56.904Z"
+  },
+  {
+    "id": "sess_1788091307449_cyzd5ff",
+    "token": "sess_1788091307449_cyzd5ff",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-08-30T12:01:47.449Z",
+    "expiresAt": "2026-09-29T12:01:47.449Z"
+  },
+  {
+    "id": "sess_1788091277414_rimlkhk",
+    "token": "sess_1788091277414_rimlkhk",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-08-30T12:01:17.414Z",
+    "expiresAt": "2026-09-29T12:01:17.414Z"
+  },
+  {
+    "id": "sess_1784992811427_eechdc8",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-07-25T15:20:11.427Z",
+    "expiresAt": "2026-08-24T15:20:11.427Z"
+  },
+  {
+    "id": "sess_1784992793332_uxv40pt",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-07-25T15:19:53.147Z",
+    "expiresAt": "2026-08-24T15:19:53.333Z"
+  }
+]
