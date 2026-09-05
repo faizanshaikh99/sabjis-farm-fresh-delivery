@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: sabjis-farm-fresh-delivery
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: RAZORPAY_KEY_ID
+        sync: false
+      - key: RAZORPAY_KEY_SECRET
+        sync: false
+      - key: RAZORPAY_WEBHOOK_SECRET
+        sync: false
+      - key: ADMIN_NAME
+        value: Faizan Shaikh
+      - key: ADMIN_EMAIL
+        value: faizanshaikh786511@gmail.com
+      - key: CORS_ORIGIN
+        value: https://sabjis-farm-fresh-delivery.onrender.com

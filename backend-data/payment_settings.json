@@ -1,0 +1,13 @@
+{
+  "businessName": "Sabjies Fresh Grocery",
+  "upiId": "sabjies@upi",
+  "qrCodeUrl": "",
+  "qrCodeFileName": "",
+  "qrCodeDataUrl": "",
+  "qrCodeUploaded": false,
+  "qrCodeUploadedAt": null,
+  "instructions": "1. Scan the QR code or tap \"Pay via UPI App\".\n2. Pay the exact amount shown.\n3. Copy the UTR/Transaction ID from your UPI app.\n4. Paste the UTR/Transaction ID into the website.\n5. Click \"Submit Payment\".",
+  "enableUpi": true,
+  "enableCod": true,
+  "autoApproveUpi": false
+}
