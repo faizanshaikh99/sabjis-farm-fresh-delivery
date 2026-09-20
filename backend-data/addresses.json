@@ -1,0 +1,80 @@
+[
+  {
+    "id": "addr_u_pree_0_17p5l",
+    "userId": "u_pree",
+    "name": "Priya Sharma",
+    "label": "Home 🏠",
+    "flat": "B-402",
+    "street": "Sunshine Enclave, Pant Nagar",
+    "area": "Ghatkopar East",
+    "pin": "400075",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "landmark": ""
+  },
+  {
+    "id": "addr_usr_1787994112444_0_1787996061682_x8xd",
+    "userId": "usr_1787994112444",
+    "name": "clear",
+    "label": "Home",
+    "flat": "120",
+    "street": "asdfghjkl",
+    "area": "Ghatkopar East",
+    "pin": "400075",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "landmark": ""
+  },
+  {
+    "id": "addr_usr_1787994112444_1_1787996061682_3cp0",
+    "userId": "usr_1787994112444",
+    "name": "clear",
+    "label": "Home",
+    "flat": "rtyhregesr",
+    "street": "rgh vfg nhdtr5u",
+    "area": "Ghatkopar East",
+    "pin": "400075",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "landmark": ""
+  },
+  {
+    "id": "addr_u_pree_0_haa0g",
+    "userId": "u_pree",
+    "name": "Priya Sharma",
+    "label": "Home 🏠",
+    "flat": "B-402",
+    "street": "Sunshine Enclave, Pant Nagar",
+    "area": "Ghatkopar East",
+    "pin": "400075",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "landmark": ""
+  },
+  {
+    "id": "addr_usr_1784816103149_0_1788093135440_xjz4",
+    "userId": "usr_1784816103149",
+    "name": "gyani",
+    "label": "Home",
+    "flat": "100",
+    "street": "pant nagar",
+    "area": "Ghatkopar East",
+    "pin": "400075",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "landmark": ""
+  },
+  {
+    "id": "addr_usr_1788342215862_0_1788342292257_6kd5",
+    "userId": "usr_1788342215862",
+    "name": "Test User",
+    "label": "Home",
+    "flat": "",
+    "street": "",
+    "area": "Ghatkopar East",
+    "pin": "400075",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "landmark": ""
+  }
+]
