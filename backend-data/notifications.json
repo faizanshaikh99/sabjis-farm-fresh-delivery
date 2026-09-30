@@ -1,0 +1,2497 @@
+[
+  {
+    "id": "notif_1790755358544_admin",
+    "userId": "admin_greensabjies",
+    "title": "🔔 New Password Reset Request",
+    "body": "Faizan Shaikh (greensabjies@gmail.com) submitted a password reset request. Email sent: No (SMTP pending).",
+    "type": "security",
+    "read": false,
+    "createdAt": "2026-09-30T08:02:38.543Z"
+  },
+  {
+    "id": "notif_1790755358249",
+    "userId": "test_upi_p15",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UTR55358239) for Order #ORD484746 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:02:38.244Z"
+  },
+  {
+    "id": "notif_1790755358093",
+    "userId": "test_p15_user",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹25 for Order #ORD932975 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:02:38.093Z"
+  },
+  {
+    "id": "notif_1790755357850",
+    "userId": "test_p15_user",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD932975 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:02:37.850Z"
+  },
+  {
+    "id": "notif_1790755312907",
+    "userId": "test_paid_user",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD672280 status has been updated to Confirmed. Remarks: Second approve attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:52.907Z"
+  },
+  {
+    "id": "notif_1790755312483",
+    "userId": "test_paid_user",
+    "title": "✅ Payment Approved! (Order #ORD672280)",
+    "body": "We've successfully verified your payment of ₹120 for order #ORD672280. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:52.483Z"
+  },
+  {
+    "id": "notif_1790755312078",
+    "userId": "test_paid_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (PAID-REF-1790755312055) for Order #ORD672280 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:52.075Z"
+  },
+  {
+    "id": "notif_1790755311615",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD536697)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Duplicate reject attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:51.615Z"
+  },
+  {
+    "id": "notif_1790755311124",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD536697)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:51.124Z"
+  },
+  {
+    "id": "notif_1790755310681",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790755310674) for Order #ORD536697 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:50.678Z"
+  },
+  {
+    "id": "notif_1790755310199",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/6896/PAY) for Order #ORD112425 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:50.196Z"
+  },
+  {
+    "id": "notif_1790755310057",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-6896-SBI) for Order #ORD176413 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:50.054Z"
+  },
+  {
+    "id": "notif_1790755309908",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234566896) for Order #ORD986670 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:49.905Z"
+  },
+  {
+    "id": "notif_1790755309745",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB6896) for Order #ORD834125 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:49.740Z"
+  },
+  {
+    "id": "notif_1790755280630",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹40 for Order #ORD263762 has been processed (Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:20.630Z"
+  },
+  {
+    "id": "notif_1790755280400",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹20 for Order #ORD263762 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:20.400Z"
+  },
+  {
+    "id": "notif_1790755278262",
+    "userId": "user_replay",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹90 for order #ORD706021 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:18.262Z"
+  },
+  {
+    "id": "notif_1790755277026",
+    "userId": "test_user_amount_manip",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD263762 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T08:01:17.026Z"
+  },
+  {
+    "id": "notif_1790754102437",
+    "userId": "test_persist_user",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹30 for Order #ORD303448 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:41:42.437Z"
+  },
+  {
+    "id": "notif_1790754102199",
+    "userId": "test_persist_upi",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UTR54102192) for Order #ORD602351 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:41:42.196Z"
+  },
+  {
+    "id": "notif_1790754102028",
+    "userId": "test_persist_user",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD303448 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:41:42.028Z"
+  },
+  {
+    "id": "notif_1790754083277",
+    "userId": "test_persist_upi",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UTR54083269) for Order #ORD638642 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:41:23.275Z"
+  },
+  {
+    "id": "notif_1790754083077",
+    "userId": "test_persist_user",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD498388 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:41:23.077Z"
+  },
+  {
+    "id": "notif_1790754010671",
+    "userId": "test_paid_user",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD350516 status has been updated to Confirmed. Remarks: Second approve attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:40:10.671Z"
+  },
+  {
+    "id": "notif_1790754010215",
+    "userId": "test_paid_user",
+    "title": "✅ Payment Approved! (Order #ORD350516)",
+    "body": "We've successfully verified your payment of ₹120 for order #ORD350516. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:40:10.215Z"
+  },
+  {
+    "id": "notif_1790754009797",
+    "userId": "test_paid_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (PAID-REF-1790754009769) for Order #ORD350516 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:40:09.795Z"
+  },
+  {
+    "id": "notif_1790754009358",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD891153)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Duplicate reject attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:40:09.358Z"
+  },
+  {
+    "id": "notif_1790754008907",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD891153)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:40:08.907Z"
+  },
+  {
+    "id": "notif_1790754008467",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790754008441) for Order #ORD891153 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:40:08.465Z"
+  },
+  {
+    "id": "notif_1790754008009",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/8196/PAY) for Order #ORD609718 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:40:08.007Z"
+  },
+  {
+    "id": "notif_1790754007866",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-8196-SBI) for Order #ORD887570 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:40:07.864Z"
+  },
+  {
+    "id": "notif_1790754007717",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234568196) for Order #ORD452099 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:40:07.716Z"
+  },
+  {
+    "id": "notif_1790754007574",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB8196) for Order #ORD944224 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:40:07.572Z"
+  },
+  {
+    "id": "notif_1790753991151",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹40 for Order #ORD850655 has been processed (Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:39:51.151Z"
+  },
+  {
+    "id": "notif_1790753990880",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹20 for Order #ORD850655 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:39:50.880Z"
+  },
+  {
+    "id": "notif_1790753988822",
+    "userId": "user_replay",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹90 for order #ORD336527 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:39:48.822Z"
+  },
+  {
+    "id": "notif_1790753987682",
+    "userId": "test_user_amount_manip",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD850655 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-30T07:39:47.682Z"
+  },
+  {
+    "id": "notif_1790652908145",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹40 for Order #ORD459237 has been processed (Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:35:08.145Z"
+  },
+  {
+    "id": "notif_1790652907911",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹20 for Order #ORD459237 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:35:07.911Z"
+  },
+  {
+    "id": "notif_1790652905819",
+    "userId": "user_replay",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹90 for order #ORD145310 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:35:05.819Z"
+  },
+  {
+    "id": "notif_1790652904638",
+    "userId": "test_user_amount_manip",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD459237 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:35:04.638Z"
+  },
+  {
+    "id": "notif_1790652886827",
+    "userId": "test_paid_user",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD238405 status has been updated to Confirmed. Remarks: Second approve attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:46.827Z"
+  },
+  {
+    "id": "notif_1790652886398",
+    "userId": "test_paid_user",
+    "title": "✅ Payment Approved! (Order #ORD238405)",
+    "body": "We've successfully verified your payment of ₹120 for order #ORD238405. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:46.398Z"
+  },
+  {
+    "id": "notif_1790652885925",
+    "userId": "test_paid_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (PAID-REF-1790652885912) for Order #ORD238405 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:45.918Z"
+  },
+  {
+    "id": "notif_1790652885511",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD935794)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Duplicate reject attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:45.511Z"
+  },
+  {
+    "id": "notif_1790652885070",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD935794)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:45.070Z"
+  },
+  {
+    "id": "notif_1790652884594",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790652884580) for Order #ORD935794 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:44.591Z"
+  },
+  {
+    "id": "notif_1790652884147",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/7307/PAY) for Order #ORD449921 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:44.145Z"
+  },
+  {
+    "id": "notif_1790652884001",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-7307-SBI) for Order #ORD178787 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:43.998Z"
+  },
+  {
+    "id": "notif_1790652883823",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234567307) for Order #ORD679505 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:43.818Z"
+  },
+  {
+    "id": "notif_1790652883634",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB7307) for Order #ORD596601 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:43.631Z"
+  },
+  {
+    "id": "notif_1790652864413",
+    "userId": "test_fake_paid",
+    "title": "✅ Payment Approved! (Order #ORD987982)",
+    "body": "We've successfully verified your payment of ₹60 for order #ORD987982. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:24.413Z"
+  },
+  {
+    "id": "notif_1790652864261",
+    "userId": "test_fake_paid",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD987982 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:24.261Z"
+  },
+  {
+    "id": "notif_1790652864114",
+    "userId": "upi_user_1",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BANK-REF-1790652864107) for Order #ORD564932 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:24.111Z"
+  },
+  {
+    "id": "notif_1790652863961",
+    "userId": "user_idem",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD883828 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:23.961Z"
+  },
+  {
+    "id": "notif_1790652863807",
+    "userId": "test_coupon_user",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD908739 of ₹90 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:23.807Z"
+  },
+  {
+    "id": "notif_1790652863667",
+    "userId": "test_deliv_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD787864 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:23.667Z"
+  },
+  {
+    "id": "notif_1790652863527",
+    "userId": "test_disc_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD519994 of ₹294 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:23.527Z"
+  },
+  {
+    "id": "notif_1790652863386",
+    "userId": "test_price_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD195509 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:34:23.386Z"
+  },
+  {
+    "id": "notif_1790652293618",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹40 for Order #ORD881920 has been processed (Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:53.618Z"
+  },
+  {
+    "id": "notif_1790652293389",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹20 for Order #ORD881920 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:53.389Z"
+  },
+  {
+    "id": "notif_1790652291281",
+    "userId": "user_replay",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹90 for order #ORD753034 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:51.281Z"
+  },
+  {
+    "id": "notif_1790652290082",
+    "userId": "test_user_amount_manip",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD881920 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:50.082Z"
+  },
+  {
+    "id": "notif_1790652266547",
+    "userId": "test_paid_user",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD596169 status has been updated to Confirmed. Remarks: Second approve attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:26.547Z"
+  },
+  {
+    "id": "notif_1790652266111",
+    "userId": "test_paid_user",
+    "title": "✅ Payment Approved! (Order #ORD596169)",
+    "body": "We've successfully verified your payment of ₹120 for order #ORD596169. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:26.111Z"
+  },
+  {
+    "id": "notif_1790652265686",
+    "userId": "test_paid_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (PAID-REF-1790652265679) for Order #ORD596169 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:25.685Z"
+  },
+  {
+    "id": "notif_1790652265246",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD749461)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Duplicate reject attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:25.246Z"
+  },
+  {
+    "id": "notif_1790652264802",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD749461)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:24.802Z"
+  },
+  {
+    "id": "notif_1790652264362",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790652264357) for Order #ORD749461 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:24.361Z"
+  },
+  {
+    "id": "notif_1790652263909",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/1095/PAY) for Order #ORD608686 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:23.908Z"
+  },
+  {
+    "id": "notif_1790652263764",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-1095-SBI) for Order #ORD312580 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:23.762Z"
+  },
+  {
+    "id": "notif_1790652263616",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234561095) for Order #ORD363208 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:23.615Z"
+  },
+  {
+    "id": "notif_1790652263460",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB1095) for Order #ORD240288 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:24:23.458Z"
+  },
+  {
+    "id": "notif_1790652236972",
+    "userId": "test_fake_paid",
+    "title": "✅ Payment Approved! (Order #ORD825232)",
+    "body": "We've successfully verified your payment of ₹60 for order #ORD825232. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:23:56.972Z"
+  },
+  {
+    "id": "notif_1790652236818",
+    "userId": "test_fake_paid",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD825232 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:23:56.818Z"
+  },
+  {
+    "id": "notif_1790652236672",
+    "userId": "upi_user_1",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BANK-REF-1790652236666) for Order #ORD293200 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:23:56.670Z"
+  },
+  {
+    "id": "notif_1790652236523",
+    "userId": "user_idem",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD168903 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:23:56.523Z"
+  },
+  {
+    "id": "notif_1790652236380",
+    "userId": "test_coupon_user",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD882818 of ₹90 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:23:56.380Z"
+  },
+  {
+    "id": "notif_1790652236239",
+    "userId": "test_deliv_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD610643 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:23:56.239Z"
+  },
+  {
+    "id": "notif_1790652236089",
+    "userId": "test_disc_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD577102 of ₹294 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:23:56.089Z"
+  },
+  {
+    "id": "notif_1790652235911",
+    "userId": "test_price_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD713535 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-29T03:23:55.911Z"
+  },
+  {
+    "id": "notif_1790515421795",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹40 for Order #ORD832534 has been processed (Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:41.795Z"
+  },
+  {
+    "id": "notif_1790515421566",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹20 for Order #ORD832534 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:41.566Z"
+  },
+  {
+    "id": "notif_1790515419455",
+    "userId": "user_replay",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹90 for order #ORD464680 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:39.455Z"
+  },
+  {
+    "id": "notif_1790515418298",
+    "userId": "test_user_amount_manip",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD832534 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:38.298Z"
+  },
+  {
+    "id": "notif_1790515402859",
+    "userId": "test_paid_user",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD691264 status has been updated to Confirmed. Remarks: Second approve attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:22.859Z"
+  },
+  {
+    "id": "notif_1790515402387",
+    "userId": "test_paid_user",
+    "title": "✅ Payment Approved! (Order #ORD691264)",
+    "body": "We've successfully verified your payment of ₹120 for order #ORD691264. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:22.387Z"
+  },
+  {
+    "id": "notif_1790515401919",
+    "userId": "test_paid_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (PAID-REF-1790515401904) for Order #ORD691264 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:21.910Z"
+  },
+  {
+    "id": "notif_1790515401465",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD919861)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Duplicate reject attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:21.465Z"
+  },
+  {
+    "id": "notif_1790515400996",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD919861)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:20.996Z"
+  },
+  {
+    "id": "notif_1790515400537",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790515400518) for Order #ORD919861 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:20.530Z"
+  },
+  {
+    "id": "notif_1790515400045",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/1846/PAY) for Order #ORD492246 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:20.037Z"
+  },
+  {
+    "id": "notif_1790515399891",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-1846-SBI) for Order #ORD940560 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:19.882Z"
+  },
+  {
+    "id": "notif_1790515399744",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234561846) for Order #ORD276963 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:19.735Z"
+  },
+  {
+    "id": "notif_1790515399590",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB1846) for Order #ORD354114 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:19.578Z"
+  },
+  {
+    "id": "notif_1790515384557",
+    "userId": "test_fake_paid",
+    "title": "✅ Payment Approved! (Order #ORD733047)",
+    "body": "We've successfully verified your payment of ₹60 for order #ORD733047. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:04.557Z"
+  },
+  {
+    "id": "notif_1790515384404",
+    "userId": "test_fake_paid",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD733047 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:04.404Z"
+  },
+  {
+    "id": "notif_1790515384254",
+    "userId": "upi_user_1",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BANK-REF-1790515384243) for Order #ORD904975 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:04.246Z"
+  },
+  {
+    "id": "notif_1790515384097",
+    "userId": "user_idem",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD973864 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:04.097Z"
+  },
+  {
+    "id": "notif_1790515383948",
+    "userId": "test_coupon_user",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD714252 of ₹90 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:03.948Z"
+  },
+  {
+    "id": "notif_1790515383805",
+    "userId": "test_deliv_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD941958 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:03.805Z"
+  },
+  {
+    "id": "notif_1790515383659",
+    "userId": "test_disc_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD554991 of ₹294 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:03.659Z"
+  },
+  {
+    "id": "notif_1790515383495",
+    "userId": "test_price_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD933433 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:23:03.495Z"
+  },
+  {
+    "id": "notif_1790515330242",
+    "userId": "test_deliv_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD765201 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:22:10.242Z"
+  },
+  {
+    "id": "notif_1790515330096",
+    "userId": "test_disc_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD195710 of ₹294 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:22:10.096Z"
+  },
+  {
+    "id": "notif_1790515329931",
+    "userId": "test_price_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD500920 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:22:09.931Z"
+  },
+  {
+    "id": "notif_1790515297975",
+    "userId": "test_fake_paid",
+    "title": "✅ Payment Approved! (Order #ORD732650)",
+    "body": "We've successfully verified your payment of ₹60 for order #ORD732650. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:37.975Z"
+  },
+  {
+    "id": "notif_1790515297800",
+    "userId": "test_fake_paid",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD732650 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:37.800Z"
+  },
+  {
+    "id": "notif_1790515297649",
+    "userId": "upi_user_1",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BANK-REF-1790515297638) for Order #ORD894665 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:37.642Z"
+  },
+  {
+    "id": "notif_1790515297498",
+    "userId": "user_idem",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD997047 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:37.498Z"
+  },
+  {
+    "id": "notif_1790515297350",
+    "userId": "test_coupon_user",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD539236 of ₹90 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:37.350Z"
+  },
+  {
+    "id": "notif_1790515297199",
+    "userId": "test_deliv_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD565286 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:37.199Z"
+  },
+  {
+    "id": "notif_1790515297037",
+    "userId": "test_disc_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD631854 of ₹294 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:37.037Z"
+  },
+  {
+    "id": "notif_1790515296886",
+    "userId": "test_price_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD562361 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:36.886Z"
+  },
+  {
+    "id": "notif_1790515272218",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹40 for Order #ORD763647 has been processed (Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:12.218Z"
+  },
+  {
+    "id": "notif_1790515271990",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹20 for Order #ORD763647 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:11.990Z"
+  },
+  {
+    "id": "notif_1790515269892",
+    "userId": "user_replay",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹90 for order #ORD498771 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:09.892Z"
+  },
+  {
+    "id": "notif_1790515268724",
+    "userId": "test_user_amount_manip",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD763647 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:21:08.724Z"
+  },
+  {
+    "id": "notif_1790515227782",
+    "userId": "test_fake_paid",
+    "title": "✅ Payment Approved! (Order #ORD697334)",
+    "body": "We've successfully verified your payment of ₹60 for order #ORD697334. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:20:27.782Z"
+  },
+  {
+    "id": "notif_1790515227631",
+    "userId": "test_fake_paid",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD697334 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:20:27.631Z"
+  },
+  {
+    "id": "notif_1790515227485",
+    "userId": "upi_user_1",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BANK-REF-1790515227473) for Order #ORD332574 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:20:27.478Z"
+  },
+  {
+    "id": "notif_1790515227335",
+    "userId": "user_idem",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD338650 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:20:27.335Z"
+  },
+  {
+    "id": "notif_1790515227188",
+    "userId": "test_coupon_user",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD709960 of ₹90 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:20:27.188Z"
+  },
+  {
+    "id": "notif_1790515227048",
+    "userId": "test_deliv_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD234465 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:20:27.048Z"
+  },
+  {
+    "id": "notif_1790515226903",
+    "userId": "test_disc_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD798374 of ₹294 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:20:26.903Z"
+  },
+  {
+    "id": "notif_1790515226751",
+    "userId": "test_price_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD215599 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:20:26.751Z"
+  },
+  {
+    "id": "notif_1790515199203",
+    "userId": "test_coupon_user",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD648077 of ₹90 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:19:59.203Z"
+  },
+  {
+    "id": "notif_1790515199062",
+    "userId": "test_deliv_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD239286 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:19:59.062Z"
+  },
+  {
+    "id": "notif_1790515198910",
+    "userId": "test_disc_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD240217 of ₹294 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:19:58.910Z"
+  },
+  {
+    "id": "notif_1790515198755",
+    "userId": "test_price_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD906756 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:19:58.755Z"
+  },
+  {
+    "id": "notif_1790515177328",
+    "userId": "test_coupon_user",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD758503 of ₹90 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:19:37.328Z"
+  },
+  {
+    "id": "notif_1790515177185",
+    "userId": "test_deliv_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD269968 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:19:37.185Z"
+  },
+  {
+    "id": "notif_1790515177038",
+    "userId": "test_disc_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD105320 of ₹294 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:19:37.038Z"
+  },
+  {
+    "id": "notif_1790515176883",
+    "userId": "test_price_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD813813 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:19:36.883Z"
+  },
+  {
+    "id": "notif_1790515149340",
+    "userId": "test_disc_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD768379 of ₹294 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:19:09.340Z"
+  },
+  {
+    "id": "notif_1790515149169",
+    "userId": "test_price_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD843153 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:19:09.169Z"
+  },
+  {
+    "id": "notif_1790515088149",
+    "userId": "test_price_tamper",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD753513 of ₹60 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T13:18:08.149Z"
+  },
+  {
+    "id": "notif_1790513522484",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹40 for Order #ORD806643 has been processed (Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:52:02.484Z"
+  },
+  {
+    "id": "notif_1790513522250",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹20 for Order #ORD806643 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:52:02.250Z"
+  },
+  {
+    "id": "notif_1790513520147",
+    "userId": "user_replay",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹90 for order #ORD401429 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:52:00.147Z"
+  },
+  {
+    "id": "notif_1790513518995",
+    "userId": "test_user_amount_manip",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD806643 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:58.995Z"
+  },
+  {
+    "id": "notif_1790513495386",
+    "userId": "test_paid_user",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD694520 status has been updated to Confirmed. Remarks: Second approve attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:35.386Z"
+  },
+  {
+    "id": "notif_1790513494940",
+    "userId": "test_paid_user",
+    "title": "✅ Payment Approved! (Order #ORD694520)",
+    "body": "We've successfully verified your payment of ₹120 for order #ORD694520. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:34.940Z"
+  },
+  {
+    "id": "notif_1790513494542",
+    "userId": "test_paid_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (PAID-REF-1790513494532) for Order #ORD694520 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:34.540Z"
+  },
+  {
+    "id": "notif_1790513494116",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD600041)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Duplicate reject attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:34.116Z"
+  },
+  {
+    "id": "notif_1790513493665",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD600041)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:33.665Z"
+  },
+  {
+    "id": "notif_1790513493203",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790513493197) for Order #ORD600041 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:33.200Z"
+  },
+  {
+    "id": "notif_1790513492757",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/1536/PAY) for Order #ORD114228 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:32.754Z"
+  },
+  {
+    "id": "notif_1790513492618",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-1536-SBI) for Order #ORD531381 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:32.616Z"
+  },
+  {
+    "id": "notif_1790513492477",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234561536) for Order #ORD406065 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:32.475Z"
+  },
+  {
+    "id": "notif_1790513492320",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB1536) for Order #ORD971493 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:51:32.317Z"
+  },
+  {
+    "id": "notif_1790513443792",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹40 for Order #ORD370761 has been processed (Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:50:43.792Z"
+  },
+  {
+    "id": "notif_1790513443574",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹20 for Order #ORD370761 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:50:43.574Z"
+  },
+  {
+    "id": "notif_1790513441544",
+    "userId": "user_replay",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹90 for order #ORD560009 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:50:41.544Z"
+  },
+  {
+    "id": "notif_1790513440415",
+    "userId": "test_user_amount_manip",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD370761 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:50:40.415Z"
+  },
+  {
+    "id": "notif_1790513403722",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹40 for Order #ORD535617 has been processed (Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:50:03.722Z"
+  },
+  {
+    "id": "notif_1790513403473",
+    "userId": "test_user_amount_manip",
+    "title": "Refund Processed 💸",
+    "body": "A refund of ₹20 for Order #ORD535617 has been processed (Partially Refunded).",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:50:03.473Z"
+  },
+  {
+    "id": "notif_1790513401370",
+    "userId": "user_replay",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹90 for order #ORD541263 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:50:01.370Z"
+  },
+  {
+    "id": "notif_1790513400234",
+    "userId": "test_user_amount_manip",
+    "title": "Payment Confirmed & Order Placed! 🎉",
+    "body": "Your online payment of ₹60 for order #ORD535617 was confirmed. We are packing your fresh harvest now!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:50:00.234Z"
+  },
+  {
+    "id": "notif_1790513379751",
+    "userId": "test_paid_user",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD216151 status has been updated to Confirmed. Remarks: Second approve attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:49:39.751Z"
+  },
+  {
+    "id": "notif_1790513379328",
+    "userId": "test_paid_user",
+    "title": "✅ Payment Approved! (Order #ORD216151)",
+    "body": "We've successfully verified your payment of ₹120 for order #ORD216151. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:49:39.328Z"
+  },
+  {
+    "id": "notif_1790513378916",
+    "userId": "test_paid_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (PAID-REF-1790513378883) for Order #ORD216151 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:49:38.914Z"
+  },
+  {
+    "id": "notif_1790513378474",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD354794)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Duplicate reject attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:49:38.474Z"
+  },
+  {
+    "id": "notif_1790513377997",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD354794)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:49:37.997Z"
+  },
+  {
+    "id": "notif_1790513377555",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790513377541) for Order #ORD354794 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:49:37.554Z"
+  },
+  {
+    "id": "notif_1790513377098",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/9608/PAY) for Order #ORD496928 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:49:37.097Z"
+  },
+  {
+    "id": "notif_1790513376958",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-9608-SBI) for Order #ORD851311 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:49:36.957Z"
+  },
+  {
+    "id": "notif_1790513376813",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234569608) for Order #ORD883815 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:49:36.812Z"
+  },
+  {
+    "id": "notif_1790513376647",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB9608) for Order #ORD508005 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:49:36.645Z"
+  },
+  {
+    "id": "notif_1790513054708",
+    "userId": "test_paid_user",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD925121 status has been updated to Confirmed. Remarks: Second approve attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:44:14.708Z"
+  },
+  {
+    "id": "notif_1790513054257",
+    "userId": "test_paid_user",
+    "title": "✅ Payment Approved! (Order #ORD925121)",
+    "body": "We've successfully verified your payment of ₹120 for order #ORD925121. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:44:14.257Z"
+  },
+  {
+    "id": "notif_1790513053821",
+    "userId": "test_paid_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (PAID-REF-1790513053786) for Order #ORD925121 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:44:13.820Z"
+  },
+  {
+    "id": "notif_1790513053335",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD466588)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Duplicate reject attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:44:13.335Z"
+  },
+  {
+    "id": "notif_1790513052846",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD466588)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:44:12.846Z"
+  },
+  {
+    "id": "notif_1790513052382",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790513052368) for Order #ORD466588 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:44:12.381Z"
+  },
+  {
+    "id": "notif_1790513051916",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/2274/PAY) for Order #ORD738110 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:44:11.915Z"
+  },
+  {
+    "id": "notif_1790513051778",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-2274-SBI) for Order #ORD217462 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:44:11.777Z"
+  },
+  {
+    "id": "notif_1790513051644",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234562274) for Order #ORD190773 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:44:11.643Z"
+  },
+  {
+    "id": "notif_1790513051473",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB2274) for Order #ORD729047 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T12:44:11.471Z"
+  },
+  {
+    "id": "notif_1790508984510",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790508984504) for Order #ORD863077 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T11:36:24.508Z"
+  },
+  {
+    "id": "notif_1790508982688",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/7530/PAY) for Order #ORD542936 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T11:36:22.685Z"
+  },
+  {
+    "id": "notif_1790508982574",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-7530-SBI) for Order #ORD705776 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T11:36:22.569Z"
+  },
+  {
+    "id": "notif_1790508982457",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234567530) for Order #ORD729656 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T11:36:22.454Z"
+  },
+  {
+    "id": "notif_1790508982344",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB7530) for Order #ORD665532 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T11:36:22.339Z"
+  },
+  {
+    "id": "notif_1790503400319",
+    "userId": "test_paid_user",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD757824 status has been updated to Confirmed. Remarks: Second approve attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T10:03:20.319Z"
+  },
+  {
+    "id": "notif_1790503399235",
+    "userId": "test_paid_user",
+    "title": "✅ Payment Approved! (Order #ORD757824)",
+    "body": "We've successfully verified your payment of ₹120 for order #ORD757824. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T10:03:19.235Z"
+  },
+  {
+    "id": "notif_1790503397752",
+    "userId": "test_paid_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (PAID-REF-1790503397733) for Order #ORD757824 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T10:03:17.750Z"
+  },
+  {
+    "id": "notif_1790503395980",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD686166)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Duplicate reject attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T10:03:15.980Z"
+  },
+  {
+    "id": "notif_1790503394107",
+    "userId": "test_inventory_user",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD686166)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T10:03:14.107Z"
+  },
+  {
+    "id": "notif_1790503393310",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790503393299) for Order #ORD686166 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T10:03:13.304Z"
+  },
+  {
+    "id": "notif_1790503391357",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/7317/PAY) for Order #ORD966314 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T10:03:11.355Z"
+  },
+  {
+    "id": "notif_1790503391247",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-7317-SBI) for Order #ORD214576 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T10:03:11.245Z"
+  },
+  {
+    "id": "notif_1790503391141",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234567317) for Order #ORD371044 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T10:03:11.139Z"
+  },
+  {
+    "id": "notif_1790503391033",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB7317) for Order #ORD437823 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T10:03:11.018Z"
+  },
+  {
+    "id": "notif_1790502876781",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD206391 status has been updated to Confirmed. Remarks: Second approve attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:54:36.781Z"
+  },
+  {
+    "id": "notif_1790502875181",
+    "title": "✅ Payment Approved! (Order #ORD206391)",
+    "body": "We've successfully verified your payment of ₹120 for order #ORD206391. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:54:35.181Z"
+  },
+  {
+    "id": "notif_1790502873691",
+    "userId": "test_paid_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (PAID-REF-1790502873670) for Order #ORD206391 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:54:33.685Z"
+  },
+  {
+    "id": "notif_1790502872094",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD583586)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Duplicate reject attempt",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:54:32.094Z"
+  },
+  {
+    "id": "notif_1790502870396",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD583586)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:54:30.396Z"
+  },
+  {
+    "id": "notif_1790502868897",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790502868884) for Order #ORD583586 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:54:28.895Z"
+  },
+  {
+    "id": "notif_1790502867406",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/2414/PAY) for Order #ORD602455 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:54:27.403Z"
+  },
+  {
+    "id": "notif_1790502867284",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-2414-SBI) for Order #ORD725384 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:54:27.282Z"
+  },
+  {
+    "id": "notif_1790502867177",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234562414) for Order #ORD972640 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:54:27.176Z"
+  },
+  {
+    "id": "notif_1790502867068",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB2414) for Order #ORD957107 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:54:27.065Z"
+  },
+  {
+    "id": "notif_1790502805029",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD698357)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:53:25.029Z"
+  },
+  {
+    "id": "notif_1790502803541",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790502803531) for Order #ORD698357 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:53:23.538Z"
+  },
+  {
+    "id": "notif_1790502802524",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/2113/PAY) for Order #ORD701989 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:53:22.520Z"
+  },
+  {
+    "id": "notif_1790502802409",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-2113-SBI) for Order #ORD873256 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:53:22.408Z"
+  },
+  {
+    "id": "notif_1790502802276",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234562113) for Order #ORD536539 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:53:22.274Z"
+  },
+  {
+    "id": "notif_1790502802157",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB2113) for Order #ORD299147 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:53:22.155Z"
+  },
+  {
+    "id": "notif_1790502718822",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD202851)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:58.822Z"
+  },
+  {
+    "id": "notif_1790502717344",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790502717337) for Order #ORD202851 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:57.342Z"
+  },
+  {
+    "id": "notif_1790502715880",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/7804/PAY) for Order #ORD731141 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:55.879Z"
+  },
+  {
+    "id": "notif_1790502715765",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-7804-SBI) for Order #ORD365203 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:55.764Z"
+  },
+  {
+    "id": "notif_1790502715662",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234567804) for Order #ORD896445 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:55.661Z"
+  },
+  {
+    "id": "notif_1790502715559",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB7804) for Order #ORD693060 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:55.557Z"
+  },
+  {
+    "id": "notif_1790502711095",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD678550)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, funds not received",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:51.095Z"
+  },
+  {
+    "id": "notif_1790502709455",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790502709441) for Order #ORD678550 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:49.453Z"
+  },
+  {
+    "id": "notif_1790502708405",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/2347/PAY) for Order #ORD502810 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:48.404Z"
+  },
+  {
+    "id": "notif_1790502708282",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-2347-SBI) for Order #ORD664963 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:48.281Z"
+  },
+  {
+    "id": "notif_1790502708175",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234562347) for Order #ORD110032 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:48.173Z"
+  },
+  {
+    "id": "notif_1790502708065",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB2347) for Order #ORD155306 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:51:48.063Z"
+  },
+  {
+    "id": "notif_1790502625649",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790502625645) for Order #ORD215407 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:50:25.648Z"
+  },
+  {
+    "id": "notif_1790502624037",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/2666/PAY) for Order #ORD965682 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:50:24.036Z"
+  },
+  {
+    "id": "notif_1790502623935",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-2666-SBI) for Order #ORD539866 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:50:23.934Z"
+  },
+  {
+    "id": "notif_1790502623831",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234562666) for Order #ORD838621 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:50:23.830Z"
+  },
+  {
+    "id": "notif_1790502623716",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB2666) for Order #ORD392224 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:50:23.714Z"
+  },
+  {
+    "id": "notif_1790502594132",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790502594126) for Order #ORD157541 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:49:54.130Z"
+  },
+  {
+    "id": "notif_1790502593433",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/1916/PAY) for Order #ORD600812 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:49:53.432Z"
+  },
+  {
+    "id": "notif_1790502593332",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-1916-SBI) for Order #ORD798456 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:49:53.331Z"
+  },
+  {
+    "id": "notif_1790502593231",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234561916) for Order #ORD695809 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:49:53.230Z"
+  },
+  {
+    "id": "notif_1790502593123",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB1916) for Order #ORD809931 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:49:53.121Z"
+  },
+  {
+    "id": "notif_1790502566598",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/492049/PAY) for Order #ORD292346 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:49:26.597Z"
+  },
+  {
+    "id": "notif_1790502566495",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-98765432-SBI) for Order #ORD804056 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:49:26.494Z"
+  },
+  {
+    "id": "notif_1790502566383",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234567890) for Order #ORD349156 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:49:26.382Z"
+  },
+  {
+    "id": "notif_1790502566239",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB8934) for Order #ORD586148 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:49:26.237Z"
+  },
+  {
+    "id": "notif_1790500301732",
+    "userId": "test_inventory_user",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (TXN-REF-1790500301728) for Order #ORD523832 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:11:41.731Z"
+  },
+  {
+    "id": "notif_1790500301718",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (ICIC/492049/PAY) for Order #ORD944703 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:11:41.717Z"
+  },
+  {
+    "id": "notif_1790500301705",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UPI-98765432-SBI) for Order #ORD237843 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:11:41.701Z"
+  },
+  {
+    "id": "notif_1790500301694",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (HDFC001234567890) for Order #ORD900001 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:11:41.693Z"
+  },
+  {
+    "id": "notif_1790500301684",
+    "userId": "test_user_ref",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (BARB8934) for Order #ORD747719 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T09:11:41.682Z"
+  },
+  {
+    "id": "notif_1790498530705",
+    "userId": "test_user_3",
+    "title": "⚠️ UPI Payment Rejected (Order #ORD559908)",
+    "body": "Your payment could not be verified in our bank account. Please resubmit your payment details or contact support. Remarks: Invalid transaction reference, no deposit found",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T08:42:10.705Z"
+  },
+  {
+    "id": "notif_1790498530698",
+    "userId": "test_user_3",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UTR7349402436) for Order #ORD559908 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T08:42:10.697Z"
+  },
+  {
+    "id": "notif_1790498530692",
+    "userId": "test_user_1",
+    "title": "✅ Payment Approved! (Order #ORD370733)",
+    "body": "We've successfully verified your payment of ₹90 for order #ORD370733. Your order is now confirmed!",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T08:42:10.692Z"
+  },
+  {
+    "id": "notif_1790498530674",
+    "userId": "test_user_1",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UTR3683027790) for Order #ORD370733 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T08:42:10.674Z"
+  },
+  {
+    "id": "notif_1790498483214",
+    "userId": "test_user_1",
+    "title": "Payment Reference Received (Pending Verification) ⏳",
+    "body": "Your payment reference (UTR5852568527) for Order #ORD685169 has been submitted. Our store admin will verify the deposit in our bank account before confirming your order.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-27T08:41:23.214Z"
+  },
+  {
+    "id": "notif_1789885128777",
+    "userId": "guest",
+    "title": "Order Status: PREPARING 🚨",
+    "body": "Your order #ORD760778 status has been updated to Preparing. Remarks: None",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-20T06:18:48.777Z"
+  },
+  {
+    "id": "notif_1789638230446",
+    "userId": "guest",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD760778 of ₹75 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-17T09:43:50.446Z"
+  },
+  {
+    "id": "notif_1789373372632",
+    "userId": "test_user_sort",
+    "title": "Order Status: DELIVERED 🚨",
+    "body": "Your order #ORD688463 status has been updated to Delivered. Remarks: None",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-14T08:09:32.632Z"
+  },
+  {
+    "id": "notif_1789373295647",
+    "userId": "test_user_sort",
+    "title": "Order Status: OUT FOR DELIVERY 🚨",
+    "body": "Your order #ORD688463 status has been updated to Out for Delivery. Remarks: None",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-14T08:08:15.647Z"
+  },
+  {
+    "id": "notif_1789373282002",
+    "userId": "test_user_sort",
+    "title": "Order Status: PREPARING 🚨",
+    "body": "Your order #ORD688463 status has been updated to Preparing. Remarks: None",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-14T08:08:02.002Z"
+  },
+  {
+    "id": "notif_1789031946166",
+    "userId": "test_user_sort",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD688463 status has been updated to Confirmed. Remarks: None",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-10T09:19:06.166Z"
+  },
+  {
+    "id": "notif_1789031931787",
+    "userId": "test_user_sort",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD688463 of ₹100 was placed with verified pricing. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-10T09:18:51.787Z"
+  },
+  {
+    "id": "notif_1788342292275",
+    "userId": "usr_1788342215862",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD682184 of ₹170 was placed. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-09-02T09:44:52.276Z"
+  },
+  {
+    "id": "notif_1788342215862",
+    "userId": "usr_1788342215862",
+    "title": "Welcome to Sabjies Family! 🥬",
+    "body": "Hi Test User, welcome to Ghatkopar's premium farm-fresh vegetable delivery app. Savor fresh harvests!",
+    "type": "account",
+    "read": false,
+    "createdAt": "2026-09-02T09:43:35.862Z"
+  },
+  {
+    "id": "notif_1788093681116",
+    "userId": "unique_1",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD418580 of ₹335 was placed. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-08-30T12:41:21.116Z"
+  },
+  {
+    "id": "notif_1788093624509",
+    "userId": "test_user_1",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD627139 of ₹335 was placed. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-08-30T12:40:24.509Z"
+  },
+  {
+    "id": "notif_1788093331392",
+    "userId": "usr_1784816103149",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD239117 of ₹322 was placed. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-08-30T12:35:31.392Z"
+  },
+  {
+    "id": "notif_1788093157229",
+    "userId": "usr_1784816103149",
+    "title": "Order Received successfully! 📦",
+    "body": "Your order #ORD889837 of ₹410 was placed. We're packing your fresh harvest now.",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-08-30T12:32:37.229Z"
+  },
+  {
+    "id": "notif_1788092357795",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: DELIVERED 🚨",
+    "body": "Your order #ORD362674 status has been updated to delivered. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:19:17.795Z"
+  },
+  {
+    "id": "notif_1788092068797",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: DELIVERED 🚨",
+    "body": "Your order #ORD855543 status has been updated to delivered. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:14:28.797Z"
+  },
+  {
+    "id": "notif_1788092039325",
+    "userId": "usr_1784816103149",
+    "title": "Order Status: DELIVERED 🚨",
+    "body": "Your order #ORD294137 status has been updated to delivered. Remarks: None",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-08-30T12:13:59.325Z"
+  },
+  {
+    "id": "notif_1788092034773",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: DELIVERED 🚨",
+    "body": "Your order #ORD730126 status has been updated to delivered. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:13:54.773Z"
+  },
+  {
+    "id": "notif_1788092029486",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: DELIVERED 🚨",
+    "body": "Your order #ORD563474 status has been updated to delivered. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:13:49.486Z"
+  },
+  {
+    "id": "notif_1788092022687",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: DELIVERED 🚨",
+    "body": "Your order #ORD716124 status has been updated to delivered. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:13:42.687Z"
+  },
+  {
+    "id": "notif_1788092019720",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: DELIVERED 🚨",
+    "body": "Your order #ORD521023 status has been updated to delivered. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:13:39.720Z"
+  },
+  {
+    "id": "notif_1788092008794",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD521023 status has been updated to confirmed. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:13:28.794Z"
+  },
+  {
+    "id": "notif_1788092002351",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: CANCELLED 🚨",
+    "body": "Your order #ORD572623 status has been updated to cancelled. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:13:22.351Z"
+  },
+  {
+    "id": "notif_1788091997060",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: DELIVERED 🚨",
+    "body": "Your order #ORD717770 status has been updated to delivered. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:13:17.060Z"
+  },
+  {
+    "id": "notif_1788091989534",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: PACKING 🚨",
+    "body": "Your order #ORD362674 status has been updated to packing. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:13:09.534Z"
+  },
+  {
+    "id": "notif_1788091986337",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: CANCELLED 🚨",
+    "body": "Your order #ORD855543 status has been updated to cancelled. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:13:06.337Z"
+  },
+  {
+    "id": "notif_1788091981425",
+    "userId": "admin_greensabjies",
+    "title": "Order Status: CONFIRMED 🚨",
+    "body": "Your order #ORD855543 status has been updated to confirmed. Remarks: None",
+    "type": "order",
+    "read": true,
+    "createdAt": "2026-08-30T12:13:01.425Z"
+  },
+  {
+    "id": "notif_1788091978456",
+    "userId": "usr_1787994112444",
+    "title": "Order Status: DELIVERED 🚨",
+    "body": "Your order #ORD354803 status has been updated to delivered. Remarks: None",
+    "type": "order",
+    "read": false,
+    "createdAt": "2026-08-30T12:12:58.456Z"
+  },
+  {
+    "id": "notif_1788091741100",
+    "userId": "admin_greensabjies",
+    "title": "🔐 Password Updated Successfully",
+    "body": "Your account password has been updated successfully. If you did not perform this change, please contact support immediately.",
+    "type": "security",
+    "read": true,
+    "createdAt": "2026-08-30T12:09:00.130Z"
+  },
+  {
+    "id": "notif_1788091423665",
+    "userId": "admin_greensabjies",
+    "title": "🔔 Password Reset Approved",
+    "body": "Your password reset request (Request ID: rst_1784992749573_136) has been approved by the administrator. Your Temporary Password: Faizan. Please log in using this temporary password or use 'Check Status' on the login screen to set a new password immediately.",
+    "type": "security",
+    "read": true,
+    "createdAt": "2026-08-30T12:03:42.967Z"
+  },
+  {
+    "id": "notif_1784992793291",
+    "userId": "admin_greensabjies",
+    "title": "🔐 Password Updated Successfully",
+    "body": "Your account password has been updated successfully. If you did not perform this change, please contact support immediately.",
+    "type": "security",
+    "read": true,
+    "createdAt": "2026-07-25T15:19:53.147Z"
+  },
+  {
+    "id": "notif_1784992780610",
+    "userId": "admin_greensabjies",
+    "title": "🔔 Password Reset Approved",
+    "body": "Your password reset request (Request ID: rst_1784992749573_136) has been approved by the administrator. Your Temporary Password: TempPassword2026!. Please log in using this temporary password or use 'Check Status' on the login screen to set a new password immediately.",
+    "type": "security",
+    "read": true,
+    "createdAt": "2026-07-25T15:19:40.449Z"
+  },
+  {
+    "id": "notif_1784992749573_admin",
+    "userId": "admin_greensabjies",
+    "title": "🔔 New Password Reset Request",
+    "body": "Faizan Shaikh has requested a password reset. Reason: Testing recovery workflow.",
+    "type": "security",
+    "read": true,
+    "createdAt": "2026-07-25T15:19:09.573Z"
+  }
+]

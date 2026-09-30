@@ -1,0 +1,8 @@
+{
+  "name": "Sabjis Farm Fresh Delivery",
+  "description": "Premium farm-fresh vegetable delivery service in Ghatkopar, featuring the Sleek Interface theme with professional layouts, smart order tracking, an advanced admin dashboard, secure OTP verification, and custom cart controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

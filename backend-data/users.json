@@ -1,0 +1,126 @@
+[
+  {
+    "id": "usr_1787994112444",
+    "name": "clear",
+    "email": "clear123@gml.com",
+    "phone": "1234567890",
+    "password": "a9ebb948dee3c444a86ff533f15b1d88feb7cb07eff1dd9182c3ca82d42cbb1f",
+    "role": "user",
+    "addresses": [
+      {
+        "label": "Home",
+        "flat": "120",
+        "street": "asdfghjkl",
+        "area": "Ghatkopar East",
+        "pin": "400075",
+        "landmark": ""
+      },
+      {
+        "label": "Home",
+        "flat": "rtyhregesr",
+        "street": "rgh vfg nhdtr5u",
+        "area": "Ghatkopar East",
+        "pin": "400075",
+        "landmark": ""
+      }
+    ],
+    "joinedAt": "2026-08-29T09:01:52.444+00:00",
+    "status": "Active",
+    "mustChangePassword": false
+  },
+  {
+    "id": "usr_1784816103149",
+    "name": "gyani",
+    "email": "gyani123@gmail.com",
+    "phone": "123456778900",
+    "password": "0d9760fbd449ca8e13c614acdd941e77e4c0e795831b641763c361934463ade4",
+    "role": "user",
+    "addresses": [
+      {
+        "label": "Home",
+        "flat": "100",
+        "street": "pant nagar",
+        "area": "Ghatkopar East",
+        "pin": "400075",
+        "landmark": ""
+      }
+    ],
+    "joinedAt": "2026-07-23T14:15:03.149+00:00",
+    "status": "Active",
+    "mustChangePassword": false
+  },
+  {
+    "id": "usr_1784913986464",
+    "name": "Aditya Yadav",
+    "email": "ay9954386@gmail.cpm",
+    "phone": "9175943023",
+    "password": "60184f1a9a3ed1236eca15a3b752770c86715f0b6b21756235f9a91b4b1f7568",
+    "role": "user",
+    "addresses": [],
+    "joinedAt": "2026-07-24T17:26:26.464+00:00",
+    "status": "Active",
+    "mustChangePassword": false
+  },
+  {
+    "id": "admin_greensabjies",
+    "name": "Faizan Shaikh",
+    "email": "greensabjies@gmail.com",
+    "phone": "99203 24172",
+    "password": "5550dae495beb4d619595db9cfebd8320165b026ae0e927f1085fb5be98e6572",
+    "role": "admin",
+    "addresses": [],
+    "joinedAt": "2026-07-01T00:00:00+00:00",
+    "status": "Active",
+    "mustChangePassword": false
+  },
+  {
+    "id": "u_pree",
+    "name": "Priya Sharma",
+    "email": "priya@sabjies.in",
+    "phone": "9833211045",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "role": "user",
+    "addresses": [
+      {
+        "label": "Home 🏠",
+        "flat": "B-402",
+        "street": "Sunshine Enclave, Pant Nagar",
+        "area": "Ghatkopar East",
+        "pin": "400075",
+        "landmark": ""
+      },
+      {
+        "label": "Home 🏠",
+        "flat": "B-402",
+        "street": "Sunshine Enclave, Pant Nagar",
+        "area": "Ghatkopar East",
+        "pin": "400075",
+        "landmark": ""
+      }
+    ],
+    "joinedAt": "2026-07-02T12:00:00+00:00",
+    "status": "Active",
+    "mustChangePassword": false
+  },
+  {
+    "id": "usr_1788342215862",
+    "name": "Test User",
+    "email": "testuser_render@example.com",
+    "phone": "9876543210",
+    "password": "d519397a4e89a7a66d28a266ed00a679bdee93fddec9ebba7d01ff27c39c1a99",
+    "role": "user",
+    "addresses": [
+      {
+        "id": "addr_1",
+        "tag": "Home",
+        "house": "Flat 101",
+        "road": "Green Valley",
+        "city": "Mumbai",
+        "pincode": "400001",
+        "isDefault": true
+      }
+    ],
+    "joinedAt": "2026-09-02T09:43:35.862Z",
+    "status": "Active"
+  }
+]
