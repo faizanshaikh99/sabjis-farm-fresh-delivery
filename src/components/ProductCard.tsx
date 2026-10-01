@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Product } from '../types';
 import { Heart, Star, ShoppingBag, Plus, Minus, AlertTriangle, Scale } from 'lucide-react';
 import { CustomWeightModal } from './CustomWeightModal';
@@ -36,6 +36,7 @@ export const ProductCard: React.FC<ProductCardProps> = React.memo(({
   const low = product.stockQty > 0 && product.stockQty <= product.lowAt;
   const [imgLoaded, setImgLoaded] = useState(false);
   const [imgError, setImgError] = useState(false);
+  const imgRef = useRef<HTMLImageElement | null>(null);
 
   // Reliably resolve the product's primary image URL from images array, img, image, or image_url
   const displayImg = useMemo(() => {
@@ -47,10 +48,16 @@ export const ProductCard: React.FC<ProductCardProps> = React.memo(({
     return product.img || product.image || product.image_url || '';
   }, [product.images, product.img, product.image, product.image_url]);
 
-  // Automatically reset image load and error state whenever the product or its image changes
+  // Synchronize image load state when product or image changes,
+  // but preserve loaded state if the image is already cached/complete by the browser
   useEffect(() => {
-    setImgLoaded(false);
-    setImgError(false);
+    if (imgRef.current && imgRef.current.complete && imgRef.current.naturalWidth > 0) {
+      setImgLoaded(true);
+      setImgError(false);
+    } else {
+      setImgLoaded(false);
+      setImgError(false);
+    }
   }, [product.id, displayImg]);
 
   const isKg = isKgProduct(product);
@@ -120,6 +127,7 @@ export const ProductCard: React.FC<ProductCardProps> = React.memo(({
         
         {!imgError && displayImg ? (
           <img
+            ref={imgRef}
             src={displayImg}
             alt={product.name}
             loading="lazy"
