@@ -78,16 +78,19 @@ export async function runSupabaseMigration(stores: {
         };
 
         if (cachedSchema.hasBasePricePerKg) {
-          row.base_price_per_kg = p.basePricePerKg || p.base_price_per_kg || p.sp || 0;
+          const col = cachedSchema.basePriceColName || 'base_price_per_kg';
+          row[col] = p.basePricePerKg || p.base_price_per_kg || p.sp || 0;
         }
         if (cachedSchema.hasImages) {
           row.images = Array.isArray(p.images) ? p.images : [];
         }
         if (cachedSchema.hasWeightSlabs) {
-          row.weight_slabs = p.weightSlabs || p.weight_slabs || [];
+          const col = cachedSchema.weightSlabsColName || 'weight_slabs';
+          row[col] = p.weightSlabs || p.weight_slabs || [];
         }
         if (cachedSchema.hasPricingMode) {
-          row.pricing_mode = p.pricingMode || p.pricing_mode || ((p.weightSlabs && p.weightSlabs.length > 0) ? 'slabs' : 'auto');
+          const col = cachedSchema.pricingModeColName || 'pricing_mode';
+          row[col] = p.pricingMode || p.pricing_mode || ((p.weightSlabs && p.weightSlabs.length > 0) ? 'slabs' : 'auto');
         }
         return row;
       });
