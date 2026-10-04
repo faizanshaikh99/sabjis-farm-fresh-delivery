@@ -14,13 +14,17 @@ export const tableMissingColumnsMap: Map<string, Set<string>> = new Map([
 export interface SupabaseSchemaInspection {
   productColumns: Set<string>;
   hasBasePricePerKg: boolean;
+  basePriceColName: 'base_price_per_kg' | 'basePricePerKg' | null;
   hasImages: boolean;
   hasPricingMode: boolean;
+  pricingModeColName: 'pricing_mode' | 'pricingMode' | null;
   hasWeightSlabs: boolean;
+  weightSlabsColName: 'weight_slabs' | 'weightSlabs' | null;
   hasImg: boolean;
   hasImage: boolean;
   hasImageUrl: boolean;
   hasPaymentMethodDiscountsTable: boolean;
+  paymentMethodDiscountsTableName: 'payment_method_discounts' | 'paymentMethodDiscounts' | null;
   hasPaymentTransactionsTable: boolean;
   hasPaymentAuditTrailTable: boolean;
   inspected: boolean;
@@ -29,13 +33,17 @@ export interface SupabaseSchemaInspection {
 export let cachedSchema: SupabaseSchemaInspection = {
   productColumns: new Set(['id', 'name', 'cat', 'type', 'cp', 'sp', 'unit', 'weight', 'discount', 'img', 'emoji', 'rating', 'reviews', 'stock_qty', 'low_at', 'description', 'created_at', 'updated_at']),
   hasBasePricePerKg: false,
+  basePriceColName: null,
   hasImages: false,
   hasPricingMode: false,
+  pricingModeColName: null,
   hasWeightSlabs: false,
+  weightSlabsColName: null,
   hasImg: true,
   hasImage: false,
   hasImageUrl: false,
   hasPaymentMethodDiscountsTable: false,
+  paymentMethodDiscountsTableName: null,
   hasPaymentTransactionsTable: true,
   hasPaymentAuditTrailTable: true,
   inspected: false
@@ -102,6 +110,8 @@ if (
 /**
  * Inspect live Supabase PostgreSQL schema to detect available columns and tables.
  * This prevents runtime PostgREST schema mismatches and guarantees image persistence.
+ * Supports both snake_case (PostgreSQL canonical) and camelCase identifiers,
+ * handles OpenAPI 2.0 & 3.0 specs, and performs active schema cache verification.
  */
 export async function inspectSupabaseSchema(): Promise<SupabaseSchemaInspection> {
   if (!supabase || !isSupabaseConfigured) return cachedSchema;
@@ -122,49 +132,199 @@ export async function inspectSupabaseSchema(): Promise<SupabaseSchemaInspection>
         });
         if (resp.ok) {
           const spec = await resp.json();
-          const defs = spec.definitions || {};
-          for (const [tName, tDef] of Object.entries<any>(defs)) {
+          // Support both OpenAPI 2.0 (spec.definitions) and OpenAPI 3.0 (spec.components.schemas)
+          const defs = spec.definitions || spec.components?.schemas || {};
+          for (const [rawTName, tDef] of Object.entries<any>(defs)) {
             if (tDef && tDef.properties) {
               const cols = new Set(Object.keys(tDef.properties));
-              tableColumnsMap.set(tName, cols);
+              const normalizedName = rawTName.replace(/^public\./, '').replace(/^\//, '');
+              tableColumnsMap.set(rawTName, cols);
+              tableColumnsMap.set(normalizedName, cols);
             }
           }
 
-          if (tableColumnsMap.has('products')) {
-            const prodCols = tableColumnsMap.get('products')!;
+          const prodCols = tableColumnsMap.get('products') || tableColumnsMap.get('public.products');
+          if (prodCols && prodCols.size > 0) {
             cachedSchema.productColumns = prodCols;
-            cachedSchema.hasBasePricePerKg = prodCols.has('base_price_per_kg');
+
+            if (prodCols.has('base_price_per_kg')) {
+              cachedSchema.hasBasePricePerKg = true;
+              cachedSchema.basePriceColName = 'base_price_per_kg';
+            } else if (prodCols.has('basePricePerKg')) {
+              cachedSchema.hasBasePricePerKg = true;
+              cachedSchema.basePriceColName = 'basePricePerKg';
+            }
+
+            if (prodCols.has('pricing_mode')) {
+              cachedSchema.hasPricingMode = true;
+              cachedSchema.pricingModeColName = 'pricing_mode';
+            } else if (prodCols.has('pricingMode')) {
+              cachedSchema.hasPricingMode = true;
+              cachedSchema.pricingModeColName = 'pricingMode';
+            }
+
+            if (prodCols.has('weight_slabs')) {
+              cachedSchema.hasWeightSlabs = true;
+              cachedSchema.weightSlabsColName = 'weight_slabs';
+            } else if (prodCols.has('weightSlabs')) {
+              cachedSchema.hasWeightSlabs = true;
+              cachedSchema.weightSlabsColName = 'weightSlabs';
+            }
+
             cachedSchema.hasImages = prodCols.has('images');
-            cachedSchema.hasPricingMode = prodCols.has('pricing_mode');
-            cachedSchema.hasWeightSlabs = prodCols.has('weight_slabs');
             cachedSchema.hasImg = prodCols.has('img');
             cachedSchema.hasImage = prodCols.has('image');
             cachedSchema.hasImageUrl = prodCols.has('image_url');
-            cachedSchema.hasPaymentMethodDiscountsTable = tableColumnsMap.has('payment_method_discounts');
+
+            if (tableColumnsMap.has('payment_method_discounts') || tableColumnsMap.has('public.payment_method_discounts')) {
+              cachedSchema.hasPaymentMethodDiscountsTable = true;
+              cachedSchema.paymentMethodDiscountsTableName = 'payment_method_discounts';
+            } else if (tableColumnsMap.has('paymentMethodDiscounts') || tableColumnsMap.has('public.paymentMethodDiscounts')) {
+              cachedSchema.hasPaymentMethodDiscountsTable = true;
+              cachedSchema.paymentMethodDiscountsTableName = 'paymentMethodDiscounts';
+            }
+
+            cachedSchema.hasPaymentTransactionsTable =
+              tableColumnsMap.has('payment_transactions') ||
+              tableColumnsMap.has('public.payment_transactions') ||
+              tableColumnsMap.has('paymentTransactions');
+
+            cachedSchema.hasPaymentAuditTrailTable =
+              tableColumnsMap.has('payment_audit_trail') ||
+              tableColumnsMap.has('public.payment_audit_trail') ||
+              tableColumnsMap.has('paymentAuditTrail');
+
             cachedSchema.inspected = true;
             openApiDiscovered = true;
           }
         }
       } catch (e) {
-        // Fall back to table queries
+        // Fall back to active PostgREST schema verification
       }
     }
 
-    // 2. Table-level sampling fallback
-    if (!openApiDiscovered) {
-      // Products table
+    // 2. Active PostgREST Schema Verification
+    // Queries PostgREST with limit(0) which verifies column existence in PostgreSQL schema cache
+    // without needing sample rows or failing on empty tables.
+    if (!openApiDiscovered || !cachedSchema.hasBasePricePerKg || !cachedSchema.hasWeightSlabs || !cachedSchema.hasPricingMode || !cachedSchema.hasImages) {
+      // Products table sample or probe
       const { data: prodSample, error: prodErr } = await supabase.from('products').select('*').limit(1);
       if (!prodErr && prodSample && prodSample.length > 0) {
         const cols = new Set(Object.keys(prodSample[0]));
         cachedSchema.productColumns = cols;
         tableColumnsMap.set('products', cols);
-        cachedSchema.hasBasePricePerKg = cols.has('base_price_per_kg');
-        cachedSchema.hasImages = cols.has('images');
-        cachedSchema.hasPricingMode = cols.has('pricing_mode');
-        cachedSchema.hasWeightSlabs = cols.has('weight_slabs');
-        cachedSchema.hasImg = cols.has('img');
-        cachedSchema.hasImage = cols.has('image');
-        cachedSchema.hasImageUrl = cols.has('image_url');
+
+        if (cols.has('base_price_per_kg')) {
+          cachedSchema.hasBasePricePerKg = true;
+          cachedSchema.basePriceColName = 'base_price_per_kg';
+        } else if (cols.has('basePricePerKg')) {
+          cachedSchema.hasBasePricePerKg = true;
+          cachedSchema.basePriceColName = 'basePricePerKg';
+        }
+
+        if (cols.has('pricing_mode')) {
+          cachedSchema.hasPricingMode = true;
+          cachedSchema.pricingModeColName = 'pricing_mode';
+        } else if (cols.has('pricingMode')) {
+          cachedSchema.hasPricingMode = true;
+          cachedSchema.pricingModeColName = 'pricingMode';
+        }
+
+        if (cols.has('weight_slabs')) {
+          cachedSchema.hasWeightSlabs = true;
+          cachedSchema.weightSlabsColName = 'weight_slabs';
+        } else if (cols.has('weightSlabs')) {
+          cachedSchema.hasWeightSlabs = true;
+          cachedSchema.weightSlabsColName = 'weightSlabs';
+        }
+
+        if (cols.has('images')) cachedSchema.hasImages = true;
+        if (cols.has('img')) cachedSchema.hasImg = true;
+        if (cols.has('image')) cachedSchema.hasImage = true;
+        if (cols.has('image_url')) cachedSchema.hasImageUrl = true;
+      }
+
+      // Explicit column probe for base price
+      if (!cachedSchema.hasBasePricePerKg) {
+        const { error: err1 } = await supabase.from('products').select('base_price_per_kg').limit(0);
+        if (!err1) {
+          cachedSchema.hasBasePricePerKg = true;
+          cachedSchema.basePriceColName = 'base_price_per_kg';
+          cachedSchema.productColumns.add('base_price_per_kg');
+        } else {
+          const { error: err2 } = await supabase.from('products').select('basePricePerKg').limit(0);
+          if (!err2) {
+            cachedSchema.hasBasePricePerKg = true;
+            cachedSchema.basePriceColName = 'basePricePerKg';
+            cachedSchema.productColumns.add('basePricePerKg');
+          }
+        }
+      }
+
+      // Explicit column probe for pricing mode
+      if (!cachedSchema.hasPricingMode) {
+        const { error: err1 } = await supabase.from('products').select('pricing_mode').limit(0);
+        if (!err1) {
+          cachedSchema.hasPricingMode = true;
+          cachedSchema.pricingModeColName = 'pricing_mode';
+          cachedSchema.productColumns.add('pricing_mode');
+        } else {
+          const { error: err2 } = await supabase.from('products').select('pricingMode').limit(0);
+          if (!err2) {
+            cachedSchema.hasPricingMode = true;
+            cachedSchema.pricingModeColName = 'pricingMode';
+            cachedSchema.productColumns.add('pricingMode');
+          }
+        }
+      }
+
+      // Explicit column probe for weight slabs
+      if (!cachedSchema.hasWeightSlabs) {
+        const { error: err1 } = await supabase.from('products').select('weight_slabs').limit(0);
+        if (!err1) {
+          cachedSchema.hasWeightSlabs = true;
+          cachedSchema.weightSlabsColName = 'weight_slabs';
+          cachedSchema.productColumns.add('weight_slabs');
+        } else {
+          const { error: err2 } = await supabase.from('products').select('weightSlabs').limit(0);
+          if (!err2) {
+            cachedSchema.hasWeightSlabs = true;
+            cachedSchema.weightSlabsColName = 'weightSlabs';
+            cachedSchema.productColumns.add('weightSlabs');
+          }
+        }
+      }
+
+      // Explicit column probe for images
+      if (!cachedSchema.hasImages) {
+        const { error: errImages } = await supabase.from('products').select('images').limit(0);
+        if (!errImages) {
+          cachedSchema.hasImages = true;
+          cachedSchema.productColumns.add('images');
+        }
+      }
+
+      // Image aliases probe
+      if (!cachedSchema.hasImg) {
+        const { error: errImg } = await supabase.from('products').select('img').limit(0);
+        if (!errImg) {
+          cachedSchema.hasImg = true;
+          cachedSchema.productColumns.add('img');
+        }
+      }
+      if (!cachedSchema.hasImage) {
+        const { error: errImage } = await supabase.from('products').select('image').limit(0);
+        if (!errImage) {
+          cachedSchema.hasImage = true;
+          cachedSchema.productColumns.add('image');
+        }
+      }
+      if (!cachedSchema.hasImageUrl) {
+        const { error: errImageUrl } = await supabase.from('products').select('image_url').limit(0);
+        if (!errImageUrl) {
+          cachedSchema.hasImageUrl = true;
+          cachedSchema.productColumns.add('image_url');
+        }
       }
 
       // Orders table
@@ -173,16 +333,27 @@ export async function inspectSupabaseSchema(): Promise<SupabaseSchemaInspection>
         tableColumnsMap.set('orders', new Set(Object.keys(orderSample[0])));
       }
 
-      // Payment method discounts table
-      const { error: pmdErr } = await supabase.from('payment_method_discounts').select('id').limit(1);
-      cachedSchema.hasPaymentMethodDiscountsTable = !pmdErr;
+      // Payment method discounts table (check both snake_case and camelCase)
+      const { error: pmdErr1 } = await supabase.from('payment_method_discounts').select('id').limit(0);
+      if (!pmdErr1) {
+        cachedSchema.hasPaymentMethodDiscountsTable = true;
+        cachedSchema.paymentMethodDiscountsTableName = 'payment_method_discounts';
+      } else {
+        const { error: pmdErr2 } = await supabase.from('paymentMethodDiscounts').select('id').limit(0);
+        if (!pmdErr2) {
+          cachedSchema.hasPaymentMethodDiscountsTable = true;
+          cachedSchema.paymentMethodDiscountsTableName = 'paymentMethodDiscounts';
+        } else {
+          cachedSchema.hasPaymentMethodDiscountsTable = false;
+        }
+      }
 
       // Payment transactions table
-      const { error: ptErr } = await supabase.from('payment_transactions').select('id').limit(1);
+      const { error: ptErr } = await supabase.from('payment_transactions').select('id').limit(0);
       cachedSchema.hasPaymentTransactionsTable = !ptErr;
 
       // Payment audit trail table
-      const { error: patErr } = await supabase.from('payment_audit_trail').select('id').limit(1);
+      const { error: patErr } = await supabase.from('payment_audit_trail').select('id').limit(0);
       cachedSchema.hasPaymentAuditTrailTable = !patErr;
 
       cachedSchema.inspected = true;
@@ -323,11 +494,18 @@ export function normalizeProductFromDb(p: any) {
     ? String(p.unit).toLowerCase().trim()
     : (isKg ? 'kg' : 'piece');
 
-  const sp = Number(p.sp !== undefined ? p.sp : (p.base_price_per_kg !== undefined ? p.base_price_per_kg : 0));
+  const sp = Number(
+    p.sp !== undefined && p.sp !== null
+      ? p.sp
+      : (p.base_price_per_kg !== undefined && p.base_price_per_kg !== null
+          ? p.base_price_per_kg
+          : (p.basePricePerKg !== undefined && p.basePricePerKg !== null ? p.basePricePerKg : 0))
+  );
+
   const basePricePerKg = Number(
     p.base_price_per_kg !== null && p.base_price_per_kg !== undefined
       ? p.base_price_per_kg
-      : (p.basePricePerKg !== undefined ? p.basePricePerKg : sp)
+      : (p.basePricePerKg !== null && p.basePricePerKg !== undefined ? p.basePricePerKg : sp)
   );
 
   const rawSlabs = isKg
@@ -460,7 +638,7 @@ export async function updateProductInSupabase(
     // IMAGE FIELD HANDLING:
     // `img` is the primary and canonical column in Supabase PostgreSQL! Always set `img`
     if (finalImg !== undefined) {
-      row.img = finalImg;
+      if (cachedSchema.hasImg || !cachedSchema.inspected) row.img = finalImg;
       if (cachedSchema.hasImage) row.image = finalImg;
       if (cachedSchema.hasImageUrl) row.image_url = finalImg;
     }
@@ -470,13 +648,16 @@ export async function updateProductInSupabase(
 
     // Extended columns only if they exist in Supabase schema:
     if (resolvedBasePrice !== undefined && cachedSchema.hasBasePricePerKg) {
-      row.base_price_per_kg = resolvedBasePrice;
+      const col = cachedSchema.basePriceColName || 'base_price_per_kg';
+      row[col] = resolvedBasePrice;
     }
     if (slabs !== undefined && cachedSchema.hasWeightSlabs) {
-      row.weight_slabs = slabs;
+      const col = cachedSchema.weightSlabsColName || 'weight_slabs';
+      row[col] = slabs;
     }
     if ((updates.pricingMode !== undefined || updates.pricing_mode !== undefined) && cachedSchema.hasPricingMode) {
-      row.pricing_mode = updates.pricingMode || updates.pricing_mode;
+      const col = cachedSchema.pricingModeColName || 'pricing_mode';
+      row[col] = updates.pricingMode || updates.pricing_mode;
     }
 
     // Perform Supabase UPDATE on the exact product row with automatic column adaptation
@@ -489,9 +670,18 @@ export async function updateProductInSupabase(
           delete row[col];
         }
       }
-      if (!cachedSchema.hasBasePricePerKg) delete row.base_price_per_kg;
-      if (!cachedSchema.hasWeightSlabs) delete row.weight_slabs;
-      if (!cachedSchema.hasPricingMode) delete row.pricing_mode;
+      if (!cachedSchema.hasBasePricePerKg) {
+        delete row.base_price_per_kg;
+        delete row.basePricePerKg;
+      }
+      if (!cachedSchema.hasWeightSlabs) {
+        delete row.weight_slabs;
+        delete row.weightSlabs;
+      }
+      if (!cachedSchema.hasPricingMode) {
+        delete row.pricing_mode;
+        delete row.pricingMode;
+      }
       if (!cachedSchema.hasImages) delete row.images;
 
       const { data, error } = await supabase
@@ -569,10 +759,11 @@ export async function updateProductInSupabase(
         }
         tableMissingColumnsMap.get('products')!.add(missingCol);
         cachedSchema.productColumns.delete(missingCol);
-        if (missingCol === 'base_price_per_kg') cachedSchema.hasBasePricePerKg = false;
+        if (missingCol === 'base_price_per_kg' || missingCol === 'basePricePerKg') cachedSchema.hasBasePricePerKg = false;
         if (missingCol === 'images') cachedSchema.hasImages = false;
-        if (missingCol === 'pricing_mode') cachedSchema.hasPricingMode = false;
-        if (missingCol === 'weight_slabs') cachedSchema.hasWeightSlabs = false;
+        if (missingCol === 'pricing_mode' || missingCol === 'pricingMode') cachedSchema.hasPricingMode = false;
+        if (missingCol === 'weight_slabs' || missingCol === 'weightSlabs') cachedSchema.hasWeightSlabs = false;
+        if (missingCol === 'img') cachedSchema.hasImg = false;
         if (missingCol === 'image') cachedSchema.hasImage = false;
         if (missingCol === 'image_url') cachedSchema.hasImageUrl = false;
         delete row[missingCol];
@@ -632,13 +823,21 @@ export async function syncProductToSupabase(product: any): Promise<boolean> {
       description: product.description || ''
     };
 
+    if (cachedSchema.hasImg || !cachedSchema.inspected) row.img = imgUrl;
     if (cachedSchema.hasImage) row.image = imgUrl;
     if (cachedSchema.hasImageUrl) row.image_url = imgUrl;
     if (cachedSchema.hasImages) row.images = imagesArr;
-    if (cachedSchema.hasBasePricePerKg) row.base_price_per_kg = resolvedBasePrice;
-    if (cachedSchema.hasWeightSlabs) row.weight_slabs = slabs;
+    if (cachedSchema.hasBasePricePerKg) {
+      const col = cachedSchema.basePriceColName || 'base_price_per_kg';
+      row[col] = resolvedBasePrice;
+    }
+    if (cachedSchema.hasWeightSlabs) {
+      const col = cachedSchema.weightSlabsColName || 'weight_slabs';
+      row[col] = slabs;
+    }
     if (cachedSchema.hasPricingMode) {
-      row.pricing_mode = isKg ? (product.pricingMode || product.pricing_mode || (slabs.length > 0 ? 'slabs' : 'auto')) : 'auto';
+      const col = cachedSchema.pricingModeColName || 'pricing_mode';
+      row[col] = isKg ? (product.pricingMode || product.pricing_mode || (slabs.length > 0 ? 'slabs' : 'auto')) : 'auto';
     }
 
     return await upsertTable('products', row, 'id');
@@ -851,8 +1050,26 @@ export async function fetchTable<T>(
   }
 
   try {
-    const { data, error } = await supabase.from(tableName).select('*');
+    let resolvedTable = tableName;
+    if (tableName === 'payment_method_discounts') {
+      if (cachedSchema.inspected && !cachedSchema.hasPaymentMethodDiscountsTable) {
+        return memoryFallback;
+      }
+      if (cachedSchema.paymentMethodDiscountsTableName) {
+        resolvedTable = cachedSchema.paymentMethodDiscountsTableName;
+      }
+    }
+
+    const { data, error } = await supabase.from(resolvedTable).select('*');
     if (error) {
+      if (tableName === 'payment_method_discounts' && resolvedTable === 'payment_method_discounts') {
+        const { data: camelData, error: camelErr } = await supabase.from('paymentMethodDiscounts').select('*');
+        if (!camelErr && camelData && camelData.length > 0) {
+          cachedSchema.hasPaymentMethodDiscountsTable = true;
+          cachedSchema.paymentMethodDiscountsTableName = 'paymentMethodDiscounts';
+          return transformRow ? camelData.map(transformRow) : (camelData as T[]);
+        }
+      }
       return memoryFallback;
     }
 
@@ -884,15 +1101,20 @@ export async function upsertTable(
     if (payload.length === 0) return true;
 
     // Check table availability before querying
-    if (tableName === 'payment_method_discounts' && !cachedSchema.hasPaymentMethodDiscountsTable) {
-      // Table doesn't exist in Supabase yet. Avoid throwing relation errors
-      return false;
+    let targetTable = tableName;
+    if (tableName === 'payment_method_discounts') {
+      if (cachedSchema.inspected && !cachedSchema.hasPaymentMethodDiscountsTable) {
+        return false;
+      }
+      if (cachedSchema.paymentMethodDiscountsTableName) {
+        targetTable = cachedSchema.paymentMethodDiscountsTableName;
+      }
     }
 
     const maxRetries = 15;
     for (let attempt = 0; attempt < maxRetries; attempt++) {
-      const allowedCols = tableColumnsMap.get(tableName);
-      const knownMissing = tableMissingColumnsMap.get(tableName);
+      const allowedCols = tableColumnsMap.get(targetTable) || tableColumnsMap.get(tableName);
+      const knownMissing = tableMissingColumnsMap.get(targetTable) || tableMissingColumnsMap.get(tableName);
 
       // Clean payload against discovered column whitelist or known missing columns
       let cleanPayload = payload.map(row => {
@@ -915,9 +1137,18 @@ export async function upsertTable(
       if (tableName === 'products') {
         cleanPayload = cleanPayload.map(row => {
           const r = { ...row };
-          if (!cachedSchema.hasBasePricePerKg) delete r.base_price_per_kg;
-          if (!cachedSchema.hasWeightSlabs) delete r.weight_slabs;
-          if (!cachedSchema.hasPricingMode) delete r.pricing_mode;
+          if (!cachedSchema.hasBasePricePerKg) {
+            delete r.base_price_per_kg;
+            delete r.basePricePerKg;
+          }
+          if (!cachedSchema.hasWeightSlabs) {
+            delete r.weight_slabs;
+            delete r.weightSlabs;
+          }
+          if (!cachedSchema.hasPricingMode) {
+            delete r.pricing_mode;
+            delete r.pricingMode;
+          }
           if (!cachedSchema.hasImages) delete r.images;
           if (!cachedSchema.hasImage) delete r.image;
           if (!cachedSchema.hasImageUrl) delete r.image_url;
@@ -926,7 +1157,7 @@ export async function upsertTable(
       }
 
       const options = onConflictColumn ? { onConflict: onConflictColumn } : undefined;
-      const { error } = await supabase.from(tableName).upsert(cleanPayload, options);
+      const { error } = await supabase.from(targetTable).upsert(cleanPayload, options);
 
       if (!error) return true;
 
