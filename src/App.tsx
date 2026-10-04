@@ -2259,20 +2259,48 @@ export default function App() {
         {/* Active Order Logistics Tracker Banner */}
         {currentUser && currentUser.role !== 'admin' && (
           (() => {
-            const activeOrders = orders.filter(
-              (o) => o.userEmail === currentUser.email && o.status !== 'delivered' && o.status !== 'cancelled'
-            );
+            const activeOrders = orders.filter((o) => {
+              if (o.userEmail !== currentUser.email) return false;
+              const norm = normalizeOrderStatus(o.status);
+              const raw = (o.status || '').trim().toLowerCase();
+              const payStatus = (o.paymentStatus || '').trim().toLowerCase();
+
+              // Should NOT appear: Cancelled, Payment Failed, Delivered, Completed
+              if (
+                norm === 'Cancelled' ||
+                norm === 'Delivered' ||
+                raw === 'cancelled' ||
+                raw === 'canceled' ||
+                raw === 'delivered' ||
+                raw === 'completed' ||
+                raw.includes('fail') ||
+                payStatus === 'failed' ||
+                payStatus === 'cancelled' ||
+                payStatus === 'canceled'
+              ) {
+                return false;
+              }
+
+              // Should appear: New Orders, Confirmed, Preparing, Out for Delivery
+              return (
+                norm === 'New Orders' ||
+                norm === 'Confirmed' ||
+                norm === 'Preparing' ||
+                norm === 'Out for Delivery'
+              );
+            });
             if (activeOrders.length === 0) return null;
             
             return (
               <div className="space-y-4">
                 {activeOrders.map((order) => {
                   const getStatusStepIndex = (status: string) => {
-                    switch (status) {
-                      case 'processing': return 0;
-                      case 'confirmed': return 1;
-                      case 'packing': return 2;
-                      case 'dispatched': return 3;
+                    const norm = normalizeOrderStatus(status);
+                    switch (norm) {
+                      case 'New Orders': return 0;
+                      case 'Confirmed': return 1;
+                      case 'Preparing': return 2;
+                      case 'Out for Delivery': return 3;
                       default: return 0;
                     }
                   };
