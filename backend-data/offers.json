@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Green Chillies & Dhaniya",
+    "desc": "Free mix pack on orders above ₹299",
+    "tag": "HOT DEAL",
+    "tagColor": "#f97316",
+    "img": "https://images.unsplash.com/photo-1597362925123-77861d3fbac7?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": 2,
+    "title": "Weekly Sabji Basket Combo",
+    "desc": "Essential household combo — save 25%",
+    "tag": "COMBO",
+    "tagColor": "#1a9c5b",
+    "img": "https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?auto=format&fit=crop&q=80&w=600"
+  }
+]

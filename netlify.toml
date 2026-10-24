@@ -1,0 +1,18 @@
+# Netlify Configuration for Single Page App + Backend API
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# Transparently forward API requests to Render backend (prevents HTML 404/SPA loops)
+[[redirects]]
+  from = "/api/*"
+  to = "https://sabjis-farm-fresh-delivery.onrender.com/api/:splat"
+  status = 200
+  force = true
+
+# Client-side routing fallback for SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
