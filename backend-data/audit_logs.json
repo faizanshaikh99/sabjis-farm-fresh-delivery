@@ -1,0 +1,1974 @@
+[
+  {
+    "id": "audit_1793437066698_d1kfltr",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Update Order Details",
+    "details": {
+      "orderId": "ORD985530",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "adminRemarks": "Cash collected by driver"
+    },
+    "timestamp": "2026-10-31T08:57:46.698Z"
+  },
+  {
+    "id": "audit_1793437066697_p3tdn92",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: PAYMENT_VERIFIED",
+    "details": {
+      "orderId": "ORD985530",
+      "action": "PAYMENT_VERIFIED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Paid",
+      "amount": 60,
+      "reason": "Cash collected by driver"
+    },
+    "timestamp": "2026-10-31T08:57:46.697Z"
+  },
+  {
+    "id": "audit_1793437066674_y1tr1dj",
+    "userId": "fakepaid@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD985530",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-31T08:57:46.674Z"
+  },
+  {
+    "id": "audit_1793437066673_vgnp0is",
+    "userId": "fakepaid@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD985530",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-31T08:57:46.673Z"
+  },
+  {
+    "id": "audit_1793437066652_8twh7hd",
+    "userId": "upi1@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD907786",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Bank reference BANK-REF-1793437066645 submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-31T08:57:46.652Z"
+  },
+  {
+    "id": "audit_1793437066651_lnw8x74",
+    "userId": "upi1@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD907786",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-31T08:57:46.651Z"
+  },
+  {
+    "id": "audit_1793437066649_cxaeslr",
+    "userId": "upi1@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD907786",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-31T08:57:46.649Z"
+  },
+  {
+    "id": "audit_1793437066591_cb16p2x",
+    "userId": "idem@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD180196",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-31T08:57:46.591Z"
+  },
+  {
+    "id": "audit_1793437066589_qec0lf9",
+    "userId": "idem@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD180196",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-31T08:57:46.589Z"
+  },
+  {
+    "id": "audit_1793437066567_5lsbero",
+    "userId": "coupon@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD942162",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-31T08:57:46.567Z"
+  },
+  {
+    "id": "audit_1793437066566_xm650j8",
+    "userId": "coupon@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD942162",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-31T08:57:46.566Z"
+  },
+  {
+    "id": "audit_1793437066526_laokt0r",
+    "userId": "tamper3@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD593155",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-31T08:57:46.526Z"
+  },
+  {
+    "id": "audit_1793437066525_wo0t707",
+    "userId": "tamper3@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD593155",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-31T08:57:46.525Z"
+  },
+  {
+    "id": "audit_1793437066503_ln5vqsy",
+    "userId": "tamper2@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD259153",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 294,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-31T08:57:46.503Z"
+  },
+  {
+    "id": "audit_1793437066502_sqjisi7",
+    "userId": "tamper2@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD259153",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 294,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-31T08:57:46.502Z"
+  },
+  {
+    "id": "audit_1793437066477_pz5qbpd",
+    "userId": "tamper@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD673428",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-31T08:57:46.477Z"
+  },
+  {
+    "id": "audit_1793437066476_9o0pfsd",
+    "userId": "tamper@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD673428",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-31T08:57:46.476Z"
+  },
+  {
+    "id": "audit_1793437047793_98cvff5",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Process Order Refund",
+    "details": {
+      "orderId": "ORD228889",
+      "requestedAmount": 40,
+      "newRefundTotal": 60,
+      "reason": "Customer returned all items"
+    },
+    "timestamp": "2026-10-31T08:57:27.793Z"
+  },
+  {
+    "id": "audit_1793437047783_j4gqimo",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: PAYMENT_REFUNDED",
+    "details": {
+      "orderId": "ORD228889",
+      "action": "PAYMENT_REFUNDED",
+      "previousPaymentStatus": "Partially Refunded",
+      "newPaymentStatus": "Refunded",
+      "amount": 40,
+      "reason": "Full refund of ₹40 processed. Customer returned all items"
+    },
+    "timestamp": "2026-10-31T08:57:27.783Z"
+  },
+  {
+    "id": "audit_1793437047625_2hx1gkd",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Process Order Refund",
+    "details": {
+      "orderId": "ORD228889",
+      "requestedAmount": 20,
+      "newRefundTotal": 20,
+      "reason": "Customer requested partial refund"
+    },
+    "timestamp": "2026-10-31T08:57:27.625Z"
+  },
+  {
+    "id": "audit_1793437047614_wfln9fl",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: PAYMENT_PARTIALLY_REFUNDED",
+    "details": {
+      "orderId": "ORD228889",
+      "action": "PAYMENT_PARTIALLY_REFUNDED",
+      "previousPaymentStatus": "Paid",
+      "newPaymentStatus": "Partially Refunded",
+      "amount": 20,
+      "reason": "Partial refund of ₹20 processed. Customer requested partial refund"
+    },
+    "timestamp": "2026-10-31T08:57:27.614Z"
+  },
+  {
+    "id": "audit_1793437047421_pyigfgh",
+    "userId": "Razorpay Webhook",
+    "action": "Payment: PAYMENT_CAPTURED_WEBHOOK",
+    "details": {
+      "orderId": "ORD704568",
+      "action": "PAYMENT_CAPTURED_WEBHOOK",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Paid",
+      "amount": 90,
+      "reason": "Webhook confirmed payment captured: pay_wh_1793437047417"
+    },
+    "timestamp": "2026-10-31T08:57:27.421Z"
+  },
+  {
+    "id": "audit_1793437047420_lxq9eqk",
+    "userId": "Razorpay Webhook",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD704568",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Webhook confirmed payment captured: pay_wh_1793437047417"
+    },
+    "timestamp": "2026-10-31T08:57:27.420Z"
+  },
+  {
+    "id": "audit_1793437047398_o4t31u1",
+    "userId": "webhook@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD704568",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_lc63o3ueytn)"
+    },
+    "timestamp": "2026-10-31T08:57:27.398Z"
+  },
+  {
+    "id": "audit_1793437047234_6kzdl7g",
+    "userId": "userd@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD856773",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_mtjyhxl331h)"
+    },
+    "timestamp": "2026-10-31T08:57:27.234Z"
+  },
+  {
+    "id": "audit_1793437047062_hqzywvb",
+    "userId": "Razorpay Gateway (HMAC)",
+    "action": "Payment: PAYMENT_VERIFIED",
+    "details": {
+      "orderId": "ORD642370",
+      "action": "PAYMENT_VERIFIED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Paid",
+      "amount": 90,
+      "reason": "Cryptographic HMAC SHA256 verified payment ID: pay_replay_1793437047059"
+    },
+    "timestamp": "2026-10-31T08:57:27.062Z"
+  },
+  {
+    "id": "audit_1793437047062_jg58az3",
+    "userId": "Razorpay Gateway (HMAC)",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD642370",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Payment verified via Razorpay HMAC (pay_replay_1793437047059)"
+    },
+    "timestamp": "2026-10-31T08:57:27.062Z"
+  },
+  {
+    "id": "audit_1793437047046_wts8d62",
+    "userId": "replay@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD642370",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_fjkonk5hmjm)"
+    },
+    "timestamp": "2026-10-31T08:57:27.046Z"
+  },
+  {
+    "id": "audit_1793437046887_hs5391p",
+    "userId": "userb@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD604260",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_7vbgnv3fp1s)"
+    },
+    "timestamp": "2026-10-31T08:57:26.887Z"
+  },
+  {
+    "id": "audit_1793437046734_41034da",
+    "userId": "usera@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD439341",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_l4ozit9h49)"
+    },
+    "timestamp": "2026-10-31T08:57:26.734Z"
+  },
+  {
+    "id": "audit_1793437046571_1zijzhp",
+    "userId": "Server Cryptographic Verification",
+    "action": "Payment: SIGNATURE_VERIFICATION_FAILED",
+    "details": {
+      "orderId": "ORD779832",
+      "action": "SIGNATURE_VERIFICATION_FAILED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Failed",
+      "amount": 60,
+      "reason": "HMAC SHA256 signature mismatch (Invalid or tampered token)"
+    },
+    "timestamp": "2026-10-31T08:57:26.571Z"
+  },
+  {
+    "id": "audit_1793437046570_95mq0fo",
+    "userId": "Cryptographic Verification",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD779832",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Failed",
+      "newPaymentStatus": "Failed",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Signature verification failed"
+    },
+    "timestamp": "2026-10-31T08:57:26.570Z"
+  },
+  {
+    "id": "audit_1793437046555_zgptnfp",
+    "userId": "forge@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD779832",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_nxzwsoiftyg)"
+    },
+    "timestamp": "2026-10-31T08:57:26.555Z"
+  },
+  {
+    "id": "audit_1793437046393_lgs0nro",
+    "userId": "Razorpay Gateway (HMAC)",
+    "action": "Payment: PAYMENT_VERIFIED",
+    "details": {
+      "orderId": "ORD228889",
+      "action": "PAYMENT_VERIFIED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Paid",
+      "amount": 60,
+      "reason": "Cryptographic HMAC SHA256 verified payment ID: pay_manip_1793437046380"
+    },
+    "timestamp": "2026-10-31T08:57:26.393Z"
+  },
+  {
+    "id": "audit_1793437046392_ijkxb4m",
+    "userId": "Razorpay Gateway (HMAC)",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD228889",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Payment verified via Razorpay HMAC (pay_manip_1793437046380)"
+    },
+    "timestamp": "2026-10-31T08:57:26.392Z"
+  },
+  {
+    "id": "audit_1793437046366_qi001z2",
+    "userId": "manip@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD228889",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_7wpvkvx4qit)"
+    },
+    "timestamp": "2026-10-31T08:57:26.366Z"
+  },
+  {
+    "id": "audit_1793437028207_ru3v11g",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Update Order Details",
+    "details": {
+      "orderId": "ORD194627",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "adminRemarks": "Second approve attempt"
+    },
+    "timestamp": "2026-10-31T08:57:08.207Z"
+  },
+  {
+    "id": "audit_1793437028168_ag9l9om",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Update Order Details",
+    "details": {
+      "orderId": "ORD194627",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "adminRemarks": "Payment confirmed in merchant bank statement"
+    },
+    "timestamp": "2026-10-31T08:57:08.168Z"
+  },
+  {
+    "id": "audit_1793437028167_l4tnotq",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: PAYMENT_VERIFIED",
+    "details": {
+      "orderId": "ORD194627",
+      "action": "PAYMENT_VERIFIED",
+      "previousPaymentStatus": "PENDING_VERIFICATION",
+      "newPaymentStatus": "Paid",
+      "amount": 120,
+      "reason": "Payment confirmed in merchant bank statement"
+    },
+    "timestamp": "2026-10-31T08:57:08.167Z"
+  },
+  {
+    "id": "audit_1793437028166_s72llkk",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD194627",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "PENDING_VERIFICATION",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 120,
+      "reason": "Payment confirmed in merchant bank statement"
+    },
+    "timestamp": "2026-10-31T08:57:08.166Z"
+  },
+  {
+    "id": "audit_1793437028146_27itqaf",
+    "userId": "paid_user@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD194627",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 120,
+      "reason": "Bank reference PAID-REF-1793437028142 submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-31T08:57:08.146Z"
+  },
+  {
+    "id": "audit_1793437028145_bgwvvhn",
+    "userId": "paid_user@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD194627",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 120,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-31T08:57:08.145Z"
+  },
+  {
+    "id": "audit_1793437028145_vbq84m3",
+    "userId": "paid_user@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD194627",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 120,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-31T08:57:08.145Z"
+  },
+  {
+    "id": "audit_1793437028115_o0gyvps",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Update Order Details",
+    "details": {
+      "orderId": "ORD305092",
+      "status": "New Orders",
+      "paymentStatus": "Rejected",
+      "adminRemarks": "Duplicate reject attempt"
+    },
+    "timestamp": "2026-10-31T08:57:08.115Z"
+  },
+  {
+    "id": "audit_1793437028070_wg83hh3",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Update Order Details",
+    "details": {
+      "orderId": "ORD305092",
+      "status": "New Orders",
+      "paymentStatus": "Rejected",
+      "adminRemarks": "Invalid transaction reference, funds not received"
+    },
+    "timestamp": "2026-10-31T08:57:08.070Z"
+  },
+  {
+    "id": "audit_1793437028069_0zy0eq5",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: PAYMENT_REJECTED",
+    "details": {
+      "orderId": "ORD305092",
+      "action": "PAYMENT_REJECTED",
+      "previousPaymentStatus": "PENDING_VERIFICATION",
+      "newPaymentStatus": "Rejected",
+      "amount": 90,
+      "reason": "Invalid transaction reference, funds not received"
+    },
+    "timestamp": "2026-10-31T08:57:08.069Z"
+  },
+  {
+    "id": "audit_1793437028068_z7czmu0",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD305092",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "PENDING_VERIFICATION",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 90,
+      "reason": "Reserved stock released back to inventory: Invalid transaction reference, funds not received"
+    },
+    "timestamp": "2026-10-31T08:57:08.068Z"
+  },
+  {
+    "id": "audit_1793437028043_m6cdx6h",
+    "userId": "inventory_user@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD305092",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 90,
+      "reason": "Bank reference TXN-REF-1793437028016 submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-31T08:57:08.043Z"
+  },
+  {
+    "id": "audit_1793437028020_u4xjfwb",
+    "userId": "inventory_user@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD305092",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 90,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-31T08:57:08.020Z"
+  },
+  {
+    "id": "audit_1793437028019_a17r5vi",
+    "userId": "inventory_user@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD305092",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 90,
+      "reason": "Order placed via PhonePe (UPI)"
+    },
+    "timestamp": "2026-10-31T08:57:08.019Z"
+  },
+  {
+    "id": "audit_1793437027991_co28kj8",
+    "userId": "user_ref@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD944063",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Bank reference ICIC/5071/PAY submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-31T08:57:07.991Z"
+  },
+  {
+    "id": "audit_1793437027990_at28e50",
+    "userId": "user_ref@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD944063",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-31T08:57:07.990Z"
+  },
+  {
+    "id": "audit_1793437027990_paw8n64",
+    "userId": "user_ref@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD944063",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-31T08:57:07.989Z"
+  },
+  {
+    "id": "audit_1793437027969_2idrnzh",
+    "userId": "user_ref@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD302257",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Bank reference UPI-5071-SBI submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-31T08:57:07.969Z"
+  },
+  {
+    "id": "audit_1793437027968_mq8hqol",
+    "userId": "user_ref@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD302257",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-31T08:57:07.968Z"
+  },
+  {
+    "id": "audit_1793437027967_j8m7nn8",
+    "userId": "user_ref@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD302257",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-31T08:57:07.967Z"
+  },
+  {
+    "id": "audit_1793437027946_btfaz2x",
+    "userId": "user_ref@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD994390",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Bank reference HDFC001234565071 submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-31T08:57:07.946Z"
+  },
+  {
+    "id": "audit_1793437027945_ouhb1ju",
+    "userId": "user_ref@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD994390",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-31T08:57:07.945Z"
+  },
+  {
+    "id": "audit_1793437027944_3xmw7py",
+    "userId": "user_ref@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD994390",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-31T08:57:07.944Z"
+  },
+  {
+    "id": "audit_1793437027920_hhl2trc",
+    "userId": "user_ref@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD456701",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Bank reference BARB5071 submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-31T08:57:07.920Z"
+  },
+  {
+    "id": "audit_1793437027920_ht9uon8",
+    "userId": "user_ref@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD456701",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-31T08:57:07.920Z"
+  },
+  {
+    "id": "audit_1793437027918_9fd69my",
+    "userId": "user_ref@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD456701",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-31T08:57:07.918Z"
+  },
+  {
+    "id": "audit_1793037485975_on3n96z",
+    "userId": "admin_greensabjies",
+    "action": "Password Reset Requested",
+    "details": {
+      "requestId": "rst_1793037485973_374",
+      "email": "greensabjies@gmail.com",
+      "emailDispatched": false,
+      "ip": "127.0.0.1"
+    },
+    "timestamp": "2026-10-26T17:58:05.975Z"
+  },
+  {
+    "id": "audit_1792661973341_omwogfk",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Update Order Details",
+    "details": {
+      "orderId": "ORD246959",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "adminRemarks": "Cash collected by driver"
+    },
+    "timestamp": "2026-10-22T09:39:33.341Z"
+  },
+  {
+    "id": "audit_1792661973341_k8j2e0a",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: PAYMENT_VERIFIED",
+    "details": {
+      "orderId": "ORD246959",
+      "action": "PAYMENT_VERIFIED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Paid",
+      "amount": 60,
+      "reason": "Cash collected by driver"
+    },
+    "timestamp": "2026-10-22T09:39:33.341Z"
+  },
+  {
+    "id": "audit_1792661973314_zpulho6",
+    "userId": "fakepaid@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD246959",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-22T09:39:33.314Z"
+  },
+  {
+    "id": "audit_1792661973313_56gpuru",
+    "userId": "fakepaid@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD246959",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-22T09:39:33.313Z"
+  },
+  {
+    "id": "audit_1792661973295_p4mwft1",
+    "userId": "upi1@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD925558",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Bank reference BANK-REF-1792661973292 submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-22T09:39:33.295Z"
+  },
+  {
+    "id": "audit_1792661973295_dx1gcfx",
+    "userId": "upi1@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD925558",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-22T09:39:33.295Z"
+  },
+  {
+    "id": "audit_1792661973294_bdzma0r",
+    "userId": "upi1@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD925558",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-22T09:39:33.294Z"
+  },
+  {
+    "id": "audit_1792661973270_rptjcpb",
+    "userId": "idem@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD808942",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-22T09:39:33.270Z"
+  },
+  {
+    "id": "audit_1792661973270_0q9ftmn",
+    "userId": "idem@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD808942",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-22T09:39:33.270Z"
+  },
+  {
+    "id": "audit_1792661973246_e1f44a7",
+    "userId": "coupon@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD359067",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-22T09:39:33.246Z"
+  },
+  {
+    "id": "audit_1792661973246_3yx3qyh",
+    "userId": "coupon@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD359067",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-22T09:39:33.246Z"
+  },
+  {
+    "id": "audit_1792661973230_nyudk9x",
+    "userId": "tamper3@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD981694",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-22T09:39:33.230Z"
+  },
+  {
+    "id": "audit_1792661973230_vsj6e8r",
+    "userId": "tamper3@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD981694",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-22T09:39:33.230Z"
+  },
+  {
+    "id": "audit_1792661973213_w7fudp6",
+    "userId": "tamper2@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD263964",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 294,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-22T09:39:33.213Z"
+  },
+  {
+    "id": "audit_1792661973213_g9ntutb",
+    "userId": "tamper2@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD263964",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 294,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-22T09:39:33.213Z"
+  },
+  {
+    "id": "audit_1792661973188_14qdxkg",
+    "userId": "tamper@example.com",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD722585",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Inventory stock permanently deducted for order"
+    },
+    "timestamp": "2026-10-22T09:39:33.188Z"
+  },
+  {
+    "id": "audit_1792661973187_dh0fbta",
+    "userId": "tamper@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD722585",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Order placed via Cash on Delivery"
+    },
+    "timestamp": "2026-10-22T09:39:33.187Z"
+  },
+  {
+    "id": "audit_1792661952933_46wkp7y",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Process Order Refund",
+    "details": {
+      "orderId": "ORD274016",
+      "requestedAmount": 40,
+      "newRefundTotal": 60,
+      "reason": "Customer returned all items"
+    },
+    "timestamp": "2026-10-22T09:39:12.933Z"
+  },
+  {
+    "id": "audit_1792661952924_a07rv8o",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: PAYMENT_REFUNDED",
+    "details": {
+      "orderId": "ORD274016",
+      "action": "PAYMENT_REFUNDED",
+      "previousPaymentStatus": "Partially Refunded",
+      "newPaymentStatus": "Refunded",
+      "amount": 40,
+      "reason": "Full refund of ₹40 processed. Customer returned all items"
+    },
+    "timestamp": "2026-10-22T09:39:12.924Z"
+  },
+  {
+    "id": "audit_1792661952763_c9dk0ci",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Process Order Refund",
+    "details": {
+      "orderId": "ORD274016",
+      "requestedAmount": 20,
+      "newRefundTotal": 20,
+      "reason": "Customer requested partial refund"
+    },
+    "timestamp": "2026-10-22T09:39:12.763Z"
+  },
+  {
+    "id": "audit_1792661952753_qj4b58x",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: PAYMENT_PARTIALLY_REFUNDED",
+    "details": {
+      "orderId": "ORD274016",
+      "action": "PAYMENT_PARTIALLY_REFUNDED",
+      "previousPaymentStatus": "Paid",
+      "newPaymentStatus": "Partially Refunded",
+      "amount": 20,
+      "reason": "Partial refund of ₹20 processed. Customer requested partial refund"
+    },
+    "timestamp": "2026-10-22T09:39:12.753Z"
+  },
+  {
+    "id": "audit_1792661952565_3se65dk",
+    "userId": "Razorpay Webhook",
+    "action": "Payment: PAYMENT_CAPTURED_WEBHOOK",
+    "details": {
+      "orderId": "ORD482856",
+      "action": "PAYMENT_CAPTURED_WEBHOOK",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Paid",
+      "amount": 90,
+      "reason": "Webhook confirmed payment captured: pay_wh_1792661952560"
+    },
+    "timestamp": "2026-10-22T09:39:12.565Z"
+  },
+  {
+    "id": "audit_1792661952564_gh43dm8",
+    "userId": "Razorpay Webhook",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD482856",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Webhook confirmed payment captured: pay_wh_1792661952560"
+    },
+    "timestamp": "2026-10-22T09:39:12.564Z"
+  },
+  {
+    "id": "audit_1792661952545_tk98ls3",
+    "userId": "webhook@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD482856",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_q5ziles4sd)"
+    },
+    "timestamp": "2026-10-22T09:39:12.545Z"
+  },
+  {
+    "id": "audit_1792661952376_ib7nnpi",
+    "userId": "userd@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD633246",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_4hlexdd0go5)"
+    },
+    "timestamp": "2026-10-22T09:39:12.376Z"
+  },
+  {
+    "id": "audit_1792661952188_2d9fp76",
+    "userId": "Razorpay Gateway (HMAC)",
+    "action": "Payment: PAYMENT_VERIFIED",
+    "details": {
+      "orderId": "ORD854161",
+      "action": "PAYMENT_VERIFIED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Paid",
+      "amount": 90,
+      "reason": "Cryptographic HMAC SHA256 verified payment ID: pay_replay_1792661952185"
+    },
+    "timestamp": "2026-10-22T09:39:12.188Z"
+  },
+  {
+    "id": "audit_1792661952187_7547a5u",
+    "userId": "Razorpay Gateway (HMAC)",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD854161",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Payment verified via Razorpay HMAC (pay_replay_1792661952185)"
+    },
+    "timestamp": "2026-10-22T09:39:12.187Z"
+  },
+  {
+    "id": "audit_1792661952172_9udtm7a",
+    "userId": "replay@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD854161",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 90,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_xj6unr3wmd)"
+    },
+    "timestamp": "2026-10-22T09:39:12.172Z"
+  },
+  {
+    "id": "audit_1792661952002_cfygeia",
+    "userId": "userb@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD653719",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_mpyre5onen)"
+    },
+    "timestamp": "2026-10-22T09:39:12.002Z"
+  },
+  {
+    "id": "audit_1792661951846_iif3dds",
+    "userId": "usera@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD631242",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_ntvcjdlx19)"
+    },
+    "timestamp": "2026-10-22T09:39:11.846Z"
+  },
+  {
+    "id": "audit_1792661951685_x849cqg",
+    "userId": "Server Cryptographic Verification",
+    "action": "Payment: SIGNATURE_VERIFICATION_FAILED",
+    "details": {
+      "orderId": "ORD129323",
+      "action": "SIGNATURE_VERIFICATION_FAILED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Failed",
+      "amount": 60,
+      "reason": "HMAC SHA256 signature mismatch (Invalid or tampered token)"
+    },
+    "timestamp": "2026-10-22T09:39:11.685Z"
+  },
+  {
+    "id": "audit_1792661951684_eg5jbo8",
+    "userId": "Cryptographic Verification",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD129323",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Failed",
+      "newPaymentStatus": "Failed",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Signature verification failed"
+    },
+    "timestamp": "2026-10-22T09:39:11.684Z"
+  },
+  {
+    "id": "audit_1792661951671_fexqwxd",
+    "userId": "forge@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD129323",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_25bzx0br9rg)"
+    },
+    "timestamp": "2026-10-22T09:39:11.671Z"
+  },
+  {
+    "id": "audit_1792661951510_e8dyoe9",
+    "userId": "Razorpay Gateway (HMAC)",
+    "action": "Payment: PAYMENT_VERIFIED",
+    "details": {
+      "orderId": "ORD274016",
+      "action": "PAYMENT_VERIFIED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Paid",
+      "amount": 60,
+      "reason": "Cryptographic HMAC SHA256 verified payment ID: pay_manip_1792661951495"
+    },
+    "timestamp": "2026-10-22T09:39:11.510Z"
+  },
+  {
+    "id": "audit_1792661951510_zx28itq",
+    "userId": "Razorpay Gateway (HMAC)",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD274016",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Payment verified via Razorpay HMAC (pay_manip_1792661951495)"
+    },
+    "timestamp": "2026-10-22T09:39:11.510Z"
+  },
+  {
+    "id": "audit_1792661951481_id34gk2",
+    "userId": "manip@example.com",
+    "action": "Payment: PAYMENT_INITIATED",
+    "details": {
+      "orderId": "ORD274016",
+      "action": "PAYMENT_INITIATED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "Pending",
+      "amount": 60,
+      "reason": "Razorpay checkout initiated (Gateway Order: order_l7o00pdrr3)"
+    },
+    "timestamp": "2026-10-22T09:39:11.481Z"
+  },
+  {
+    "id": "audit_1792661934304_qw7vpeh",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Update Order Details",
+    "details": {
+      "orderId": "ORD655401",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "adminRemarks": "Second approve attempt"
+    },
+    "timestamp": "2026-10-22T09:38:54.304Z"
+  },
+  {
+    "id": "audit_1792661934252_djj966t",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Update Order Details",
+    "details": {
+      "orderId": "ORD655401",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "adminRemarks": "Payment confirmed in merchant bank statement"
+    },
+    "timestamp": "2026-10-22T09:38:54.252Z"
+  },
+  {
+    "id": "audit_1792661934252_yoqjwwe",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: PAYMENT_VERIFIED",
+    "details": {
+      "orderId": "ORD655401",
+      "action": "PAYMENT_VERIFIED",
+      "previousPaymentStatus": "PENDING_VERIFICATION",
+      "newPaymentStatus": "Paid",
+      "amount": 120,
+      "reason": "Payment confirmed in merchant bank statement"
+    },
+    "timestamp": "2026-10-22T09:38:54.252Z"
+  },
+  {
+    "id": "audit_1792661934251_8740nkf",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: STOCK_DEDUCTED",
+    "details": {
+      "orderId": "ORD655401",
+      "action": "STOCK_DEDUCTED",
+      "previousPaymentStatus": "PENDING_VERIFICATION",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 120,
+      "reason": "Payment confirmed in merchant bank statement"
+    },
+    "timestamp": "2026-10-22T09:38:54.251Z"
+  },
+  {
+    "id": "audit_1792661934234_ihsv28t",
+    "userId": "paid_user@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD655401",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 120,
+      "reason": "Bank reference PAID-REF-1792661934230 submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-22T09:38:54.234Z"
+  },
+  {
+    "id": "audit_1792661934234_6ivyaab",
+    "userId": "paid_user@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD655401",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 120,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-22T09:38:54.234Z"
+  },
+  {
+    "id": "audit_1792661934233_3yeg4rq",
+    "userId": "paid_user@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD655401",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 120,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-22T09:38:54.233Z"
+  },
+  {
+    "id": "audit_1792661934199_5a1j5ih",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Update Order Details",
+    "details": {
+      "orderId": "ORD534413",
+      "status": "New Orders",
+      "paymentStatus": "Rejected",
+      "adminRemarks": "Duplicate reject attempt"
+    },
+    "timestamp": "2026-10-22T09:38:54.199Z"
+  },
+  {
+    "id": "audit_1792661934152_rvuxjrk",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Update Order Details",
+    "details": {
+      "orderId": "ORD534413",
+      "status": "New Orders",
+      "paymentStatus": "Rejected",
+      "adminRemarks": "Invalid transaction reference, funds not received"
+    },
+    "timestamp": "2026-10-22T09:38:54.152Z"
+  },
+  {
+    "id": "audit_1792661934152_7ab1343",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: PAYMENT_REJECTED",
+    "details": {
+      "orderId": "ORD534413",
+      "action": "PAYMENT_REJECTED",
+      "previousPaymentStatus": "PENDING_VERIFICATION",
+      "newPaymentStatus": "Rejected",
+      "amount": 90,
+      "reason": "Invalid transaction reference, funds not received"
+    },
+    "timestamp": "2026-10-22T09:38:54.152Z"
+  },
+  {
+    "id": "audit_1792661934151_gtzyyky",
+    "userId": "greensabjies@gmail.com (admin_greensabjies)",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD534413",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "PENDING_VERIFICATION",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 90,
+      "reason": "Reserved stock released back to inventory: Invalid transaction reference, funds not received"
+    },
+    "timestamp": "2026-10-22T09:38:54.151Z"
+  },
+  {
+    "id": "audit_1792661934126_piiy5s5",
+    "userId": "inventory_user@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD534413",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 90,
+      "reason": "Bank reference TXN-REF-1792661934123 submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-22T09:38:54.126Z"
+  },
+  {
+    "id": "audit_1792661934126_17lt69u",
+    "userId": "inventory_user@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD534413",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 90,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-22T09:38:54.126Z"
+  },
+  {
+    "id": "audit_1792661934125_ps3hpzl",
+    "userId": "inventory_user@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD534413",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 90,
+      "reason": "Order placed via PhonePe (UPI)"
+    },
+    "timestamp": "2026-10-22T09:38:54.125Z"
+  },
+  {
+    "id": "audit_1792661934094_u2y0jzi",
+    "userId": "user_ref@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD455445",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Bank reference ICIC/8967/PAY submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-22T09:38:54.094Z"
+  },
+  {
+    "id": "audit_1792661934094_v7115nr",
+    "userId": "user_ref@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD455445",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-22T09:38:54.094Z"
+  },
+  {
+    "id": "audit_1792661934093_j047wzj",
+    "userId": "user_ref@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD455445",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-22T09:38:54.093Z"
+  },
+  {
+    "id": "audit_1792661934069_wbjwvr2",
+    "userId": "user_ref@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD318940",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Bank reference UPI-8967-SBI submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-22T09:38:54.069Z"
+  },
+  {
+    "id": "audit_1792661934069_zdsnzf6",
+    "userId": "user_ref@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD318940",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-22T09:38:54.069Z"
+  },
+  {
+    "id": "audit_1792661934068_fk5mcrt",
+    "userId": "user_ref@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD318940",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-22T09:38:54.068Z"
+  },
+  {
+    "id": "audit_1792661934048_pajkb3p",
+    "userId": "user_ref@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD838654",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Bank reference HDFC001234568967 submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-22T09:38:54.048Z"
+  },
+  {
+    "id": "audit_1792661934048_7k8ukjm",
+    "userId": "user_ref@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD838654",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-22T09:38:54.048Z"
+  },
+  {
+    "id": "audit_1792661934047_tbnmwiq",
+    "userId": "user_ref@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD838654",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-22T09:38:54.047Z"
+  },
+  {
+    "id": "audit_1792661934018_66cf6gu",
+    "userId": "user_ref@example.com",
+    "action": "Payment: VERIFICATION_PENDING",
+    "details": {
+      "orderId": "ORD668647",
+      "action": "VERIFICATION_PENDING",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Bank reference BARB8967 submitted by customer. Awaiting manual admin confirmation."
+    },
+    "timestamp": "2026-10-22T09:38:54.018Z"
+  },
+  {
+    "id": "audit_1792661934018_2vsygny",
+    "userId": "user_ref@example.com",
+    "action": "Payment: STOCK_RESERVED",
+    "details": {
+      "orderId": "ORD668647",
+      "action": "STOCK_RESERVED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Inventory stock reserved pending payment verification"
+    },
+    "timestamp": "2026-10-22T09:38:54.018Z"
+  },
+  {
+    "id": "audit_1792661934018_08w18ov",
+    "userId": "user_ref@example.com",
+    "action": "Payment: ORDER_PLACED",
+    "details": {
+      "orderId": "ORD668647",
+      "action": "ORDER_PLACED",
+      "previousPaymentStatus": "None",
+      "newPaymentStatus": "PENDING_VERIFICATION",
+      "amount": 60,
+      "reason": "Order placed via Google Pay (UPI)"
+    },
+    "timestamp": "2026-10-22T09:38:54.018Z"
+  },
+  {
+    "id": "audit_1792661090114_mr7os9i",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: PAYMENT_EXPIRED",
+    "details": {
+      "orderId": "ORD161444",
+      "action": "PAYMENT_EXPIRED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Checkout window expired without payment verification (>15 min)"
+    },
+    "timestamp": "2026-10-22T09:24:50.114Z"
+  },
+  {
+    "id": "audit_1792661090114_e5id3ga",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD161444",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Cancelled",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Payment window expired without completion"
+    },
+    "timestamp": "2026-10-22T09:24:50.114Z"
+  },
+  {
+    "id": "audit_1792661090114_ozgropc",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: PAYMENT_EXPIRED",
+    "details": {
+      "orderId": "ORD439863",
+      "action": "PAYMENT_EXPIRED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Checkout window expired without payment verification (>15 min)"
+    },
+    "timestamp": "2026-10-22T09:24:50.114Z"
+  },
+  {
+    "id": "audit_1792661090113_639y3vb",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD439863",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Cancelled",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Payment window expired without completion"
+    },
+    "timestamp": "2026-10-22T09:24:50.113Z"
+  },
+  {
+    "id": "audit_1792661090113_6tyjtys",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: PAYMENT_EXPIRED",
+    "details": {
+      "orderId": "ORD236939",
+      "action": "PAYMENT_EXPIRED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Checkout window expired without payment verification (>15 min)"
+    },
+    "timestamp": "2026-10-22T09:24:50.113Z"
+  },
+  {
+    "id": "audit_1792661090112_itxi8d4",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD236939",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Cancelled",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Payment window expired without completion"
+    },
+    "timestamp": "2026-10-22T09:24:50.112Z"
+  },
+  {
+    "id": "audit_1792659859659_ccnsdxb",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: PAYMENT_EXPIRED",
+    "details": {
+      "orderId": "ORD161444",
+      "action": "PAYMENT_EXPIRED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Checkout window expired without payment verification (>15 min)"
+    },
+    "timestamp": "2026-10-22T09:04:19.659Z"
+  },
+  {
+    "id": "audit_1792659859659_b1jayjq",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD161444",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Cancelled",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Payment window expired without completion"
+    },
+    "timestamp": "2026-10-22T09:04:19.659Z"
+  },
+  {
+    "id": "audit_1792659859658_jdp2dob",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: PAYMENT_EXPIRED",
+    "details": {
+      "orderId": "ORD439863",
+      "action": "PAYMENT_EXPIRED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Checkout window expired without payment verification (>15 min)"
+    },
+    "timestamp": "2026-10-22T09:04:19.658Z"
+  },
+  {
+    "id": "audit_1792659859658_4at3edj",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD439863",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Cancelled",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Payment window expired without completion"
+    },
+    "timestamp": "2026-10-22T09:04:19.658Z"
+  },
+  {
+    "id": "audit_1792659859657_r910yen",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: PAYMENT_EXPIRED",
+    "details": {
+      "orderId": "ORD236939",
+      "action": "PAYMENT_EXPIRED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Checkout window expired without payment verification (>15 min)"
+    },
+    "timestamp": "2026-10-22T09:04:19.657Z"
+  },
+  {
+    "id": "audit_1792659859657_p3zzgsh",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD236939",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Cancelled",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Payment window expired without completion"
+    },
+    "timestamp": "2026-10-22T09:04:19.657Z"
+  },
+  {
+    "id": "audit_1792659646903_cnoi846",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: PAYMENT_EXPIRED",
+    "details": {
+      "orderId": "ORD161444",
+      "action": "PAYMENT_EXPIRED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Checkout window expired without payment verification (>15 min)"
+    },
+    "timestamp": "2026-10-22T09:00:46.903Z"
+  },
+  {
+    "id": "audit_1792659646903_vkfpk5d",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD161444",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Cancelled",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Payment window expired without completion"
+    },
+    "timestamp": "2026-10-22T09:00:46.903Z"
+  },
+  {
+    "id": "audit_1792659646903_4hpy0rc",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: PAYMENT_EXPIRED",
+    "details": {
+      "orderId": "ORD439863",
+      "action": "PAYMENT_EXPIRED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Checkout window expired without payment verification (>15 min)"
+    },
+    "timestamp": "2026-10-22T09:00:46.903Z"
+  },
+  {
+    "id": "audit_1792659646902_2f195q6",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD439863",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Cancelled",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Payment window expired without completion"
+    },
+    "timestamp": "2026-10-22T09:00:46.902Z"
+  },
+  {
+    "id": "audit_1792659646901_4gc9l7l",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: PAYMENT_EXPIRED",
+    "details": {
+      "orderId": "ORD236939",
+      "action": "PAYMENT_EXPIRED",
+      "previousPaymentStatus": "Pending",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Checkout window expired without payment verification (>15 min)"
+    },
+    "timestamp": "2026-10-22T09:00:46.901Z"
+  },
+  {
+    "id": "audit_1792659646901_kc09u2l",
+    "userId": "System Expiration Sweeper",
+    "action": "Payment: STOCK_RELEASED",
+    "details": {
+      "orderId": "ORD236939",
+      "action": "STOCK_RELEASED",
+      "previousPaymentStatus": "Cancelled",
+      "newPaymentStatus": "Cancelled",
+      "amount": 60,
+      "reason": "Reserved stock released back to inventory: Payment window expired without completion"
+    },
+    "timestamp": "2026-10-22T09:00:46.901Z"
+  }
+]

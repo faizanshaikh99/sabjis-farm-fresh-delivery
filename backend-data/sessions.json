@@ -1,0 +1,93 @@
+[
+  {
+    "id": "sess_1793437066434_zltyc4e",
+    "token": "sess_1793437066434_zltyc4e",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:57:46.434Z",
+    "expiresAt": "2026-11-30T08:57:46.434Z"
+  },
+  {
+    "id": "sess_1793437045843_vvjpvwd",
+    "token": "sess_1793437045843_vvjpvwd",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:57:25.843Z",
+    "expiresAt": "2026-11-30T08:57:25.843Z"
+  },
+  {
+    "id": "sess_1793437027874_a72o7pr",
+    "token": "sess_1793437027874_a72o7pr",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:57:07.874Z",
+    "expiresAt": "2026-11-30T08:57:07.874Z"
+  },
+  {
+    "id": "sess_1793437014538_1m97ch3",
+    "token": "sess_1793437014538_1m97ch3",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:56:54.538Z",
+    "expiresAt": "2026-11-30T08:56:54.538Z"
+  },
+  {
+    "id": "sess_1793436987867_0en2bzf",
+    "token": "sess_1793436987867_0en2bzf",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:56:27.867Z",
+    "expiresAt": "2026-11-30T08:56:27.867Z"
+  },
+  {
+    "id": "sess_1793436959516_zvi8bak",
+    "token": "sess_1793436959516_zvi8bak",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:55:59.516Z",
+    "expiresAt": "2026-11-30T08:55:59.517Z"
+  },
+  {
+    "id": "sess_1793436915883_teafz01",
+    "token": "sess_1793436915883_teafz01",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:55:15.883Z",
+    "expiresAt": "2026-11-30T08:55:15.883Z"
+  },
+  {
+    "id": "sess_1793436865575_ctttycm",
+    "token": "sess_1793436865575_ctttycm",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:54:25.575Z",
+    "expiresAt": "2026-11-30T08:54:25.575Z"
+  },
+  {
+    "id": "sess_1793037465636_7iujo8l",
+    "token": "sess_1793037465636_7iujo8l",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-26T17:57:45.636Z",
+    "expiresAt": "2026-11-25T17:57:45.636Z"
+  },
+  {
+    "id": "sess_1792661973119_auq7cu7",
+    "token": "sess_1792661973119_auq7cu7",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-22T09:39:33.119Z",
+    "expiresAt": "2026-11-21T09:39:33.119Z"
+  },
+  {
+    "id": "sess_1792661950950_4276rey",
+    "token": "sess_1792661950950_4276rey",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-22T09:39:10.950Z",
+    "expiresAt": "2026-11-21T09:39:10.950Z"
+  },
+  {
+    "id": "sess_1792661933975_m06i40y",
+    "token": "sess_1792661933975_m06i40y",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-22T09:38:53.975Z",
+    "expiresAt": "2026-11-21T09:38:53.975Z"
+  },
+  {
+    "id": "sess_1792661899382_5cz1223",
+    "token": "sess_1792661899382_5cz1223",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-22T09:38:19.382Z",
+    "expiresAt": "2026-11-21T09:38:19.382Z"
+  }
+]
