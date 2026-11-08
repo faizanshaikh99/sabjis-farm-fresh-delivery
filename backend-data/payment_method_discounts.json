@@ -1,0 +1,72 @@
+[
+  {
+    "id": "pmd_cod",
+    "paymentMethod": "cod",
+    "paymentMethodName": "Cash on Delivery (COD)",
+    "discountType": "percent",
+    "discountValue": 2,
+    "minOrder": 300,
+    "maxDiscount": 50,
+    "startDate": null,
+    "endDate": null,
+    "status": "active",
+    "createdAt": "2026-07-01T00:00:00.000Z",
+    "updatedAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "pmd_gpay",
+    "paymentMethod": "gpay",
+    "paymentMethodName": "Google Pay",
+    "discountType": "fixed",
+    "discountValue": 10,
+    "minOrder": 500,
+    "maxDiscount": null,
+    "startDate": null,
+    "endDate": null,
+    "status": "active",
+    "createdAt": "2026-07-01T00:00:00.000Z",
+    "updatedAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "pmd_phonepe",
+    "paymentMethod": "phonepe",
+    "paymentMethodName": "PhonePe",
+    "discountType": "percent",
+    "discountValue": 5,
+    "minOrder": 300,
+    "maxDiscount": 100,
+    "startDate": null,
+    "endDate": null,
+    "status": "active",
+    "createdAt": "2026-07-01T00:00:00.000Z",
+    "updatedAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "pmd_paytm",
+    "paymentMethod": "paytm",
+    "paymentMethodName": "Paytm UPI",
+    "discountType": "fixed",
+    "discountValue": 15,
+    "minOrder": 400,
+    "maxDiscount": null,
+    "startDate": null,
+    "endDate": null,
+    "status": "inactive",
+    "createdAt": "2026-07-01T00:00:00.000Z",
+    "updatedAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "pmd_upi",
+    "paymentMethod": "upi",
+    "paymentMethodName": "UPI / Online Payment",
+    "discountType": "percent",
+    "discountValue": 3,
+    "minOrder": null,
+    "maxDiscount": 30,
+    "startDate": null,
+    "endDate": null,
+    "status": "active",
+    "createdAt": "2026-07-01T00:00:00.000Z",
+    "updatedAt": "2026-07-01T00:00:00.000Z"
+  }
+]

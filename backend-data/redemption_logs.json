@@ -1,0 +1,32 @@
+[
+  {
+    "id": "redempt_1788093681115_168",
+    "orderId": "ORD683328",
+    "code": "SABJI15",
+    "couponCode": "SABJI15",
+    "userId": "unique_1",
+    "userEmail": "unique1@example.com",
+    "discount": 15,
+    "timestamp": "2026-08-30T12:41:21.115Z"
+  },
+  {
+    "id": "redempt_1788093624508_503",
+    "orderId": "ORD952682",
+    "code": "SABJI15",
+    "couponCode": "SABJI15",
+    "userId": "test_user_1",
+    "userEmail": "test@example.com",
+    "discount": 15,
+    "timestamp": "2026-08-30T12:40:24.508Z"
+  },
+  {
+    "id": "redempt_1788093157228_476",
+    "orderId": "ORD889837",
+    "code": "INTO",
+    "couponCode": "INTO",
+    "userId": "usr_1784816103149",
+    "userEmail": "gyani123@gmail.com",
+    "discount": 150,
+    "timestamp": "2026-08-30T12:32:37.228Z"
+  }
+]
