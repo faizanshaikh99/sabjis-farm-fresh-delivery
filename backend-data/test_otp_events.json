@@ -1,0 +1,26 @@
+{
+  "greenpin_email_1794714515061@example.com": {
+    "enc": "889a74fa9f35",
+    "iv": "ec33c2eef3b1398233949789",
+    "tag": "70eb21e31e0132efb64948f0cac88f69",
+    "timestamp": 1794714515258
+  },
+  "9893038893": {
+    "enc": "0cf017867e97",
+    "iv": "4f9d3586ca85e6a753029092",
+    "tag": "d706e7c600b66045c9b3f57fa300cd2f",
+    "timestamp": 1794714515282
+  },
+  "wrong_otp_1794714515330@example.com": {
+    "enc": "0c33d8908b50",
+    "iv": "b23f54cb75a73434da507d93",
+    "tag": "02be92bd8416daa5e5810db0d955adf9",
+    "timestamp": 1794714515409
+  },
+  "9715715452": {
+    "enc": "f7302a97eff2",
+    "iv": "fde645ed8117a48365086b67",
+    "tag": "352bbb173c150cbc0871b2065afd126c",
+    "timestamp": 1794714515578
+  }
+}

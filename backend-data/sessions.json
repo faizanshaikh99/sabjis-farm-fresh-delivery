@@ -1,0 +1,2173 @@
+[
+  {
+    "id": "sess_f208f89163631088c6308270dc4fc569ad8632f8d04032c8",
+    "token": "sess_f208f89163631088c6308270dc4fc569ad8632f8d04032c8",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-15T03:49:14.451Z",
+    "expiresAt": "2026-12-15T03:49:14.451Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_d29722398de1d56c2d803ef0e5a13cb789972ad6f41d7a0c",
+    "token": "sess_d29722398de1d56c2d803ef0e5a13cb789972ad6f41d7a0c",
+    "userId": "usr_temp_legacy_verify",
+    "createdAt": "2026-11-15T03:49:14.375Z",
+    "expiresAt": "2026-12-15T03:49:14.375Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_dc1cd3e77ef906d9e76c02abe9bf561fbe89f5c45072d2f5",
+    "token": "sess_dc1cd3e77ef906d9e76c02abe9bf561fbe89f5c45072d2f5",
+    "userId": "usr_temp_legacy_verify",
+    "createdAt": "2026-11-15T03:49:14.270Z",
+    "expiresAt": "2026-12-15T03:49:14.270Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_4b95e27e36cf27fd254aeef0065881420e4ae0c07e59d528",
+    "token": "sess_4b95e27e36cf27fd254aeef0065881420e4ae0c07e59d528",
+    "userId": "usr_1794714518935",
+    "createdAt": "2026-11-15T03:48:38.980Z",
+    "expiresAt": "2026-12-15T03:48:38.980Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_8725191fa0ea0ee9360c9fae2b3c2e12e7ea8b5c53eb37ea",
+    "token": "sess_8725191fa0ea0ee9360c9fae2b3c2e12e7ea8b5c53eb37ea",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-15T03:48:37.606Z",
+    "expiresAt": "2026-12-15T03:48:37.606Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_d9654590e3498251cc3ddc422dd409a4aa60a4cdd22991de",
+    "token": "sess_d9654590e3498251cc3ddc422dd409a4aa60a4cdd22991de",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-15T03:48:35.990Z",
+    "expiresAt": "2026-12-15T03:48:35.990Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_3e915c1d5d7bf2618f7067b4a20a541418ddaa78105dbb5e",
+    "token": "sess_3e915c1d5d7bf2618f7067b4a20a541418ddaa78105dbb5e",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-15T03:48:35.921Z",
+    "expiresAt": "2026-12-15T03:48:35.921Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_aa7c36b4f59c894553dde3885828dde81d036b1917de2c96",
+    "token": "sess_aa7c36b4f59c894553dde3885828dde81d036b1917de2c96",
+    "userId": "usr_1794714515178",
+    "createdAt": "2026-11-15T03:48:35.764Z",
+    "expiresAt": "2026-12-15T03:48:35.764Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_05fabf090214cf74bd3bdd6ffaa658ac5ffae7d84ecb1654",
+    "token": "sess_05fabf090214cf74bd3bdd6ffaa658ac5ffae7d84ecb1654",
+    "userId": "usr_1794714515484",
+    "createdAt": "2026-11-15T03:48:35.528Z",
+    "expiresAt": "2026-12-15T03:48:35.528Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_7bf5120a7487746d7b8b2c04c9db56eaf7f46b48310f9a85",
+    "token": "sess_7bf5120a7487746d7b8b2c04c9db56eaf7f46b48310f9a85",
+    "userId": "usr_1794714515334",
+    "createdAt": "2026-11-15T03:48:35.381Z",
+    "expiresAt": "2026-12-15T03:48:35.381Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_f6da11fdbed9eb7ec0acd229680dfcf19dd7b2c10dd0a490",
+    "token": "sess_f6da11fdbed9eb7ec0acd229680dfcf19dd7b2c10dd0a490",
+    "userId": "usr_1794714515098",
+    "createdAt": "2026-11-15T03:48:35.144Z",
+    "expiresAt": "2026-12-15T03:48:35.144Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_22f135dcb59a93872cd70d5398072f91b32e6c29949367d4",
+    "token": "sess_22f135dcb59a93872cd70d5398072f91b32e6c29949367d4",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-15T03:48:33.664Z",
+    "expiresAt": "2026-12-15T03:48:33.664Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_7f6f175423279b49a2493bf6ee02532d6da4e677fbc35751",
+    "token": "sess_7f6f175423279b49a2493bf6ee02532d6da4e677fbc35751",
+    "userId": "usr_1794714513023",
+    "createdAt": "2026-11-15T03:48:33.494Z",
+    "expiresAt": "2026-12-15T03:48:33.495Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a1a7b27a0c1c49451b895a66d56ea24f0c83f7d31b187045",
+    "token": "sess_a1a7b27a0c1c49451b895a66d56ea24f0c83f7d31b187045",
+    "userId": "usr_1794714513023",
+    "createdAt": "2026-11-15T03:48:33.304Z",
+    "expiresAt": "2026-12-15T03:48:33.304Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_6064eaeea1cd15d2f8e906b2a26f86310ba223361198a122",
+    "token": "sess_6064eaeea1cd15d2f8e906b2a26f86310ba223361198a122",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-15T03:48:33.160Z",
+    "expiresAt": "2026-12-15T03:48:33.160Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_fb2652c987edd89e09af9b4e09ec0a17a1793def37230b31",
+    "token": "sess_fb2652c987edd89e09af9b4e09ec0a17a1793def37230b31",
+    "userId": "usr_1794714513023",
+    "createdAt": "2026-11-15T03:48:33.069Z",
+    "expiresAt": "2026-12-15T03:48:33.069Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_74855f5a55bae3c4d9cdd69c946f2bfad042f795fcef35f8",
+    "token": "sess_74855f5a55bae3c4d9cdd69c946f2bfad042f795fcef35f8",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-15T03:48:32.998Z",
+    "expiresAt": "2026-12-15T03:48:32.998Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_ad3b51f0b8761c8ee49703f51f0fe34fe643299349d3130f",
+    "token": "sess_ad3b51f0b8761c8ee49703f51f0fe34fe643299349d3130f",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-15T03:48:32.922Z",
+    "expiresAt": "2026-12-15T03:48:32.922Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_d7bfbb79f6520946b8c7eb633f2f1e2403399689028d4f50",
+    "token": "sess_d7bfbb79f6520946b8c7eb633f2f1e2403399689028d4f50",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-15T03:48:32.736Z",
+    "expiresAt": "2026-12-15T03:48:32.736Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a4fdab829747ac78a5199d299d12c2a535babd6a3b74d210",
+    "token": "sess_a4fdab829747ac78a5199d299d12c2a535babd6a3b74d210",
+    "userId": "usr_1794409538369",
+    "createdAt": "2026-11-11T15:05:38.416Z",
+    "expiresAt": "2026-12-11T15:05:38.416Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_ef4c16601ebbda233f6b92608c0878116862c09a38527d17",
+    "token": "sess_ef4c16601ebbda233f6b92608c0878116862c09a38527d17",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T15:05:31.192Z",
+    "expiresAt": "2026-12-11T15:05:31.192Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_8b0165a5f43ba0fb66a0fa64b681f648768ffeea14a9ceb0",
+    "token": "sess_8b0165a5f43ba0fb66a0fa64b681f648768ffeea14a9ceb0",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T15:05:22.942Z",
+    "expiresAt": "2026-12-11T15:05:22.942Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e342414391f8918e347edfc14c1c8cffdb39a92b3f7ffbf4",
+    "token": "sess_e342414391f8918e347edfc14c1c8cffdb39a92b3f7ffbf4",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T15:05:22.871Z",
+    "expiresAt": "2026-12-11T15:05:22.871Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_cc3a44d2c3c516a13134a70b2338cc3e8c30c9000b71306d",
+    "token": "sess_cc3a44d2c3c516a13134a70b2338cc3e8c30c9000b71306d",
+    "userId": "usr_1794409522101",
+    "createdAt": "2026-11-11T15:05:22.720Z",
+    "expiresAt": "2026-12-11T15:05:22.720Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_bb07c76c0fb8de5ffbd4b951def73959c3bd82c2b049d173",
+    "token": "sess_bb07c76c0fb8de5ffbd4b951def73959c3bd82c2b049d173",
+    "userId": "usr_1794409522436",
+    "createdAt": "2026-11-11T15:05:22.482Z",
+    "expiresAt": "2026-12-11T15:05:22.482Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_5e5fc8167237dafb04e9c58df998e8b09058c8b52b12dc94",
+    "token": "sess_5e5fc8167237dafb04e9c58df998e8b09058c8b52b12dc94",
+    "userId": "usr_1794409522276",
+    "createdAt": "2026-11-11T15:05:22.324Z",
+    "expiresAt": "2026-12-11T15:05:22.324Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e5ffc4ed38c8c2204159877fad8e3887c8fd657d648f3b34",
+    "token": "sess_e5ffc4ed38c8c2204159877fad8e3887c8fd657d648f3b34",
+    "userId": "usr_1794409522017",
+    "createdAt": "2026-11-11T15:05:22.066Z",
+    "expiresAt": "2026-12-11T15:05:22.066Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_4bb6d6a4fc1abb1a1a53f0346d4081c06dcf240575529eb2",
+    "token": "sess_4bb6d6a4fc1abb1a1a53f0346d4081c06dcf240575529eb2",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T15:05:11.253Z",
+    "expiresAt": "2026-12-11T15:05:11.253Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_bae0a9660a871927dcbd4a4d176e252c065de9d549daaa8a",
+    "token": "sess_bae0a9660a871927dcbd4a4d176e252c065de9d549daaa8a",
+    "userId": "usr_1794409510632",
+    "createdAt": "2026-11-11T15:05:11.074Z",
+    "expiresAt": "2026-12-11T15:05:11.074Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_49003bb54741ba7b9627214cde8f21b569224d397461549c",
+    "token": "sess_49003bb54741ba7b9627214cde8f21b569224d397461549c",
+    "userId": "usr_1794409510632",
+    "createdAt": "2026-11-11T15:05:10.895Z",
+    "expiresAt": "2026-12-11T15:05:10.895Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_b3d7ca311c4c04842294723920babeae0e93f03f4d89b117",
+    "token": "sess_b3d7ca311c4c04842294723920babeae0e93f03f4d89b117",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T15:05:10.758Z",
+    "expiresAt": "2026-12-11T15:05:10.758Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_ee30e93561fd52cb3ef9fe8f8056d5fd7bd97948abac48cd",
+    "token": "sess_ee30e93561fd52cb3ef9fe8f8056d5fd7bd97948abac48cd",
+    "userId": "usr_1794409510632",
+    "createdAt": "2026-11-11T15:05:10.677Z",
+    "expiresAt": "2026-12-11T15:05:10.677Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e9e427fac6e9ee59a7ea6da2bd1b7df9f9438e2c6dba9264",
+    "token": "sess_e9e427fac6e9ee59a7ea6da2bd1b7df9f9438e2c6dba9264",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T15:05:10.607Z",
+    "expiresAt": "2026-12-11T15:05:10.607Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_d739a8778abdcda2e1a1666b9e0827a736957efa71a708dc",
+    "token": "sess_d739a8778abdcda2e1a1666b9e0827a736957efa71a708dc",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T15:05:10.534Z",
+    "expiresAt": "2026-12-11T15:05:10.534Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_dd2bb0913c2236f0507512c99c5bdcafb0e797fe33e60874",
+    "token": "sess_dd2bb0913c2236f0507512c99c5bdcafb0e797fe33e60874",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T15:05:10.345Z",
+    "expiresAt": "2026-12-11T15:05:10.345Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_ef7626aa72f3a401c5c9b71489dd1433dfc51161b49b2f78",
+    "token": "sess_ef7626aa72f3a401c5c9b71489dd1433dfc51161b49b2f78",
+    "userId": "usr_1794408247123",
+    "createdAt": "2026-11-11T14:44:07.171Z",
+    "expiresAt": "2026-12-11T14:44:07.171Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_389100ba00988a72881ff7a14b507dc7a92ac16740d40234",
+    "token": "sess_389100ba00988a72881ff7a14b507dc7a92ac16740d40234",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:43:45.984Z",
+    "expiresAt": "2026-12-11T14:43:45.984Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_06875d3097a1b62adbd33aa7c6f393355aca406abdc48c81",
+    "token": "sess_06875d3097a1b62adbd33aa7c6f393355aca406abdc48c81",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:43:45.907Z",
+    "expiresAt": "2026-12-11T14:43:45.907Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a5963789a69c7e935a0e63ce34574fcea40d6d8c85ddef1d",
+    "token": "sess_a5963789a69c7e935a0e63ce34574fcea40d6d8c85ddef1d",
+    "userId": "usr_1794408225049",
+    "createdAt": "2026-11-11T14:43:45.745Z",
+    "expiresAt": "2026-12-11T14:43:45.745Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_56f8ac4a9b766ea05da8679dc6ed236bd29ac8337bf6c837",
+    "token": "sess_56f8ac4a9b766ea05da8679dc6ed236bd29ac8337bf6c837",
+    "userId": "usr_1794408225414",
+    "createdAt": "2026-11-11T14:43:45.468Z",
+    "expiresAt": "2026-12-11T14:43:45.468Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_1ef8ce6c22c0c3275da9dad72a536f430984a09e1cb63318",
+    "token": "sess_1ef8ce6c22c0c3275da9dad72a536f430984a09e1cb63318",
+    "userId": "usr_1794408225244",
+    "createdAt": "2026-11-11T14:43:45.294Z",
+    "expiresAt": "2026-12-11T14:43:45.294Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a560e5c561be5e488e0542f47d55f7600946bcbcf341e742",
+    "token": "sess_a560e5c561be5e488e0542f47d55f7600946bcbcf341e742",
+    "userId": "usr_1794408224951",
+    "createdAt": "2026-11-11T14:43:45.010Z",
+    "expiresAt": "2026-12-11T14:43:45.010Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_d68f0b4cecde494768c5aa5d2d83798c27229625d779dc87",
+    "token": "sess_d68f0b4cecde494768c5aa5d2d83798c27229625d779dc87",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:43:35.717Z",
+    "expiresAt": "2026-12-11T14:43:35.717Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e4229e7c8f1ac1a8607184788e8f23d698629d2087d226b1",
+    "token": "sess_e4229e7c8f1ac1a8607184788e8f23d698629d2087d226b1",
+    "userId": "usr_1794408214969",
+    "createdAt": "2026-11-11T14:43:35.529Z",
+    "expiresAt": "2026-12-11T14:43:35.529Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_8c7eb66b5f5f5e9474c4083d080d9cfe00c61a588d6052d2",
+    "token": "sess_8c7eb66b5f5f5e9474c4083d080d9cfe00c61a588d6052d2",
+    "userId": "usr_1794408214969",
+    "createdAt": "2026-11-11T14:43:35.306Z",
+    "expiresAt": "2026-12-11T14:43:35.306Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_bf23ad3507383962307e24151b9029ec7373be50b6d7f8d6",
+    "token": "sess_bf23ad3507383962307e24151b9029ec7373be50b6d7f8d6",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:43:35.131Z",
+    "expiresAt": "2026-12-11T14:43:35.131Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_cc33efb7bb4fdb0fe57f760cedffec32f573fdfab55658d7",
+    "token": "sess_cc33efb7bb4fdb0fe57f760cedffec32f573fdfab55658d7",
+    "userId": "usr_1794408214969",
+    "createdAt": "2026-11-11T14:43:35.025Z",
+    "expiresAt": "2026-12-11T14:43:35.025Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_d371a2b3b96e9b7a809641150776b8e8a2478a0f01fb41d3",
+    "token": "sess_d371a2b3b96e9b7a809641150776b8e8a2478a0f01fb41d3",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:43:34.936Z",
+    "expiresAt": "2026-12-11T14:43:34.936Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a809db17bdab7b7dc720a2f123c1b77f0a4acebcbd7c47f5",
+    "token": "sess_a809db17bdab7b7dc720a2f123c1b77f0a4acebcbd7c47f5",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:43:34.845Z",
+    "expiresAt": "2026-12-11T14:43:34.845Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_ec46f0aae63a06a621e622db28012c3af42dc03a7e6558a9",
+    "token": "sess_ec46f0aae63a06a621e622db28012c3af42dc03a7e6558a9",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:43:34.598Z",
+    "expiresAt": "2026-12-11T14:43:34.598Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_3e03ed433f51b38c1d29e15bffd5db88338d7947bb2abcca",
+    "token": "sess_3e03ed433f51b38c1d29e15bffd5db88338d7947bb2abcca",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:30:30.651Z",
+    "expiresAt": "2026-12-11T14:30:30.651Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_96a8c7a942b26d46204f209d757c9d18d3e7957015274b1d",
+    "token": "sess_96a8c7a942b26d46204f209d757c9d18d3e7957015274b1d",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:30:20.779Z",
+    "expiresAt": "2026-12-11T14:30:20.779Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_48c6b809c2441eea3c7dfa4954c15154ce566ab7c67f449e",
+    "token": "sess_48c6b809c2441eea3c7dfa4954c15154ce566ab7c67f449e",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:30:15.687Z",
+    "expiresAt": "2026-12-11T14:30:15.687Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_3fff694940ee908716331a1b3b137e214f98a652811efe66",
+    "token": "sess_3fff694940ee908716331a1b3b137e214f98a652811efe66",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:30:04.807Z",
+    "expiresAt": "2026-12-11T14:30:04.807Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_c238aa77477550ca28ac9c1a729f1bba224ac76d53326c03",
+    "token": "sess_c238aa77477550ca28ac9c1a729f1bba224ac76d53326c03",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:30:04.730Z",
+    "expiresAt": "2026-12-11T14:30:04.730Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_efc04ad068b7edc7cb119a2bee1293a291f91b8859649bf6",
+    "token": "sess_efc04ad068b7edc7cb119a2bee1293a291f91b8859649bf6",
+    "userId": "usr_1794407403737",
+    "createdAt": "2026-11-11T14:30:04.528Z",
+    "expiresAt": "2026-12-11T14:30:04.528Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_56d7321c183ecbdd40c8f804692198bfa08c8ad55bbadbeb",
+    "token": "sess_56d7321c183ecbdd40c8f804692198bfa08c8ad55bbadbeb",
+    "userId": "usr_1794407404139",
+    "createdAt": "2026-11-11T14:30:04.196Z",
+    "expiresAt": "2026-12-11T14:30:04.196Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_4de04ee7265682793e9cb03a7d810ab6e37f82e4519d3bc4",
+    "token": "sess_4de04ee7265682793e9cb03a7d810ab6e37f82e4519d3bc4",
+    "userId": "usr_1794407403955",
+    "createdAt": "2026-11-11T14:30:04.017Z",
+    "expiresAt": "2026-12-11T14:30:04.017Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_3e44ea6f8760d5571f48f783d698e45e974103ea27e05d3d",
+    "token": "sess_3e44ea6f8760d5571f48f783d698e45e974103ea27e05d3d",
+    "userId": "usr_1794407403627",
+    "createdAt": "2026-11-11T14:30:03.699Z",
+    "expiresAt": "2026-12-11T14:30:03.699Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_b230fc99cf102c1869553139c7b68696e4c1978b35ac319e",
+    "token": "sess_b230fc99cf102c1869553139c7b68696e4c1978b35ac319e",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:29:56.638Z",
+    "expiresAt": "2026-12-11T14:29:56.638Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_f34e7b543d32b569021cb9d54bb7816656ef087e6c930849",
+    "token": "sess_f34e7b543d32b569021cb9d54bb7816656ef087e6c930849",
+    "userId": "usr_1794407395875",
+    "createdAt": "2026-11-11T14:29:56.432Z",
+    "expiresAt": "2026-12-11T14:29:56.432Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_2beaa1592d8d14c5343a7245ac6cb1249c4fff54c15efa8f",
+    "token": "sess_2beaa1592d8d14c5343a7245ac6cb1249c4fff54c15efa8f",
+    "userId": "usr_1794407395875",
+    "createdAt": "2026-11-11T14:29:56.206Z",
+    "expiresAt": "2026-12-11T14:29:56.206Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_cf13a27e1b1573f8564473d5da8ea44281909ec907bb396e",
+    "token": "sess_cf13a27e1b1573f8564473d5da8ea44281909ec907bb396e",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:29:56.033Z",
+    "expiresAt": "2026-12-11T14:29:56.033Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_49004867b6487267dde636c1f7dca79ba36305851780fbc5",
+    "token": "sess_49004867b6487267dde636c1f7dca79ba36305851780fbc5",
+    "userId": "usr_1794407395875",
+    "createdAt": "2026-11-11T14:29:55.929Z",
+    "expiresAt": "2026-12-11T14:29:55.929Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_bd7d262b64dfb7ad125503190210289e798813a592f87146",
+    "token": "sess_bd7d262b64dfb7ad125503190210289e798813a592f87146",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:29:55.850Z",
+    "expiresAt": "2026-12-11T14:29:55.850Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_3744e814ee3b1894ccaef37b528f1272410e4fab756bb953",
+    "token": "sess_3744e814ee3b1894ccaef37b528f1272410e4fab756bb953",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:29:55.762Z",
+    "expiresAt": "2026-12-11T14:29:55.762Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_543aff0c09b16b880e3179583d55a97eed35a41eff9930c3",
+    "token": "sess_543aff0c09b16b880e3179583d55a97eed35a41eff9930c3",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:29:55.589Z",
+    "expiresAt": "2026-12-11T14:29:55.589Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_689ea107435ed921fb3898436e313f81483357cbd17238c7",
+    "token": "sess_689ea107435ed921fb3898436e313f81483357cbd17238c7",
+    "userId": "usr_1794407382542",
+    "createdAt": "2026-11-11T14:29:42.615Z",
+    "expiresAt": "2026-12-11T14:29:42.615Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a8da52b11e8805b12c6faba08f8a862e95edd78dc5d8fee4",
+    "token": "sess_a8da52b11e8805b12c6faba08f8a862e95edd78dc5d8fee4",
+    "userId": "usr_1794407369490",
+    "createdAt": "2026-11-11T14:29:29.566Z",
+    "expiresAt": "2026-12-11T14:29:29.566Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_ed8927c6be1f22248bce60df80cdb7d048b73d612258810a",
+    "token": "sess_ed8927c6be1f22248bce60df80cdb7d048b73d612258810a",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:02:54.426Z",
+    "expiresAt": "2026-12-11T14:02:54.426Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_88daee4a6e8add27e563be1c69d0b99712b0be4b75a6dbee",
+    "token": "sess_88daee4a6e8add27e563be1c69d0b99712b0be4b75a6dbee",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:02:52.498Z",
+    "expiresAt": "2026-12-11T14:02:52.498Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_0483923569d09eaa1373e046cde72ab6db0cd46443f0f154",
+    "token": "sess_0483923569d09eaa1373e046cde72ab6db0cd46443f0f154",
+    "userId": "usr_1794405748379",
+    "createdAt": "2026-11-11T14:02:28.447Z",
+    "expiresAt": "2026-12-11T14:02:28.447Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_ac6d050748edfcc0b20feade801e44adf125130b058a7678",
+    "token": "sess_ac6d050748edfcc0b20feade801e44adf125130b058a7678",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:02:26.028Z",
+    "expiresAt": "2026-12-11T14:02:26.028Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_6bc570b326d2af31ae07fed7a1e3335e39a9c40f3554c7c9",
+    "token": "sess_6bc570b326d2af31ae07fed7a1e3335e39a9c40f3554c7c9",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:02:24.108Z",
+    "expiresAt": "2026-12-11T14:02:24.108Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_c2b7b8452e448b7fe12ad5cfa67b56addd16a927358420d2",
+    "token": "sess_c2b7b8452e448b7fe12ad5cfa67b56addd16a927358420d2",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:01:57.971Z",
+    "expiresAt": "2026-12-11T14:01:57.971Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a187bc07dc6920f2ecadd2f27bc8f40c2c352abae1ad8485",
+    "token": "sess_a187bc07dc6920f2ecadd2f27bc8f40c2c352abae1ad8485",
+    "userId": "usr_1794405717184",
+    "createdAt": "2026-11-11T14:01:57.746Z",
+    "expiresAt": "2026-12-11T14:01:57.746Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_8262fc4923ad458443dd6c1aa88a1a953434c6f6c7116ea9",
+    "token": "sess_8262fc4923ad458443dd6c1aa88a1a953434c6f6c7116ea9",
+    "userId": "usr_1794405717184",
+    "createdAt": "2026-11-11T14:01:57.516Z",
+    "expiresAt": "2026-12-11T14:01:57.516Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_3726de860a322fa757a532295a55232d062cc890201d0fcd",
+    "token": "sess_3726de860a322fa757a532295a55232d062cc890201d0fcd",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:01:57.358Z",
+    "expiresAt": "2026-12-11T14:01:57.358Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_93268b1553de541da723ebf1d870432f2a0a26203a8dcddb",
+    "token": "sess_93268b1553de541da723ebf1d870432f2a0a26203a8dcddb",
+    "userId": "usr_1794405717184",
+    "createdAt": "2026-11-11T14:01:57.242Z",
+    "expiresAt": "2026-12-11T14:01:57.242Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e7ba8c12633734ae8806f2b40ec5ae7ef15a0525042be572",
+    "token": "sess_e7ba8c12633734ae8806f2b40ec5ae7ef15a0525042be572",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:01:57.152Z",
+    "expiresAt": "2026-12-11T14:01:57.152Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a6bafc74bb636b5bc1bc01ef51c6b2c656055bad76d7eb58",
+    "token": "sess_a6bafc74bb636b5bc1bc01ef51c6b2c656055bad76d7eb58",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:01:57.047Z",
+    "expiresAt": "2026-12-11T14:01:57.047Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_00bffe27584800466b73d904834b0baad8e58ee3eaee39a0",
+    "token": "sess_00bffe27584800466b73d904834b0baad8e58ee3eaee39a0",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:01:56.841Z",
+    "expiresAt": "2026-12-11T14:01:56.841Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_00365c67c03613f52619340e9a77f106ab572550b7feb2d2",
+    "token": "sess_00365c67c03613f52619340e9a77f106ab572550b7feb2d2",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:01:55.338Z",
+    "expiresAt": "2026-12-11T14:01:55.338Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_efdadb99db185cacd84234374397d925242d9d56d3bbd1d3",
+    "token": "sess_efdadb99db185cacd84234374397d925242d9d56d3bbd1d3",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:01:53.519Z",
+    "expiresAt": "2026-12-11T14:01:53.519Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_4bb0ebd83d598dced02d31ac8b380f4dd5ca781e953c6da5",
+    "token": "sess_4bb0ebd83d598dced02d31ac8b380f4dd5ca781e953c6da5",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:01:53.425Z",
+    "expiresAt": "2026-12-11T14:01:53.425Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_7ca346f8fc59153b078138603271d05fb019dc255b60b3f5",
+    "token": "sess_7ca346f8fc59153b078138603271d05fb019dc255b60b3f5",
+    "userId": "usr_1794405712450",
+    "createdAt": "2026-11-11T14:01:53.256Z",
+    "expiresAt": "2026-12-11T14:01:53.256Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_4ab86fb88c449f7172f64efe9dabc3c917563b4d116492f4",
+    "token": "sess_4ab86fb88c449f7172f64efe9dabc3c917563b4d116492f4",
+    "userId": "usr_1794405712877",
+    "createdAt": "2026-11-11T14:01:52.928Z",
+    "expiresAt": "2026-12-11T14:01:52.928Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_075ca90aff9f8c4b26b7a1a681943885776da23d56996d7a",
+    "token": "sess_075ca90aff9f8c4b26b7a1a681943885776da23d56996d7a",
+    "userId": "usr_1794405712658",
+    "createdAt": "2026-11-11T14:01:52.734Z",
+    "expiresAt": "2026-12-11T14:01:52.734Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a09d8760914b599b821ca459dfe5c2ee94b0074a2e746774",
+    "token": "sess_a09d8760914b599b821ca459dfe5c2ee94b0074a2e746774",
+    "userId": "usr_1794405712305",
+    "createdAt": "2026-11-11T14:01:52.416Z",
+    "expiresAt": "2026-12-11T14:01:52.416Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_49f5d36480291a2bb6515a9180fc0a3912d77f9fdabcba44",
+    "token": "sess_49f5d36480291a2bb6515a9180fc0a3912d77f9fdabcba44",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:00:25.842Z",
+    "expiresAt": "2026-12-11T14:00:25.842Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a6332d66c40a31aae5401586fdaf89717bfd4aa96aa30446",
+    "token": "sess_a6332d66c40a31aae5401586fdaf89717bfd4aa96aa30446",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T14:00:23.455Z",
+    "expiresAt": "2026-12-11T14:00:23.455Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_09ec5a81b973f34b9050caee7bb04a879dbcafebf3f83b39",
+    "token": "sess_09ec5a81b973f34b9050caee7bb04a879dbcafebf3f83b39",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T14:00:23.274Z",
+    "expiresAt": "2026-12-11T14:00:23.274Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_db7080ad6290219a55ab531a045ddd9d23b131e310d6f1da",
+    "token": "sess_db7080ad6290219a55ab531a045ddd9d23b131e310d6f1da",
+    "userId": "usr_1794405622097",
+    "createdAt": "2026-11-11T14:00:23.002Z",
+    "expiresAt": "2026-12-11T14:00:23.002Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_9a8ffac034ed292735bc694229670a01b9cb44a11cf63dde",
+    "token": "sess_9a8ffac034ed292735bc694229670a01b9cb44a11cf63dde",
+    "userId": "usr_1794405622521",
+    "createdAt": "2026-11-11T14:00:22.589Z",
+    "expiresAt": "2026-12-11T14:00:22.589Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_5e5f710ea3280076aa1d4557d436d39e81fbc9c8486cf48a",
+    "token": "sess_5e5f710ea3280076aa1d4557d436d39e81fbc9c8486cf48a",
+    "userId": "usr_1794405622350",
+    "createdAt": "2026-11-11T14:00:22.413Z",
+    "expiresAt": "2026-12-11T14:00:22.413Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_7fe42796894c798fe34fd2ab6873cb2625f18bcc493bcb62",
+    "token": "sess_7fe42796894c798fe34fd2ab6873cb2625f18bcc493bcb62",
+    "userId": "usr_1794405621952",
+    "createdAt": "2026-11-11T14:00:22.041Z",
+    "expiresAt": "2026-12-11T14:00:22.041Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_7f76cd32b184d631c7e3c19bdb4b9e45eb804c6353d7835e",
+    "token": "sess_7f76cd32b184d631c7e3c19bdb4b9e45eb804c6353d7835e",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T13:37:36.606Z",
+    "expiresAt": "2026-12-11T13:37:36.606Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_07189b79658230cc573e480c1072ae6cc6305f3d15f6c546",
+    "token": "sess_07189b79658230cc573e480c1072ae6cc6305f3d15f6c546",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T13:37:33.738Z",
+    "expiresAt": "2026-12-11T13:37:33.738Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_45c88b528dc227037c2d686f18302802807c0b31a4f1e301",
+    "token": "sess_45c88b528dc227037c2d686f18302802807c0b31a4f1e301",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T13:37:32.243Z",
+    "expiresAt": "2026-12-11T13:37:32.243Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_7bfd7d185202dc2bdcdbdabf1b80346795fb331f293721c3",
+    "token": "sess_7bfd7d185202dc2bdcdbdabf1b80346795fb331f293721c3",
+    "userId": "usr_1794404251465",
+    "createdAt": "2026-11-11T13:37:32.022Z",
+    "expiresAt": "2026-12-11T13:37:32.022Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_fe22228071b5414db52e9199f574725a89409414184d1398",
+    "token": "sess_fe22228071b5414db52e9199f574725a89409414184d1398",
+    "userId": "usr_1794404251465",
+    "createdAt": "2026-11-11T13:37:31.793Z",
+    "expiresAt": "2026-12-11T13:37:31.793Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_2eb7b855263de74b640cea871473168db746e65d643bf1f1",
+    "token": "sess_2eb7b855263de74b640cea871473168db746e65d643bf1f1",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T13:37:31.637Z",
+    "expiresAt": "2026-12-11T13:37:31.637Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_2d0972e28cc64023e25d71474b1d8038b7c090818aecebbf",
+    "token": "sess_2d0972e28cc64023e25d71474b1d8038b7c090818aecebbf",
+    "userId": "usr_1794404251465",
+    "createdAt": "2026-11-11T13:37:31.522Z",
+    "expiresAt": "2026-12-11T13:37:31.522Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_9f0aa3573db7f369006920dee697e111940cac3139c9688b",
+    "token": "sess_9f0aa3573db7f369006920dee697e111940cac3139c9688b",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T13:37:31.436Z",
+    "expiresAt": "2026-12-11T13:37:31.436Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_3e017f1085bf85f95668a17057d1cbc65448238e8de529c0",
+    "token": "sess_3e017f1085bf85f95668a17057d1cbc65448238e8de529c0",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T13:37:31.355Z",
+    "expiresAt": "2026-12-11T13:37:31.355Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_434d66585648e0d8cc965ae935ff3f04ae57f7a557993850",
+    "token": "sess_434d66585648e0d8cc965ae935ff3f04ae57f7a557993850",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T13:37:31.182Z",
+    "expiresAt": "2026-12-11T13:37:31.182Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_997b96aebc982b2ab3b7c463a342b71b253d3ccd8662c2bc",
+    "token": "sess_997b96aebc982b2ab3b7c463a342b71b253d3ccd8662c2bc",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T13:37:09.333Z",
+    "expiresAt": "2026-12-11T13:37:09.333Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_1513910c2bba0af2af3fdb5e5242e979ec87c709591b5f00",
+    "token": "sess_1513910c2bba0af2af3fdb5e5242e979ec87c709591b5f00",
+    "userId": "usr_1794404227676",
+    "createdAt": "2026-11-11T13:37:07.738Z",
+    "expiresAt": "2026-12-11T13:37:07.738Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_bcc2ae40132f1023c84fa33b912da82ebce514a9ad98d1a9",
+    "token": "sess_bcc2ae40132f1023c84fa33b912da82ebce514a9ad98d1a9",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T13:36:08.486Z",
+    "expiresAt": "2026-12-11T13:36:08.486Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_b96f50493485d41c48bf0fc20148a4ace9fc5d252ece6acb",
+    "token": "sess_b96f50493485d41c48bf0fc20148a4ace9fc5d252ece6acb",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T13:35:48.583Z",
+    "expiresAt": "2026-12-11T13:35:48.583Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_2c3491dea6c766ad9931509fb2b77daffae00d54cab6408b",
+    "token": "sess_2c3491dea6c766ad9931509fb2b77daffae00d54cab6408b",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T13:35:48.502Z",
+    "expiresAt": "2026-12-11T13:35:48.502Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_0ee39071cba646ea1f7c39820af5401292db5cd2d3a36a00",
+    "token": "sess_0ee39071cba646ea1f7c39820af5401292db5cd2d3a36a00",
+    "userId": "usr_1794404147526",
+    "createdAt": "2026-11-11T13:35:48.324Z",
+    "expiresAt": "2026-12-11T13:35:48.324Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_44e7569d6b742cd25946be739a100b46c6627a0fb815775a",
+    "token": "sess_44e7569d6b742cd25946be739a100b46c6627a0fb815775a",
+    "userId": "usr_1794404147879",
+    "createdAt": "2026-11-11T13:35:47.965Z",
+    "expiresAt": "2026-12-11T13:35:47.965Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_227e47a19fb3d4fec69f4e4b78d7ed015c16b3434eacd35a",
+    "token": "sess_227e47a19fb3d4fec69f4e4b78d7ed015c16b3434eacd35a",
+    "userId": "usr_1794404147701",
+    "createdAt": "2026-11-11T13:35:47.771Z",
+    "expiresAt": "2026-12-11T13:35:47.771Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_89ea67c3402ab682364aeaacfb3cd4ddd6b23d1704e292d1",
+    "token": "sess_89ea67c3402ab682364aeaacfb3cd4ddd6b23d1704e292d1",
+    "userId": "usr_1794404147403",
+    "createdAt": "2026-11-11T13:35:47.480Z",
+    "expiresAt": "2026-12-11T13:35:47.480Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_dc69eb15b4a8ef66caac6dd6da8b5f4a1172dcb5284c3bb4",
+    "token": "sess_dc69eb15b4a8ef66caac6dd6da8b5f4a1172dcb5284c3bb4",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T13:35:33.761Z",
+    "expiresAt": "2026-12-11T13:35:33.761Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_badded4d7d983eb552b8515a965e988e4ff8f6609884dce9",
+    "token": "sess_badded4d7d983eb552b8515a965e988e4ff8f6609884dce9",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T12:05:41.087Z",
+    "expiresAt": "2026-12-11T12:05:41.087Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_2b9dddbf9ae74e37df0b93be7e46a7d726466ace32425bae",
+    "token": "sess_2b9dddbf9ae74e37df0b93be7e46a7d726466ace32425bae",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T12:03:21.747Z",
+    "expiresAt": "2026-12-11T12:03:21.747Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e522939ce840548ddaf8c29364c9f180923e03f8d8ceb736",
+    "token": "sess_e522939ce840548ddaf8c29364c9f180923e03f8d8ceb736",
+    "userId": "usr_1794398578653",
+    "createdAt": "2026-11-11T12:02:58.715Z",
+    "expiresAt": "2026-12-11T12:02:58.715Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_8dc7fabe11704ab370b135eb551683ac1212592c84ddb751",
+    "token": "sess_8dc7fabe11704ab370b135eb551683ac1212592c84ddb751",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T12:02:35.069Z",
+    "expiresAt": "2026-12-11T12:02:35.069Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_9425c1f9b6d2d2095138f21d029c46c275e9ad7796fe058d",
+    "token": "sess_9425c1f9b6d2d2095138f21d029c46c275e9ad7796fe058d",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T12:01:33.700Z",
+    "expiresAt": "2026-12-11T12:01:33.700Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_0679f7310dd996f5a0e18aa424bbae753246a35f998aa7d4",
+    "token": "sess_0679f7310dd996f5a0e18aa424bbae753246a35f998aa7d4",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T12:00:46.961Z",
+    "expiresAt": "2026-12-11T12:00:46.961Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_f8f1615e350e5f7a3905fe67054d449c2fe2312ad311e106",
+    "token": "sess_f8f1615e350e5f7a3905fe67054d449c2fe2312ad311e106",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T12:00:46.880Z",
+    "expiresAt": "2026-12-11T12:00:46.880Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_992d358515c0ae133ac81e46a17cb1a071cc30c8f4da5067",
+    "token": "sess_992d358515c0ae133ac81e46a17cb1a071cc30c8f4da5067",
+    "userId": "usr_1794398446038",
+    "createdAt": "2026-11-11T12:00:46.696Z",
+    "expiresAt": "2026-12-11T12:00:46.696Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_c1aa9fe810af84d96853c6ca0ea80e5dd1732d4ada047565",
+    "token": "sess_c1aa9fe810af84d96853c6ca0ea80e5dd1732d4ada047565",
+    "userId": "usr_1794398446379",
+    "createdAt": "2026-11-11T12:00:46.434Z",
+    "expiresAt": "2026-12-11T12:00:46.434Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e183bc80ee163ad72d610387fef90be19c02e4198de34472",
+    "token": "sess_e183bc80ee163ad72d610387fef90be19c02e4198de34472",
+    "userId": "usr_1794398446219",
+    "createdAt": "2026-11-11T12:00:46.282Z",
+    "expiresAt": "2026-12-11T12:00:46.282Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_3ad88ec5b56d34251dbf552e6ab81cab475fa9acf014436d",
+    "token": "sess_3ad88ec5b56d34251dbf552e6ab81cab475fa9acf014436d",
+    "userId": "usr_1794398445944",
+    "createdAt": "2026-11-11T12:00:46.003Z",
+    "expiresAt": "2026-12-11T12:00:46.003Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_bfb3b5b03cfd78c18a94d188a20064d531f6534726084f3c",
+    "token": "sess_bfb3b5b03cfd78c18a94d188a20064d531f6534726084f3c",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T12:00:24.398Z",
+    "expiresAt": "2026-12-11T12:00:24.398Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_21ce511acd1bf46dafaa7115f1026389172e73abb6254d7d",
+    "token": "sess_21ce511acd1bf46dafaa7115f1026389172e73abb6254d7d",
+    "userId": "usr_1794398423709",
+    "createdAt": "2026-11-11T12:00:24.209Z",
+    "expiresAt": "2026-12-11T12:00:24.209Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_2a2c0024e7d9a4957d2503c1adb365bf47f93651dc04ffb1",
+    "token": "sess_2a2c0024e7d9a4957d2503c1adb365bf47f93651dc04ffb1",
+    "userId": "usr_1794398423709",
+    "createdAt": "2026-11-11T12:00:24.021Z",
+    "expiresAt": "2026-12-11T12:00:24.021Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_7b66a7f3e1b23ab2039effa08b3bfdbeaa354084f6f929cb",
+    "token": "sess_7b66a7f3e1b23ab2039effa08b3bfdbeaa354084f6f929cb",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T12:00:23.862Z",
+    "expiresAt": "2026-12-11T12:00:23.862Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_dce4161b55765d52c2f11f2ebbe100751b9d0fad06db44f4",
+    "token": "sess_dce4161b55765d52c2f11f2ebbe100751b9d0fad06db44f4",
+    "userId": "usr_1794398423709",
+    "createdAt": "2026-11-11T12:00:23.769Z",
+    "expiresAt": "2026-12-11T12:00:23.769Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_b7f17ef7e6f5c04afba672d1dd74993a85f6e2aa621659dc",
+    "token": "sess_b7f17ef7e6f5c04afba672d1dd74993a85f6e2aa621659dc",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T12:00:23.686Z",
+    "expiresAt": "2026-12-11T12:00:23.686Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_f6ab0fd596f95355debe05bb17d4d21ca67b7e1d9d2b3519",
+    "token": "sess_f6ab0fd596f95355debe05bb17d4d21ca67b7e1d9d2b3519",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T12:00:23.593Z",
+    "expiresAt": "2026-12-11T12:00:23.593Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_87a56c25833e8b78f101860cb478432f64c8fced8cb6666c",
+    "token": "sess_87a56c25833e8b78f101860cb478432f64c8fced8cb6666c",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T12:00:23.373Z",
+    "expiresAt": "2026-12-11T12:00:23.373Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_5f6e1a5697cbc31a348518c1a0bbf8431acf0ebf6851f2e6",
+    "token": "sess_5f6e1a5697cbc31a348518c1a0bbf8431acf0ebf6851f2e6",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T11:47:11.830Z",
+    "expiresAt": "2026-12-11T11:47:11.830Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_f44c566430afca11a522fcef7c54223ecdc17365af91b5a7",
+    "token": "sess_f44c566430afca11a522fcef7c54223ecdc17365af91b5a7",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T11:47:11.755Z",
+    "expiresAt": "2026-12-11T11:47:11.755Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_c6bc32e9b6f2f56383c49f0e98237454d8dac736969a9c70",
+    "token": "sess_c6bc32e9b6f2f56383c49f0e98237454d8dac736969a9c70",
+    "userId": "usr_1794397630932",
+    "createdAt": "2026-11-11T11:47:11.593Z",
+    "expiresAt": "2026-12-11T11:47:11.593Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_2dd67f84bbf2315c1cc6257cd1d83a346fd7b036a9e01b20",
+    "token": "sess_2dd67f84bbf2315c1cc6257cd1d83a346fd7b036a9e01b20",
+    "userId": "usr_1794397631278",
+    "createdAt": "2026-11-11T11:47:11.330Z",
+    "expiresAt": "2026-12-11T11:47:11.330Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_9ee652ac972075358b2fd4a29b0e5beb8b9e161841070822",
+    "token": "sess_9ee652ac972075358b2fd4a29b0e5beb8b9e161841070822",
+    "userId": "usr_1794397631124",
+    "createdAt": "2026-11-11T11:47:11.186Z",
+    "expiresAt": "2026-12-11T11:47:11.186Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_f5fcdd2d8ed573a265a4b556f5e5643bbae9cbd566390625",
+    "token": "sess_f5fcdd2d8ed573a265a4b556f5e5643bbae9cbd566390625",
+    "userId": "usr_1794397630839",
+    "createdAt": "2026-11-11T11:47:10.895Z",
+    "expiresAt": "2026-12-11T11:47:10.895Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_7619e8b9f2af62566bb80b5d12fe871503f8a50d69df3433",
+    "token": "sess_7619e8b9f2af62566bb80b5d12fe871503f8a50d69df3433",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T11:46:49.886Z",
+    "expiresAt": "2026-12-11T11:46:49.886Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_56cbb3e377d34efac504a9588ff2a2c525dbea154fcf1f2c",
+    "token": "sess_56cbb3e377d34efac504a9588ff2a2c525dbea154fcf1f2c",
+    "userId": "usr_1794397609224",
+    "createdAt": "2026-11-11T11:46:49.706Z",
+    "expiresAt": "2026-12-11T11:46:49.706Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a5a4035fae0f84e82f1b9d86db81f440668dcf04d348e7ab",
+    "token": "sess_a5a4035fae0f84e82f1b9d86db81f440668dcf04d348e7ab",
+    "userId": "usr_1794397609224",
+    "createdAt": "2026-11-11T11:46:49.513Z",
+    "expiresAt": "2026-12-11T11:46:49.513Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_c256d1242cc549d37af3e11202664ab483d14945b4075e79",
+    "token": "sess_c256d1242cc549d37af3e11202664ab483d14945b4075e79",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T11:46:49.366Z",
+    "expiresAt": "2026-12-11T11:46:49.366Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e87f7488282bcd738bfea4edf725099c31d589c3844eb8da",
+    "token": "sess_e87f7488282bcd738bfea4edf725099c31d589c3844eb8da",
+    "userId": "usr_1794397609224",
+    "createdAt": "2026-11-11T11:46:49.277Z",
+    "expiresAt": "2026-12-11T11:46:49.277Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_cb9dc6cc590dc16e7c4c726d59b01e07071e23c0d1ef23db",
+    "token": "sess_cb9dc6cc590dc16e7c4c726d59b01e07071e23c0d1ef23db",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T11:46:49.201Z",
+    "expiresAt": "2026-12-11T11:46:49.201Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_6aba3ca4277ed3fe45415e985920811f0c28f4ca4c17312f",
+    "token": "sess_6aba3ca4277ed3fe45415e985920811f0c28f4ca4c17312f",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T11:46:49.120Z",
+    "expiresAt": "2026-12-11T11:46:49.120Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_f2744a21dae65dbe17efcbee93e82f36b9c31bf60ff4bce8",
+    "token": "sess_f2744a21dae65dbe17efcbee93e82f36b9c31bf60ff4bce8",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T11:46:48.866Z",
+    "expiresAt": "2026-12-11T11:46:48.866Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_dd4df7ceebf101bd40a4be143ac2ed15de3f097858156162",
+    "token": "sess_dd4df7ceebf101bd40a4be143ac2ed15de3f097858156162",
+    "userId": "u_pree",
+    "createdAt": "2026-11-11T11:25:55.955Z",
+    "expiresAt": "2026-12-11T11:25:55.955Z",
+    "device": "curl/7.88.1",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_35f08a7235de107e1712fd5a0d67d999cec569926f3e6a2b",
+    "token": "sess_35f08a7235de107e1712fd5a0d67d999cec569926f3e6a2b",
+    "userId": "u_pree",
+    "createdAt": "2026-11-11T11:25:31.360Z",
+    "expiresAt": "2026-12-11T11:25:31.360Z",
+    "device": "curl/7.88.1",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e9e20beec26b9df40ed541ab02d5dbd7fd6181d801f63060",
+    "token": "sess_e9e20beec26b9df40ed541ab02d5dbd7fd6181d801f63060",
+    "userId": "usr_1794198259205",
+    "createdAt": "2026-11-11T11:22:05.997Z",
+    "expiresAt": "2026-12-11T11:22:05.997Z",
+    "device": "curl/7.88.1",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_3053e12cf95439ea346c32ed2381c887d2c42382bccb79a6",
+    "token": "sess_3053e12cf95439ea346c32ed2381c887d2c42382bccb79a6",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T11:10:13.902Z",
+    "expiresAt": "2026-12-11T11:10:13.902Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_b2cb2803ef912dbe4763a81bcea216b6af9821ba3a15d03d",
+    "token": "sess_b2cb2803ef912dbe4763a81bcea216b6af9821ba3a15d03d",
+    "userId": "usr_1794395413387",
+    "createdAt": "2026-11-11T11:10:13.759Z",
+    "expiresAt": "2026-12-11T11:10:13.759Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_cdfb4906ffdcce8bb59cf855addde960f78c3c3800491043",
+    "token": "sess_cdfb4906ffdcce8bb59cf855addde960f78c3c3800491043",
+    "userId": "usr_1794395413387",
+    "createdAt": "2026-11-11T11:10:13.620Z",
+    "expiresAt": "2026-12-11T11:10:13.620Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_6d64d15073491cd14c9c034ec21d8705c84f2ff797e1df2d",
+    "token": "sess_6d64d15073491cd14c9c034ec21d8705c84f2ff797e1df2d",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T11:10:13.499Z",
+    "expiresAt": "2026-12-11T11:10:13.499Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_6bafab486432b5b19f9bd20ccb4f405e2fe1c03cafbc9834",
+    "token": "sess_6bafab486432b5b19f9bd20ccb4f405e2fe1c03cafbc9834",
+    "userId": "usr_1794395413387",
+    "createdAt": "2026-11-11T11:10:13.430Z",
+    "expiresAt": "2026-12-11T11:10:13.430Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_74a4c6aea0cd6fae327a9d3c70a703da9c286fc84f7cfc88",
+    "token": "sess_74a4c6aea0cd6fae327a9d3c70a703da9c286fc84f7cfc88",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T11:10:13.370Z",
+    "expiresAt": "2026-12-11T11:10:13.370Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_dd705e5c14bc6ed18333ca231f5ba80fec9942efb897281e",
+    "token": "sess_dd705e5c14bc6ed18333ca231f5ba80fec9942efb897281e",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T11:10:13.309Z",
+    "expiresAt": "2026-12-11T11:10:13.309Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_93afd5bdaa3523a0abc4a26d728ddedb5377f49af88aa296",
+    "token": "sess_93afd5bdaa3523a0abc4a26d728ddedb5377f49af88aa296",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T11:10:13.179Z",
+    "expiresAt": "2026-12-11T11:10:13.179Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_08d981577e20b5195e79ceca01054fcad676e35c22740939",
+    "token": "sess_08d981577e20b5195e79ceca01054fcad676e35c22740939",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-11T11:09:59.855Z",
+    "expiresAt": "2026-12-11T11:09:59.855Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_692cea404ace24c5c54805295def49f9af548379fc716ab5",
+    "token": "sess_692cea404ace24c5c54805295def49f9af548379fc716ab5",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-11T11:09:59.794Z",
+    "expiresAt": "2026-12-11T11:09:59.794Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_1520dcc9679d0dbea4a231566a1cd9931bac1a58840be176",
+    "token": "sess_1520dcc9679d0dbea4a231566a1cd9931bac1a58840be176",
+    "userId": "usr_1794395399194",
+    "createdAt": "2026-11-11T11:09:59.664Z",
+    "expiresAt": "2026-12-11T11:09:59.664Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_5543c4452b7c4e74bf9397700c872121b5032f0dc8bc4182",
+    "token": "sess_5543c4452b7c4e74bf9397700c872121b5032f0dc8bc4182",
+    "userId": "usr_1794395399436",
+    "createdAt": "2026-11-11T11:09:59.480Z",
+    "expiresAt": "2026-12-11T11:09:59.480Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_2f95ad41c7f661d13027829aa62ba5dcd0adb3e9b1552205",
+    "token": "sess_2f95ad41c7f661d13027829aa62ba5dcd0adb3e9b1552205",
+    "userId": "usr_1794395399316",
+    "createdAt": "2026-11-11T11:09:59.367Z",
+    "expiresAt": "2026-12-11T11:09:59.367Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_11195d4e923e0421523ec907bf822a52928d937c2dfcb2ec",
+    "token": "sess_11195d4e923e0421523ec907bf822a52928d937c2dfcb2ec",
+    "userId": "usr_1794395399124",
+    "createdAt": "2026-11-11T11:09:59.171Z",
+    "expiresAt": "2026-12-11T11:09:59.171Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_09a22ef97fd5172c78c996d41022d8f0a136cf247f83a67e",
+    "token": "sess_09a22ef97fd5172c78c996d41022d8f0a136cf247f83a67e",
+    "userId": "usr_1794395346446",
+    "createdAt": "2026-11-11T11:09:06.908Z",
+    "expiresAt": "2026-12-11T11:09:06.908Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_79953bdd2443680811ff192df9073ab433eb82ecf3e19793",
+    "token": "sess_79953bdd2443680811ff192df9073ab433eb82ecf3e19793",
+    "userId": "usr_1794395346680",
+    "createdAt": "2026-11-11T11:09:06.723Z",
+    "expiresAt": "2026-12-11T11:09:06.723Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_5489192cc4349a38af86e24ffa5c5948a1d9e4c56c05ad1d",
+    "token": "sess_5489192cc4349a38af86e24ffa5c5948a1d9e4c56c05ad1d",
+    "userId": "usr_1794395346567",
+    "createdAt": "2026-11-11T11:09:06.610Z",
+    "expiresAt": "2026-12-11T11:09:06.610Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_6ec82b233b5e66093913e427cad40220f0dd8da866d091a1",
+    "token": "sess_6ec82b233b5e66093913e427cad40220f0dd8da866d091a1",
+    "userId": "usr_1794395346364",
+    "createdAt": "2026-11-11T11:09:06.423Z",
+    "expiresAt": "2026-12-11T11:09:06.423Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_76c9cf9decdfb66224901a945ad0349ed9a9d73d517be258",
+    "token": "sess_76c9cf9decdfb66224901a945ad0349ed9a9d73d517be258",
+    "userId": "usr_1794395263097",
+    "createdAt": "2026-11-11T11:07:43.149Z",
+    "expiresAt": "2026-12-11T11:07:43.149Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_76a10c0bd4a28db67832207e2f9a058bfebe1a6bb4db4e63",
+    "token": "sess_76a10c0bd4a28db67832207e2f9a058bfebe1a6bb4db4e63",
+    "userId": "usr_1794395262951",
+    "createdAt": "2026-11-11T11:07:42.996Z",
+    "expiresAt": "2026-12-11T11:07:42.996Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_f2a3f236c4fac8b2513b51b21594f75070a01913d20e6eee",
+    "token": "sess_f2a3f236c4fac8b2513b51b21594f75070a01913d20e6eee",
+    "userId": "usr_1794395262884",
+    "createdAt": "2026-11-11T11:07:42.929Z",
+    "expiresAt": "2026-12-11T11:07:42.929Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_64792ebb191b345d94fc1f6eed850413d310c5a0aaeae3e6",
+    "token": "sess_64792ebb191b345d94fc1f6eed850413d310c5a0aaeae3e6",
+    "userId": "usr_1794395240164",
+    "createdAt": "2026-11-11T11:07:20.222Z",
+    "expiresAt": "2026-12-11T11:07:20.222Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_0bf367f0dcaeb301e6c2b944fd905c0495bbd2b768afcbe0",
+    "token": "sess_0bf367f0dcaeb301e6c2b944fd905c0495bbd2b768afcbe0",
+    "userId": "usr_1794395240076",
+    "createdAt": "2026-11-11T11:07:20.139Z",
+    "expiresAt": "2026-12-11T11:07:20.139Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_86e4c818b7f7d48d68ad29920b3f719e53811b8cb00cb580",
+    "token": "sess_86e4c818b7f7d48d68ad29920b3f719e53811b8cb00cb580",
+    "userId": "usr_1794395203208",
+    "createdAt": "2026-11-11T11:06:43.253Z",
+    "expiresAt": "2026-12-11T11:06:43.253Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_dc70bc8ea0fc20c6edda89fe452914539b7907ac3a300cb9",
+    "token": "sess_dc70bc8ea0fc20c6edda89fe452914539b7907ac3a300cb9",
+    "userId": "usr_1794395203122",
+    "createdAt": "2026-11-11T11:06:43.182Z",
+    "expiresAt": "2026-12-11T11:06:43.182Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_5ecdbba638fe0a43035ed155c74a427220d8c057e8be2099",
+    "token": "sess_5ecdbba638fe0a43035ed155c74a427220d8c057e8be2099",
+    "userId": "usr_1794395145854",
+    "createdAt": "2026-11-11T11:05:45.917Z",
+    "expiresAt": "2026-12-11T11:05:45.917Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_1b9505bca4c97ae98d351a8b8add06a6448788edd28bd660",
+    "token": "sess_1b9505bca4c97ae98d351a8b8add06a6448788edd28bd660",
+    "userId": "usr_1794394959722",
+    "createdAt": "2026-11-11T11:02:39.784Z",
+    "expiresAt": "2026-12-11T11:02:39.784Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_51a1cb5f9db2b59b76be4f8e51fc83f3c7195942cb685742",
+    "token": "sess_51a1cb5f9db2b59b76be4f8e51fc83f3c7195942cb685742",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:46:59.871Z",
+    "expiresAt": "2026-12-10T11:46:59.871Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_bbf1633199d820b3ecdea045c3eeee082f441afbfcdce95f",
+    "token": "sess_bbf1633199d820b3ecdea045c3eeee082f441afbfcdce95f",
+    "userId": "usr_1794311219325",
+    "createdAt": "2026-11-10T11:46:59.722Z",
+    "expiresAt": "2026-12-10T11:46:59.722Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_540688695a83bd342bc78edabc6a977ce48b5c2b8cc74db1",
+    "token": "sess_540688695a83bd342bc78edabc6a977ce48b5c2b8cc74db1",
+    "userId": "usr_1794311219325",
+    "createdAt": "2026-11-10T11:46:59.580Z",
+    "expiresAt": "2026-12-10T11:46:59.580Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_64fc40b9d32bfd32d7ac1532470bed5b16fb2f56264fd52e",
+    "token": "sess_64fc40b9d32bfd32d7ac1532470bed5b16fb2f56264fd52e",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-10T11:46:59.451Z",
+    "expiresAt": "2026-12-10T11:46:59.451Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e19223a05463ca3f78a85c0abc8d357e30e23e2ed4d08635",
+    "token": "sess_e19223a05463ca3f78a85c0abc8d357e30e23e2ed4d08635",
+    "userId": "usr_1794311219325",
+    "createdAt": "2026-11-10T11:46:59.376Z",
+    "expiresAt": "2026-12-10T11:46:59.376Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_48cb1606381488514ebe8fbb677e3f2c21ea1f4873bd9df6",
+    "token": "sess_48cb1606381488514ebe8fbb677e3f2c21ea1f4873bd9df6",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:46:59.306Z",
+    "expiresAt": "2026-12-10T11:46:59.306Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_b9dfbfcbff6e9d3b734293c87aec8ce4c978b06382d0409a",
+    "token": "sess_b9dfbfcbff6e9d3b734293c87aec8ce4c978b06382d0409a",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:46:59.245Z",
+    "expiresAt": "2026-12-10T11:46:59.245Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_18eec4e7ca9cefc0e811b593d412b2199796e6d698274772",
+    "token": "sess_18eec4e7ca9cefc0e811b593d412b2199796e6d698274772",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:46:59.109Z",
+    "expiresAt": "2026-12-10T11:46:59.109Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_ed4c3124038ac9071bb41f2c270eb08416ca4c0395bdf71b",
+    "token": "sess_ed4c3124038ac9071bb41f2c270eb08416ca4c0395bdf71b",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-10T11:45:49.224Z",
+    "expiresAt": "2026-12-10T11:45:49.224Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_d0ea1c64eada9e02acc8b3661a14749facb9f3e8a3df1263",
+    "token": "sess_d0ea1c64eada9e02acc8b3661a14749facb9f3e8a3df1263",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-10T11:45:36.254Z",
+    "expiresAt": "2026-12-10T11:45:36.254Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_4af25b0febfa8a408fa933a99a8de68b38976ed3a1f04be7",
+    "token": "sess_4af25b0febfa8a408fa933a99a8de68b38976ed3a1f04be7",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-10T11:45:24.238Z",
+    "expiresAt": "2026-12-10T11:45:24.238Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_443fb6c5c00e8780a7ecf49ffb9fa1f2f8845daec70ff2b6",
+    "token": "sess_443fb6c5c00e8780a7ecf49ffb9fa1f2f8845daec70ff2b6",
+    "userId": "usr_1794311112649",
+    "createdAt": "2026-11-10T11:45:12.702Z",
+    "expiresAt": "2026-12-10T11:45:12.702Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_276b90607d6e84bc5cc53cce932f6c4d888a06ab00a54794",
+    "token": "sess_276b90607d6e84bc5cc53cce932f6c4d888a06ab00a54794",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-10T11:44:59.544Z",
+    "expiresAt": "2026-12-10T11:44:59.544Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_d6e1858debbe15d709277aaec5a19ad7aef3571b4e73d98b",
+    "token": "sess_d6e1858debbe15d709277aaec5a19ad7aef3571b4e73d98b",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:44:44.940Z",
+    "expiresAt": "2026-12-10T11:44:44.940Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_c41297558e0be0826c844f522a5df415b3dc5a8ff97f9290",
+    "token": "sess_c41297558e0be0826c844f522a5df415b3dc5a8ff97f9290",
+    "userId": "usr_1794311084347",
+    "createdAt": "2026-11-10T11:44:44.772Z",
+    "expiresAt": "2026-12-10T11:44:44.772Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_41c5af7a473c0b1a923914253918d097e3e90bab6485107b",
+    "token": "sess_41c5af7a473c0b1a923914253918d097e3e90bab6485107b",
+    "userId": "usr_1794311084347",
+    "createdAt": "2026-11-10T11:44:44.604Z",
+    "expiresAt": "2026-12-10T11:44:44.604Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_c536d1f3ab704e07d73dc77fec205a6110556d815460f261",
+    "token": "sess_c536d1f3ab704e07d73dc77fec205a6110556d815460f261",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-10T11:44:44.471Z",
+    "expiresAt": "2026-12-10T11:44:44.471Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_5c31be88f64de7f8585376978f9334150e270125586fd50b",
+    "token": "sess_5c31be88f64de7f8585376978f9334150e270125586fd50b",
+    "userId": "usr_1794311084347",
+    "createdAt": "2026-11-10T11:44:44.395Z",
+    "expiresAt": "2026-12-10T11:44:44.395Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_f8377d0023ad5eac7fd5175a5ec83715a0f1f815c5d80368",
+    "token": "sess_f8377d0023ad5eac7fd5175a5ec83715a0f1f815c5d80368",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:44:44.331Z",
+    "expiresAt": "2026-12-10T11:44:44.331Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_08998b435f740650fa9e9ae3f5f17fb5e07f1a1cd0d8825d",
+    "token": "sess_08998b435f740650fa9e9ae3f5f17fb5e07f1a1cd0d8825d",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:44:44.258Z",
+    "expiresAt": "2026-12-10T11:44:44.258Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_deb3bd85ed4f70f5f81ed6441cd2286f673198be5caa213f",
+    "token": "sess_deb3bd85ed4f70f5f81ed6441cd2286f673198be5caa213f",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:44:44.101Z",
+    "expiresAt": "2026-12-10T11:44:44.102Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_7de83458a186e54c0339349bb70cba2736c45e82da3a5bfa",
+    "token": "sess_7de83458a186e54c0339349bb70cba2736c45e82da3a5bfa",
+    "userId": "usr_1794311035122",
+    "createdAt": "2026-11-10T11:43:55.522Z",
+    "expiresAt": "2026-12-10T11:43:55.522Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_0d5622447708b95d2ba32d2a26d1197624ac5d5207d37be4",
+    "token": "sess_0d5622447708b95d2ba32d2a26d1197624ac5d5207d37be4",
+    "userId": "usr_1794311035122",
+    "createdAt": "2026-11-10T11:43:55.376Z",
+    "expiresAt": "2026-12-10T11:43:55.376Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_eb5373582fe01f2cd7319863947f75720500229bac1b6572",
+    "token": "sess_eb5373582fe01f2cd7319863947f75720500229bac1b6572",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-10T11:43:55.242Z",
+    "expiresAt": "2026-12-10T11:43:55.242Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_b1ce4b6d3e53ee09d6e2851321b1d8d04fbe1e91b459c44e",
+    "token": "sess_b1ce4b6d3e53ee09d6e2851321b1d8d04fbe1e91b459c44e",
+    "userId": "usr_1794311035122",
+    "createdAt": "2026-11-10T11:43:55.166Z",
+    "expiresAt": "2026-12-10T11:43:55.166Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_e62b11b845ae6cfd4b30676fbdf9e1e996e9663c56341d2b",
+    "token": "sess_e62b11b845ae6cfd4b30676fbdf9e1e996e9663c56341d2b",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:43:55.098Z",
+    "expiresAt": "2026-12-10T11:43:55.098Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_2eea2c6f6d089a4f5d941b9ed7650030efafe4926774b3d7",
+    "token": "sess_2eea2c6f6d089a4f5d941b9ed7650030efafe4926774b3d7",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:43:55.028Z",
+    "expiresAt": "2026-12-10T11:43:55.028Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_27247840bcae11413f1da2f9190ac53812dec0524208879f",
+    "token": "sess_27247840bcae11413f1da2f9190ac53812dec0524208879f",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:43:54.857Z",
+    "expiresAt": "2026-12-10T11:43:54.857Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_00e55dc36415309c85d6de7d808a2e9d439c6afd701d2017",
+    "token": "sess_00e55dc36415309c85d6de7d808a2e9d439c6afd701d2017",
+    "userId": "usr_1794310954795",
+    "createdAt": "2026-11-10T11:42:35.245Z",
+    "expiresAt": "2026-12-10T11:42:35.245Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_d7b225719c54e7069d9f6cccbac61ceb40b55c7d229c7292",
+    "token": "sess_d7b225719c54e7069d9f6cccbac61ceb40b55c7d229c7292",
+    "userId": "usr_1794310954795",
+    "createdAt": "2026-11-10T11:42:35.073Z",
+    "expiresAt": "2026-12-10T11:42:35.073Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_a4bc4394bc1dad519cb7498f4cb4f8f132486202f896d497",
+    "token": "sess_a4bc4394bc1dad519cb7498f4cb4f8f132486202f896d497",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-10T11:42:34.934Z",
+    "expiresAt": "2026-12-10T11:42:34.934Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_7b1ae41f7a0ecef867f0808af92c5f349b718908a1763692",
+    "token": "sess_7b1ae41f7a0ecef867f0808af92c5f349b718908a1763692",
+    "userId": "usr_1794310954795",
+    "createdAt": "2026-11-10T11:42:34.842Z",
+    "expiresAt": "2026-12-10T11:42:34.842Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_bcbdcc0e00d18aa6d054760e1f4d537fbe15c5a067cdbe79",
+    "token": "sess_bcbdcc0e00d18aa6d054760e1f4d537fbe15c5a067cdbe79",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:42:34.772Z",
+    "expiresAt": "2026-12-10T11:42:34.772Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_56a6d18770eaf460747b8a9cb334f330497e4d4273503c3f",
+    "token": "sess_56a6d18770eaf460747b8a9cb334f330497e4d4273503c3f",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:42:34.698Z",
+    "expiresAt": "2026-12-10T11:42:34.698Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_55da199f8a5be5a276f1cc8fbd3d00910e9f59ed3140c10b",
+    "token": "sess_55da199f8a5be5a276f1cc8fbd3d00910e9f59ed3140c10b",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-10T11:42:34.542Z",
+    "expiresAt": "2026-12-10T11:42:34.542Z",
+    "device": "node",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "sess_1794198324931_ajfpe5d",
+    "token": "sess_1794198324931_ajfpe5d",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-09T04:25:24.931Z",
+    "expiresAt": "2026-12-09T04:25:24.931Z"
+  },
+  {
+    "id": "sess_1794198323482_m3l0o4p",
+    "token": "sess_1794198323482_m3l0o4p",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-09T04:25:23.482Z",
+    "expiresAt": "2026-12-09T04:25:23.482Z"
+  },
+  {
+    "id": "sess_1794198322318_pft4u78",
+    "token": "sess_1794198322318_pft4u78",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-09T04:25:22.318Z",
+    "expiresAt": "2026-12-09T04:25:22.318Z"
+  },
+  {
+    "id": "sess_1794198309592_ui8q379",
+    "token": "sess_1794198309592_ui8q379",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-09T04:25:09.592Z",
+    "expiresAt": "2026-12-09T04:25:09.592Z"
+  },
+  {
+    "id": "sess_1794198308538_rytkzpd",
+    "token": "sess_1794198308538_rytkzpd",
+    "userId": "usr_1794198308538",
+    "createdAt": "2026-11-09T04:25:08.538Z",
+    "expiresAt": "2026-12-09T04:25:08.538Z"
+  },
+  {
+    "id": "sess_1794198260268_psyoswg",
+    "token": "sess_1794198260268_psyoswg",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-09T04:24:20.268Z",
+    "expiresAt": "2026-12-09T04:24:20.268Z"
+  },
+  {
+    "id": "sess_1794198259205_wpdqx30",
+    "token": "sess_1794198259205_wpdqx30",
+    "userId": "usr_1794198259205",
+    "createdAt": "2026-11-09T04:24:19.205Z",
+    "expiresAt": "2026-12-09T04:24:19.205Z"
+  },
+  {
+    "id": "sess_1794198181233_t4ub2su",
+    "token": "sess_1794198181233_t4ub2su",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-09T04:23:01.233Z",
+    "expiresAt": "2026-12-09T04:23:01.233Z"
+  },
+  {
+    "id": "sess_1794198179869_g8gznvy",
+    "token": "sess_1794198179869_g8gznvy",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-09T04:22:59.869Z",
+    "expiresAt": "2026-12-09T04:22:59.869Z"
+  },
+  {
+    "id": "sess_1794198178685_gfq4rlf",
+    "token": "sess_1794198178685_gfq4rlf",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-09T04:22:58.685Z",
+    "expiresAt": "2026-12-09T04:22:58.685Z"
+  },
+  {
+    "id": "sess_1794198166105_vzy84pj",
+    "token": "sess_1794198166105_vzy84pj",
+    "userId": "usr_1794198166104",
+    "createdAt": "2026-11-09T04:22:46.105Z",
+    "expiresAt": "2026-12-09T04:22:46.105Z"
+  },
+  {
+    "id": "sess_1794122134651_09fbjcw",
+    "token": "sess_1794122134651_09fbjcw",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T07:15:34.651Z",
+    "expiresAt": "2026-12-08T07:15:34.651Z"
+  },
+  {
+    "id": "sess_1794121545826_57ssrcb",
+    "token": "sess_1794121545826_57ssrcb",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T07:05:45.826Z",
+    "expiresAt": "2026-12-08T07:05:45.826Z"
+  },
+  {
+    "id": "sess_1794121544742_0udrus2",
+    "token": "sess_1794121544742_0udrus2",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T07:05:44.742Z",
+    "expiresAt": "2026-12-08T07:05:44.742Z"
+  },
+  {
+    "id": "sess_1794121543529_an5g00o",
+    "token": "sess_1794121543529_an5g00o",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T07:05:43.529Z",
+    "expiresAt": "2026-12-08T07:05:43.529Z"
+  },
+  {
+    "id": "sess_1794121512324_ju338v7",
+    "token": "sess_1794121512324_ju338v7",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T07:05:12.324Z",
+    "expiresAt": "2026-12-08T07:05:12.324Z"
+  },
+  {
+    "id": "sess_1794120893291_l7yjkkk",
+    "token": "sess_1794120893291_l7yjkkk",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T06:54:53.292Z",
+    "expiresAt": "2026-12-08T06:54:53.292Z"
+  },
+  {
+    "id": "sess_1794120891833_tosgm95",
+    "token": "sess_1794120891833_tosgm95",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T06:54:51.833Z",
+    "expiresAt": "2026-12-08T06:54:51.833Z"
+  },
+  {
+    "id": "sess_1794120880608_xky3m9t",
+    "token": "sess_1794120880608_xky3m9t",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T06:54:40.608Z",
+    "expiresAt": "2026-12-08T06:54:40.608Z"
+  },
+  {
+    "id": "sess_1794120868626_rob5z7m",
+    "token": "sess_1794120868626_rob5z7m",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T06:54:28.626Z",
+    "expiresAt": "2026-12-08T06:54:28.626Z"
+  },
+  {
+    "id": "sess_1794120258212_zbwfutg",
+    "token": "sess_1794120258212_zbwfutg",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T06:44:18.212Z",
+    "expiresAt": "2026-12-08T06:44:18.212Z"
+  },
+  {
+    "id": "sess_1794120238193_q6qxkt2",
+    "token": "sess_1794120238193_q6qxkt2",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-11-08T06:43:58.193Z",
+    "expiresAt": "2026-12-08T06:43:58.193Z"
+  },
+  {
+    "id": "sess_1793437066434_zltyc4e",
+    "token": "sess_1793437066434_zltyc4e",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:57:46.434Z",
+    "expiresAt": "2026-11-30T08:57:46.434Z"
+  },
+  {
+    "id": "sess_1793437045843_vvjpvwd",
+    "token": "sess_1793437045843_vvjpvwd",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:57:25.843Z",
+    "expiresAt": "2026-11-30T08:57:25.843Z"
+  },
+  {
+    "id": "sess_1793437027874_a72o7pr",
+    "token": "sess_1793437027874_a72o7pr",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:57:07.874Z",
+    "expiresAt": "2026-11-30T08:57:07.874Z"
+  },
+  {
+    "id": "sess_1793437014538_1m97ch3",
+    "token": "sess_1793437014538_1m97ch3",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:56:54.538Z",
+    "expiresAt": "2026-11-30T08:56:54.538Z"
+  },
+  {
+    "id": "sess_1793436987867_0en2bzf",
+    "token": "sess_1793436987867_0en2bzf",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:56:27.867Z",
+    "expiresAt": "2026-11-30T08:56:27.867Z"
+  },
+  {
+    "id": "sess_1793436959516_zvi8bak",
+    "token": "sess_1793436959516_zvi8bak",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:55:59.516Z",
+    "expiresAt": "2026-11-30T08:55:59.517Z"
+  },
+  {
+    "id": "sess_1793436915883_teafz01",
+    "token": "sess_1793436915883_teafz01",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:55:15.883Z",
+    "expiresAt": "2026-11-30T08:55:15.883Z"
+  },
+  {
+    "id": "sess_1793436865575_ctttycm",
+    "token": "sess_1793436865575_ctttycm",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-31T08:54:25.575Z",
+    "expiresAt": "2026-11-30T08:54:25.575Z"
+  },
+  {
+    "id": "sess_1793037465636_7iujo8l",
+    "token": "sess_1793037465636_7iujo8l",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-26T17:57:45.636Z",
+    "expiresAt": "2026-11-25T17:57:45.636Z"
+  },
+  {
+    "id": "sess_1792661973119_auq7cu7",
+    "token": "sess_1792661973119_auq7cu7",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-22T09:39:33.119Z",
+    "expiresAt": "2026-11-21T09:39:33.119Z"
+  },
+  {
+    "id": "sess_1792661950950_4276rey",
+    "token": "sess_1792661950950_4276rey",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-22T09:39:10.950Z",
+    "expiresAt": "2026-11-21T09:39:10.950Z"
+  },
+  {
+    "id": "sess_1792661933975_m06i40y",
+    "token": "sess_1792661933975_m06i40y",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-22T09:38:53.975Z",
+    "expiresAt": "2026-11-21T09:38:53.975Z"
+  },
+  {
+    "id": "sess_1792661899382_5cz1223",
+    "token": "sess_1792661899382_5cz1223",
+    "userId": "admin_greensabjies",
+    "createdAt": "2026-10-22T09:38:19.382Z",
+    "expiresAt": "2026-11-21T09:38:19.382Z"
+  }
+]
