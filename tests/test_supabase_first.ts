@@ -221,19 +221,44 @@ function createMockSupabase(initialTables: Record<string, any[]> = {}, options?:
         return builder;
       },
       gt(col: string, val: any) {
-        filters.push((r) => Number(r?.[col] ?? 0) > Number(val));
+        filters.push((r) => {
+          const raw = r?.[col];
+          if (raw === undefined || raw === null) return false;
+          const nRaw = Number(raw), nVal = Number(val);
+          if (!Number.isNaN(nRaw) && !Number.isNaN(nVal) && typeof raw !== "string" && typeof val !== "string") return nRaw > nVal;
+          if (!Number.isNaN(nRaw) && !Number.isNaN(nVal) && String(raw).trim() !== "" && String(val).trim() !== "") return nRaw > nVal;
+          return String(raw) > String(val);
+        });
         return builder;
       },
       gte(col: string, val: any) {
-        filters.push((r) => Number(r?.[col] ?? 0) >= Number(val));
+        filters.push((r) => {
+          const raw = r?.[col];
+          if (raw === undefined || raw === null) return false;
+          const nRaw = Number(raw), nVal = Number(val);
+          if (!Number.isNaN(nRaw) && !Number.isNaN(nVal) && String(raw).trim() !== "" && String(val).trim() !== "") return nRaw >= nVal;
+          return String(raw) >= String(val);
+        });
         return builder;
       },
       lt(col: string, val: any) {
-        filters.push((r) => Number(r?.[col] ?? 0) < Number(val));
+        filters.push((r) => {
+          const raw = r?.[col];
+          if (raw === undefined || raw === null) return false;
+          const nRaw = Number(raw), nVal = Number(val);
+          if (!Number.isNaN(nRaw) && !Number.isNaN(nVal) && String(raw).trim() !== "" && String(val).trim() !== "") return nRaw < nVal;
+          return String(raw) < String(val);
+        });
         return builder;
       },
       lte(col: string, val: any) {
-        filters.push((r) => Number(r?.[col] ?? 0) <= Number(val));
+        filters.push((r) => {
+          const raw = r?.[col];
+          if (raw === undefined || raw === null) return false;
+          const nRaw = Number(raw), nVal = Number(val);
+          if (!Number.isNaN(nRaw) && !Number.isNaN(nVal) && String(raw).trim() !== "" && String(val).trim() !== "") return nRaw <= nVal;
+          return String(raw) <= String(val);
+        });
         return builder;
       },
       ilike(col: string, pattern: string) {
@@ -756,6 +781,250 @@ async function runTests() {
     const hashed = hashPassword("CheckPass1");
     assert.equal(isScryptHash(hashed), true);
     assert.equal(verifyPassword("CheckPass1", hashed), true);
+
+    // 8. Orders Schema Regression: user_id consistency, no customer_id, unquoted Postgres error handling,
+    //    Order Expiry Sweeper, Coupon Redemption limits, Historical NULL user_id fallback & Partial Updates
+    const {
+      fetchTable,
+      updateRows
+    } = await import("../src/db/supabaseService");
+    const {
+      checkAndReleaseExpiredOrders,
+      getUserCouponRedemptionsCount
+    } = await import("../src/server/inventoryAndPricing");
+
+    // Seed strict schema mock: any direct SELECT/WRITE containing `customer_id` on `orders` fails with Postgres error 42703
+    const oldExpiredIso = new Date(Date.now() - 45 * 60 * 1000).toISOString();
+    const tomatoRow = auditMockClient.tables.products.find((p) => p.id === 1);
+    tomatoRow.stock_qty = 10;
+    tomatoRow.reserved_qty = 2;
+
+    const expiredOrderId = "ORD_EXPIRED_UPI_01";
+    const historicalNullUidOrderId = "ORD_HIST_NULL_UID_01";
+    auditMockClient.tables.coupons.push({
+      code: "ONCE50",
+      type: "flat",
+      discount: 50,
+      min_order: 50,
+      max_discount: null,
+      max_per_customer: "Once",
+      status: "Active",
+      expiry: "2099-12-31",
+      usage: 1,
+      max_redemptions: 100
+    });
+    auditMockClient.tables.orders.push(
+      {
+        id: expiredOrderId,
+        user_id: null,
+        user_email: "legacy@sabjies.in",
+        user_name: "Legacy Customer",
+        items: [{ id: 1, name: "Fresh Tomato", weight: "1 kg", qty: 2 }],
+        subtotal: 100,
+        delivery: 30,
+        discount_applied: 0,
+        coupon_applied: "",
+        total: 130,
+        payment: "UPI",
+        payment_status: "Pending",
+        payment_gateway: "upi",
+        utr: "",
+        utr_number: "",
+        payment_screenshot: "",
+        razorpay_order_id: null,
+        stock_deducted: false,
+        stock_reserved: true,
+        stock_released: false,
+        payment_audit_trail: [],
+        status: "New Orders",
+        admin_remarks: "",
+        assigned_rider: "Ramesh-Rider-9",
+        delivery_instructions: "Ring bell twice",
+        address: "Keep This Historical Address Intact",
+        phone: "9876543210",
+        cashier: "Counter-POS-2",
+        created_at: oldExpiredIso,
+        updated_at: oldExpiredIso
+      },
+      {
+        id: historicalNullUidOrderId,
+        user_id: null,
+        user_email: "legacy@sabjies.in",
+        user_name: "Legacy Customer",
+        items: [{ id: 1, name: "Fresh Tomato", weight: "1 kg", qty: 1 }],
+        subtotal: 50,
+        delivery: 30,
+        discount_applied: 50,
+        coupon_applied: "ONCE50",
+        total: 30,
+        payment: "COD",
+        payment_status: "Paid",
+        status: "Delivered",
+        address: "Flat 4B, Legacy Wings",
+        phone: "9876543210",
+        created_at: "2024-05-01T10:00:00.000Z"
+      }
+    );
+
+    const strictOrdersWrapper: any = {
+      tables: auditMockClient.tables,
+      storage: auditMockClient.storage,
+      from(table: string) {
+        const inner = auditMockClient.from(table);
+        if (table !== "orders") return inner;
+        let requestedCustomerIdInSelect = false;
+        let requestedCustomerIdInWrite = false;
+        let isWildcardSelect = false;
+        const wrap = (b: any): any => new Proxy(b, {
+          get(target, prop) {
+            if (prop === "select") {
+              return (cols?: string, opts?: any) => {
+                if (typeof cols === "string") {
+                  isWildcardSelect = cols.trim() === "*";
+                  if (/\bcustomer_id\b/i.test(cols)) requestedCustomerIdInSelect = true;
+                }
+                return wrap(target.select(cols, opts));
+              };
+            }
+            if (prop === "update" || prop === "upsert" || prop === "insert") {
+              return (data: any, opts?: any) => {
+                const items = Array.isArray(data) ? data : [data];
+                if (items.some((r) => r && Object.prototype.hasOwnProperty.call(r, "customer_id"))) {
+                  requestedCustomerIdInWrite = true;
+                }
+                return wrap(target[prop](data, opts));
+              };
+            }
+            if (prop === "eq" || prop === "neq" || prop === "or" || prop === "ilike" || prop === "in") {
+              return (...args: any[]) => {
+                if (args.some((a) => typeof a === "string" && /\bcustomer_id\b/i.test(a))) {
+                  throw new Error(`column orders.customer_id does not exist (filter ${String(prop)})`);
+                }
+                return wrap(target[prop](...args));
+              };
+            }
+            if (prop === "then") {
+              return (resolve: any, reject: any) => {
+                if (requestedCustomerIdInWrite || (requestedCustomerIdInSelect && !isWildcardSelect)) {
+                  return Promise.resolve({
+                    data: null,
+                    error: { message: "column orders.customer_id does not exist", code: "42703" }
+                  }).then(resolve, reject);
+                }
+                return target.then(resolve, reject);
+              };
+            }
+            const val = target[prop];
+            if (typeof val === "function") {
+              return (...args: any[]) => {
+                const res = val.apply(target, args);
+                return res === target ? wrap(res) : res;
+              };
+            }
+            return val;
+          }
+        });
+        return wrap(inner);
+      }
+    };
+
+    setSupabaseClientForTesting(strictOrdersWrapper, true);
+
+    // 8a. Order Expiry Sweeper must run cleanly without orders.customer_id, restore stock, and preserve unrelated fields
+    await checkAndReleaseExpiredOrders();
+    const expiredAfter = auditMockClient.tables.orders.find((o) => o.id === expiredOrderId);
+    assert.equal(expiredAfter.status, "Cancelled", "Expired order must be cancelled by sweeper");
+    assert.equal(expiredAfter.payment_status, "Cancelled", "Expired order payment_status must be Cancelled");
+    assert.equal(expiredAfter.stock_released, true, "Expired order stock_released must be true");
+    const tomatoAfterRelease = auditMockClient.tables.products.find((p) => p.id === 1);
+    assert.equal(tomatoAfterRelease.stock_qty, 12, "Released stock_qty must be restored from 10 to 12");
+    assert.equal(tomatoAfterRelease.reserved_qty, 0, "Released reserved_qty must return from 2 to 0");
+    assert.equal(expiredAfter.address, "Keep This Historical Address Intact", "Expiry sweeper must not overwrite unrelated address field");
+    assert.equal(expiredAfter.assigned_rider, "Ramesh-Rider-9", "Expiry sweeper must not overwrite assigned_rider");
+    assert.equal(expiredAfter.delivery_instructions, "Ring bell twice", "Expiry sweeper must not overwrite delivery_instructions");
+    assert.equal(expiredAfter.cashier, "Counter-POS-2", "Expiry sweeper must not overwrite cashier");
+    assert.equal(expiredAfter.user_id, null, "Expiry sweeper must preserve NULL user_id on historical order");
+
+    // 8b. extractMissingColumn() must recognize unquoted Postgres errors (`column orders.customer_id does not exist`)
+    const recoveredRows = await fetchTable("orders", {
+      columns: "id,customer_id,user_id",
+      filter: (q) => q.eq("id", historicalNullUidOrderId)
+    });
+    assert.equal(recoveredRows.length, 1, "fetchTable must fall back to * on unquoted Postgres column orders.<col> does not exist error");
+    assert.equal(recoveredRows[0].id, historicalNullUidOrderId);
+
+    const recoveredUpdate = await updateRows(
+      "orders",
+      { admin_remarks: "Verified fallback", customer_id: "should_strip" },
+      (q) => q.eq("id", historicalNullUidOrderId),
+      "id,customer_id,admin_remarks"
+    );
+    assert.equal(recoveredUpdate.length, 1, "updateRows must strip missing column on unquoted 42703 error and retry cleanly");
+    assert.equal(recoveredUpdate[0].admin_remarks, "Verified fallback");
+
+    // 8c. Coupon redemption enforcement via user_id AND historical user_id: NULL + user_email fallback
+    const legacyRedemptions = await getUserCouponRedemptionsCount("ONCE50", "cust_legacy_001", "legacy@sabjies.in", null);
+    assert.equal(legacyRedemptions, 1, "Coupon redemption count must include historical order with NULL user_id via user_email fallback");
+    const otherRedemptions = await getUserCouponRedemptionsCount("ONCE50", createdUserInDb.id, createdUserInDb.email, null);
+    assert.equal(otherRedemptions, 0, "Other customer with no matching user_id or user_email must have 0 redemptions");
+
+    const reusedCouponCheck = await fetch(`${baseUrl}/api/cart/verify`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        items: [{ id: 1, name: "Fresh Tomato", weight: "1 kg", qty: 2 }],
+        couponCode: "ONCE50",
+        userId: "cust_legacy_001",
+        userEmail: "legacy@sabjies.in"
+      })
+    });
+    assert.equal(reusedCouponCheck.status, 200);
+    const reusedCouponJson = await reusedCouponCheck.json();
+    assert.equal(reusedCouponJson.couponDiscount, 0, "Single-use coupon already redeemed on historical NULL user_id order must be rejected");
+
+    // 8d. GET /api/orders, /api/orders/user/:userId, and Admin ?userId= preserve historical NULL user_id + user_email fallback
+    const custOrdersAllRes = await fetch(`${baseUrl}/api/orders`, {
+      headers: { "x-session-id": customerSessionId }
+    });
+    assert.equal(custOrdersAllRes.status, 200);
+    const custOrdersAll = await custOrdersAllRes.json();
+    assert.ok(
+      custOrdersAll.some((o: any) => o.id === historicalNullUidOrderId),
+      "GET /api/orders must return historical order with NULL user_id matching user_email"
+    );
+
+    const custHistoryRes = await fetch(`${baseUrl}/api/orders/user/cust_legacy_001`, {
+      headers: { "x-session-id": customerSessionId }
+    });
+    assert.equal(custHistoryRes.status, 200);
+    const custHistoryJson = await custHistoryRes.json();
+    assert.ok(
+      custHistoryJson.orders.some((o: any) => o.id === historicalNullUidOrderId),
+      "GET /api/orders/user/:userId must return historical order with NULL user_id matching user_email"
+    );
+
+    const adminByUidRes = await fetch(`${baseUrl}/api/orders?userId=cust_legacy_001`, {
+      headers: { "x-session-id": adminSessionId }
+    });
+    assert.equal(adminByUidRes.status, 200);
+    const adminByUidOrders = await adminByUidRes.json();
+    assert.ok(
+      adminByUidOrders.some((o: any) => o.id === historicalNullUidOrderId),
+      "Admin GET /api/orders?userId= must preserve user_email fallback for historical NULL user_id orders"
+    );
+
+    // 8e. PATCH /api/orders/:id updates status cleanly without overwriting unrelated fields
+    const patchRes = await fetch(`${baseUrl}/api/orders/${expiredOrderId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json", "x-session-id": adminSessionId },
+      body: JSON.stringify({ status: "Cancelled", adminRemarks: "Audit verified" })
+    });
+    assert.equal(patchRes.status, 200);
+    const patchedDbRow = auditMockClient.tables.orders.find((o) => o.id === expiredOrderId);
+    assert.equal(patchedDbRow.admin_remarks, "Audit verified");
+    assert.equal(patchedDbRow.address, "Keep This Historical Address Intact", "PATCH /api/orders/:id must preserve address");
+    assert.equal(patchedDbRow.delivery_instructions, "Ring bell twice", "PATCH /api/orders/:id must preserve delivery_instructions");
+    assert.equal(patchedDbRow.cashier, "Counter-POS-2", "PATCH /api/orders/:id must preserve cashier");
 
     console.log("✅ All Supabase-first & audit regression checks passed!");
   } finally {
