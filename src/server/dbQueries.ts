@@ -67,12 +67,8 @@ export function broadcastRealtimeEvent(event: {
     ? String(
         event.new?.userId ||
         event.new?.user_id ||
-        event.new?.customerId ||
-        event.new?.customer_id ||
         event.old?.userId ||
         event.old?.user_id ||
-        event.old?.customerId ||
-        event.old?.customer_id ||
         ''
       )
     : '';
