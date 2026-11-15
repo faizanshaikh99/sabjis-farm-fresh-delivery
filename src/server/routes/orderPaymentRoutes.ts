@@ -8,6 +8,7 @@ import {
   fetchAllRows,
   fetchOneRow,
   upsertTable,
+  updateRows,
   syncOrderToSupabase,
   syncPaymentTransactionToSupabase,
   normalizeProductFromDb
@@ -129,8 +130,8 @@ router.get("/api/orders", asyncHandler(async (req, res) => {
     const safeUid = sanitizePostgrestValue(sessionUserId);
     const safeEmail = ownEmail ? sanitizePostgrestValue(ownEmail) : "";
     const orClause = safeEmail
-      ? `user_id.eq."${safeUid}",customer_id.eq."${safeUid}",user_email.ilike."${safeEmail}"`
-      : `user_id.eq."${safeUid}",customer_id.eq."${safeUid}"`;
+      ? `user_id.eq."${safeUid}",user_email.ilike."${safeEmail}"`
+      : `user_id.eq."${safeUid}"`;
 
     const fetchOpts: any = {
       orderBy: { column: "created_at", ascending: false },
@@ -148,16 +149,27 @@ router.get("/api/orders", asyncHandler(async (req, res) => {
   }
 
   // Admin path
+  let adminTargetEmail = "";
+  if (userId && !userEmail && !customer) {
+    const targetUser = await getUserByIdFromDb(String(userId).trim()).catch(() => null);
+    adminTargetEmail = targetUser?.email ? String(targetUser.email).trim().toLowerCase() : "";
+  }
+
   const filterFn = (q: any) => {
     let fq = q;
     if (userId) {
-      const safeUid = sanitizePostgrestValue(String(userId));
-      fq = fq.or(`user_id.eq."${safeUid}",customer_id.eq."${safeUid}"`);
+      const safeUid = sanitizePostgrestValue(String(userId).trim());
+      if (adminTargetEmail) {
+        const safeEmail = sanitizePostgrestValue(adminTargetEmail);
+        fq = fq.or(`user_id.eq."${safeUid}",user_email.ilike."${safeEmail}"`);
+      } else {
+        fq = fq.eq("user_id", String(userId).trim());
+      }
     } else if (userEmail) {
       fq = fq.ilike("user_email", sanitizePostgrestValue(String(userEmail)));
     } else if (customer) {
       const safeC = sanitizePostgrestValue(String(customer));
-      fq = fq.or(`user_id.eq."${safeC}",customer_id.eq."${safeC}",user_email.ilike."${safeC}"`);
+      fq = fq.or(`user_id.eq."${safeC}",user_email.ilike."${safeC}"`);
     }
     if (status) {
       fq = fq.ilike("status", sanitizePostgrestValue(String(status)));
@@ -187,6 +199,7 @@ const handleCustomerOrders = asyncHandler(async (req, res) => {
   if (!isAdmin && !sessionUserId) {
     return res.status(401).json({ error: "Authentication required to view order history." });
   }
+  let targetEmail = "";
   if (!isAdmin && sessionUserId) {
     const authUser = await getUserByIdFromDb(sessionUserId);
     const ownEmail = authUser?.email ? String(authUser.email).toLowerCase() : "";
@@ -196,11 +209,20 @@ const handleCustomerOrders = asyncHandler(async (req, res) => {
     ) {
       return res.status(403).json({ error: "Access denied. Cannot view another customer's order history." });
     }
+    targetEmail = ownEmail;
+  } else if (isAdmin && customerId && !customerId.includes("@")) {
+    const targetUser = await getUserByIdFromDb(customerId).catch(() => null);
+    targetEmail = targetUser?.email ? String(targetUser.email).toLowerCase() : "";
   }
 
   const safeC = sanitizePostgrestValue(customerId);
+  const safeEmail = targetEmail ? sanitizePostgrestValue(targetEmail) : "";
+  const orClause = safeEmail && safeEmail.toLowerCase() !== safeC.toLowerCase()
+    ? `user_id.eq."${safeC}",user_email.ilike."${safeC}",user_email.ilike."${safeEmail}"`
+    : `user_id.eq."${safeC}",user_email.ilike."${safeC}"`;
+
   const rows = await fetchAllRows("orders", {
-    filter: (q) => q.or(`user_id.eq."${safeC}",customer_id.eq."${safeC}",user_email.ilike."${safeC}"`),
+    filter: (q) => q.or(orClause),
     orderBy: { column: "created_at", ascending: false }
   });
 
@@ -639,7 +661,28 @@ const handleOrderUpdate = asyncHandler(async (req, res) => {
     updatedAt: new Date().toISOString()
   });
 
-  await syncOrderToSupabase(updatedOrder);
+  const orderPatch: Record<string, any> = {
+    status: updatedOrder.status,
+    payment_status: updatedOrder.paymentStatus,
+    admin_remarks: updatedOrder.adminRemarks,
+    assigned_rider: updatedOrder.assignedRider,
+    payment_audit_trail: updatedOrder.paymentAuditTrail || [],
+    updated_at: updatedOrder.updatedAt
+  };
+  if (newUtr !== undefined) {
+    orderPatch.utr = newUtr;
+    orderPatch.utr_number = newUtr;
+  }
+  if (upiIdUsed !== undefined) {
+    orderPatch.upi_id_used = updatedOrder.upiIdUsed;
+  }
+  if (screenshotUrl !== undefined) {
+    orderPatch.payment_screenshot = savedScreenshot || "";
+  }
+  if (finalPaymentStatus === "Paid" && previousOrder.paymentStatus !== "Paid") {
+    orderPatch.payment_gateway = updatedOrder.paymentGateway || (updatedOrder.razorpayPaymentId ? "razorpay" : (updatedOrder.upiIdUsed ? "upi" : "cod"));
+  }
+  await updateRows("orders", orderPatch, (q) => q.eq("id", String(id)));
 
   if (finalPaymentStatus !== previousOrder.paymentStatus) {
     const matchingTxns = await fetchTable("payment_transactions", {
@@ -902,7 +945,26 @@ const handleUpiProofSubmission = asyncHandler(async (req, res) => {
       reason: `Bank reference ${cleanUtr || "screenshot"} submitted by customer. Awaiting manual admin confirmation.`
     });
 
-    await syncOrderToSupabase(existingOrder);
+    const upiPatch: Record<string, any> = {
+      payment_status: "PENDING_VERIFICATION",
+      admin_remarks: existingOrder.adminRemarks,
+      payment_audit_trail: existingOrder.paymentAuditTrail || [],
+      updated_at: existingOrder.updatedAt
+    };
+    if (cleanUtr) {
+      upiPatch.utr = cleanUtr;
+      upiPatch.utr_number = cleanUtr;
+    }
+    if (rawScreenshot) {
+      upiPatch.payment_screenshot = existingOrder.paymentScreenshot || existingOrder.screenshotUrl || "";
+    }
+    if (existingOrder.stockReserved) {
+      upiPatch.stock_reserved = true;
+      upiPatch.stock_deducted = false;
+      upiPatch.stock_released = false;
+      upiPatch.inventory_status = existingOrder.inventoryStatus || "RESERVED";
+    }
+    await updateRows("orders", upiPatch, (q) => q.eq("id", String(existingOrder.id)));
     broadcastRealtimeEvent({ table: "orders", eventType: "UPDATE", new: existingOrder });
 
     return res.json({
@@ -1449,7 +1511,17 @@ router.post("/api/payments/razorpay/verify", asyncHandler(async (req, res) => {
         amount: targetOrder.total,
         reason: "HMAC SHA256 signature mismatch (Invalid or tampered token)"
       });
-      await syncOrderToSupabase(targetOrder);
+      await updateRows(
+        "orders",
+        {
+          payment_status: targetOrder.paymentStatus,
+          status: targetOrder.status,
+          admin_remarks: targetOrder.adminRemarks,
+          payment_audit_trail: targetOrder.paymentAuditTrail || [],
+          updated_at: targetOrder.updatedAt
+        },
+        (q) => q.eq("id", String(targetOrder.id))
+      );
       broadcastRealtimeEvent({ table: "orders", eventType: "UPDATE", new: targetOrder });
     }
 
@@ -1482,7 +1554,22 @@ router.post("/api/payments/razorpay/verify", asyncHandler(async (req, res) => {
   });
 
   const confirmedOrder = normalizeOrder(targetOrder);
-  await syncOrderToSupabase(confirmedOrder);
+  await updateRows(
+    "orders",
+    {
+      payment_status: confirmedOrder.paymentStatus,
+      status: confirmedOrder.status,
+      utr: razorpay_payment_id,
+      utr_number: razorpay_payment_id,
+      razorpay_payment_id: razorpay_payment_id,
+      razorpay_signature: razorpay_signature,
+      payment_gateway: confirmedOrder.paymentGateway || "razorpay",
+      admin_remarks: confirmedOrder.adminRemarks,
+      payment_audit_trail: confirmedOrder.paymentAuditTrail || [],
+      updated_at: confirmedOrder.updatedAt
+    },
+    (q) => q.eq("id", String(confirmedOrder.id))
+  );
 
   const verifiedTxnId = `txn_rzp_${razorpay_payment_id}`;
   const verifiedTxn = {
@@ -1573,7 +1660,17 @@ router.post("/api/payments/razorpay/cancel", asyncHandler(async (req, res) => {
       amount: targetOrder.total,
       reason: reason || "Customer dismissed payment gateway window"
     });
-    await syncOrderToSupabase(targetOrder);
+    await updateRows(
+      "orders",
+      {
+        payment_status: targetOrder.paymentStatus,
+        status: targetOrder.status,
+        admin_remarks: targetOrder.adminRemarks,
+        payment_audit_trail: targetOrder.paymentAuditTrail || [],
+        updated_at: targetOrder.updatedAt
+      },
+      (q) => q.eq("id", String(targetOrder.id))
+    );
     broadcastRealtimeEvent({ table: "orders", eventType: "UPDATE", new: targetOrder });
   }
 
@@ -1616,7 +1713,17 @@ router.post("/api/payments/razorpay/fail", asyncHandler(async (req, res) => {
       amount: targetOrder.total,
       reason: error?.description || error?.reason || "Payment declined by bank or gateway"
     });
-    await syncOrderToSupabase(targetOrder);
+    await updateRows(
+      "orders",
+      {
+        payment_status: targetOrder.paymentStatus,
+        status: targetOrder.status,
+        admin_remarks: targetOrder.adminRemarks,
+        payment_audit_trail: targetOrder.paymentAuditTrail || [],
+        updated_at: targetOrder.updatedAt
+      },
+      (q) => q.eq("id", String(targetOrder.id))
+    );
     broadcastRealtimeEvent({ table: "orders", eventType: "UPDATE", new: targetOrder });
   }
 
@@ -1774,7 +1881,19 @@ router.post("/api/payments/razorpay/webhook", asyncHandler(async (req, res) => {
       };
 
       await syncPaymentTransactionToSupabase(capturedTxn);
-      await syncOrderToSupabase(freshOrder);
+      const capturePatch: Record<string, any> = {
+        payment_status: freshOrder.paymentStatus,
+        status: freshOrder.status,
+        payment_gateway: freshOrder.paymentGateway || "razorpay",
+        payment_audit_trail: freshOrder.paymentAuditTrail || [],
+        updated_at: freshOrder.updatedAt
+      };
+      if (rzpPaymentId) {
+        capturePatch.utr = rzpPaymentId;
+        capturePatch.utr_number = rzpPaymentId;
+        capturePatch.razorpay_payment_id = rzpPaymentId;
+      }
+      await updateRows("orders", capturePatch, (q) => q.eq("id", String(freshOrder.id)));
       broadcastRealtimeEvent({ table: "orders", eventType: "UPDATE", new: freshOrder });
 
       if (freshOrder.userEmail) {
@@ -1836,7 +1955,16 @@ router.post("/api/payments/razorpay/webhook", asyncHandler(async (req, res) => {
         await syncPaymentTransactionToSupabase(mapped);
       }
 
-      await syncOrderToSupabase(freshOrder);
+      await updateRows(
+        "orders",
+        {
+          payment_status: freshOrder.paymentStatus,
+          status: freshOrder.status,
+          payment_audit_trail: freshOrder.paymentAuditTrail || [],
+          updated_at: freshOrder.updatedAt
+        },
+        (q) => q.eq("id", String(freshOrder.id))
+      );
       broadcastRealtimeEvent({ table: "orders", eventType: "UPDATE", new: freshOrder });
     } finally {
       activeWebhookProcessing.delete(lockKey);
@@ -2009,7 +2137,21 @@ const handleOrderRefund = asyncHandler(async (req, res) => {
       reason: `${isFullRefund ? "Full" : "Partial"} refund of ₹${requestedAmount} processed. ${reason || ""}`
     });
 
-    await syncOrderToSupabase(targetOrder);
+    await updateRows(
+      "orders",
+      {
+        payment_status: targetOrder.paymentStatus,
+        refund_amount: targetOrder.refundAmount,
+        refund_id: targetOrder.refundId,
+        refund_status: targetOrder.refundStatus,
+        refund_reason: targetOrder.refundReason,
+        refunded_at: targetOrder.refundedAt,
+        refund_history: targetOrder.refundHistory,
+        payment_audit_trail: targetOrder.paymentAuditTrail || [],
+        updated_at: targetOrder.updatedAt
+      },
+      (q) => q.eq("id", String(targetOrder.id))
+    );
     await syncPaymentTransactionToSupabase(refundTxn);
 
     await syncNotificationToSupabase({
