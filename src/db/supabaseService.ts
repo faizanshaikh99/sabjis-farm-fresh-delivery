@@ -96,7 +96,7 @@ export let cachedSchema: SupabaseSchemaInspection = createDefaultSchemaState();
  */
 export const TABLE_SELECT_COLUMNS: Record<string, string> = {
   products: 'id,name,cat,type,cp,sp,unit,weight,discount,img,image,image_url,images,emoji,rating,reviews,stock_qty,reserved_qty,sold_qty,low_at,base_price_per_kg,pricing_mode,weight_slabs,description,created_at,updated_at',
-  orders: 'id,user_id,customer_id,user_email,user_name,items,subtotal,delivery,discount_applied,coupon_applied,payment_discount_method,payment_discount_type,payment_discount_value,payment_discount_amount,payment_discount_label,payment_discount_min_order,payment_discount_max_discount,total_discount,total,payment,payment_status,payment_gateway,utr,utr_number,upi_id_used,payment_screenshot,razorpay_order_id,razorpay_payment_id,razorpay_signature,idempotency_key,stock_deducted,stock_reserved,stock_released,inventory_status,stock_released_at,stock_release_reason,payment_audit_trail,refund_history,refund_amount,refund_id,refund_status,refund_reason,status,admin_remarks,assigned_rider,delivery_instructions,address,phone,created_at,updated_at,cancellation_reason,cancelled_at,refunded_at,refund_note,cashier',
+  orders: 'id,user_id,user_email,user_name,items,subtotal,delivery,discount_applied,coupon_applied,payment_discount_method,payment_discount_type,payment_discount_value,payment_discount_amount,payment_discount_label,payment_discount_min_order,payment_discount_max_discount,total_discount,total,payment,payment_status,payment_gateway,utr,utr_number,upi_id_used,payment_screenshot,razorpay_order_id,razorpay_payment_id,razorpay_signature,idempotency_key,stock_deducted,stock_reserved,stock_released,inventory_status,stock_released_at,stock_release_reason,payment_audit_trail,refund_history,refund_amount,refund_id,refund_status,refund_reason,status,admin_remarks,assigned_rider,delivery_instructions,address,phone,created_at,updated_at,cancellation_reason,cancelled_at,refunded_at,refund_note,cashier',
   users: 'id,name,email,phone,password,role,permissions,status,addresses,joined_at,must_change_password,created_at,updated_at',
   offers: 'id,title,desc_text,tag,tag_color,img,created_at',
   reviews: 'id,author_name,location,rating,body,created_at',
@@ -772,7 +772,6 @@ export async function syncOrderToSupabase(order: any): Promise<boolean> {
   const row = {
     id: String(order.id),
     user_id: uId,
-    customer_id: String(order.customerId || order.userId || 'guest'),
     user_email: order.userEmail || '',
     user_name: order.userName || order.customerName || 'Customer',
     items: normalizedItems,
@@ -945,7 +944,8 @@ function extractMissingColumn(errorMsg?: string): string | null {
   const match =
     errorMsg.match(/Could not find the '([^']+)' column/i) ||
     errorMsg.match(/column "([^"]+)" of relation "[^"]+" does not exist/i) ||
-    errorMsg.match(/column "([^"]+)" does not exist/i);
+    errorMsg.match(/column "([^"]+)" does not exist/i) ||
+    errorMsg.match(/column\s+(?:[a-zA-Z0-9_]+\.)*([a-zA-Z0-9_]+)\s+does not exist/i);
   return match && match[1] ? match[1] : null;
 }
 
@@ -1305,7 +1305,7 @@ export async function updateRows<T = any>(
 ): Promise<T[]> {
   const client = requireSupabase();
   const targetTable = resolveTableName(tableName);
-  const selectCols = columns || TABLE_SELECT_COLUMNS[tableName] || TABLE_SELECT_COLUMNS[targetTable] || '*';
+  let selectCols = columns || TABLE_SELECT_COLUMNS[tableName] || TABLE_SELECT_COLUMNS[targetTable] || '*';
 
   let payload: Record<string, any> = { ...updates };
   const knownMissing = tableMissingColumnsMap.get(targetTable) || tableMissingColumnsMap.get(tableName);
@@ -1328,7 +1328,12 @@ export async function updateRows<T = any>(
         tableMissingColumnsMap.set(tableName, new Set());
       }
       tableMissingColumnsMap.get(tableName)!.add(missingCol);
+      const wasInPayload = Object.prototype.hasOwnProperty.call(payload, missingCol);
       delete payload[missingCol];
+      if (!wasInPayload && selectCols !== '*') {
+        selectCols = '*';
+        continue;
+      }
       if (Object.keys(payload).length === 0) return [];
       continue;
     }
