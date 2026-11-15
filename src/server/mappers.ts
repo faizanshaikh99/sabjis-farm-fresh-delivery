@@ -423,7 +423,7 @@ export function normalizeOrderFromDb(o: any) {
   return normalizeOrder({
     id: o.id,
     idempotencyKey: o.idempotency_key || o.idempotencyKey || null,
-    userId: o.user_id || o.customer_id || o.userId || 'guest',
+    userId: o.user_id || o.userId || 'guest',
     userEmail: o.user_email || o.userEmail || '',
     userName: o.user_name || o.userName || 'Customer',
     phone: o.phone || '',
