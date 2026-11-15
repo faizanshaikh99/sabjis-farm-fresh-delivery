@@ -7,8 +7,8 @@ import {
   fetchAllRows,
   fetchOneRow,
   upsertTable,
+  updateRows,
   callRpc,
-  syncOrderToSupabase,
   normalizeProductFromDb
 } from "../db/supabaseService";
 import {
@@ -114,7 +114,7 @@ export async function getUserCouponRedemptionsCount(
 
   const [matchingOrders, matchingLogs] = await Promise.all([
     fetchAllRows('orders', {
-      columns: 'id,user_id,customer_id,user_email,phone,coupon_applied',
+      columns: 'id,user_id,user_email,phone,coupon_applied',
       filter: (q) => q.ilike('coupon_applied', codeUpper)
     }),
     fetchAllRows('redemption_logs', {
@@ -127,8 +127,8 @@ export async function getUserCouponRedemptionsCount(
   let totalMatches = 0;
 
   for (const o of matchingOrders) {
-    const orderUserId = (o.user_id || o.customer_id) && (o.user_id || o.customer_id) !== 'guest'
-      ? String(o.user_id || o.customer_id).trim()
+    const orderUserId = o.user_id && o.user_id !== 'guest'
+      ? String(o.user_id).trim()
       : null;
     const orderEmail = o.user_email ? String(o.user_email).trim().toLowerCase() : null;
     const orderPhone = o.phone ? String(o.phone).replace(/\D/g, '').slice(-10) : null;
@@ -978,6 +978,7 @@ export async function checkAndReleaseExpiredOrders(): Promise<void> {
     const cutoffIso = new Date(Date.now() - EXPIRATION_WINDOW_MS).toISOString();
 
     const candidateRows = await fetchTable('orders', {
+      columns: 'id,user_id,user_email,items,total,payment,payment_status,payment_gateway,utr,utr_number,payment_screenshot,razorpay_order_id,stock_deducted,stock_reserved,stock_released,payment_audit_trail,created_at',
       filter: (q) =>
         q
           .eq('payment_status', 'Pending')
@@ -1015,8 +1016,20 @@ export async function checkAndReleaseExpiredOrders(): Promise<void> {
           reason: 'Checkout window expired without payment verification (>15 min)'
         });
 
-        await syncOrderToSupabase(order);
-        broadcastRealtimeEvent({ table: 'orders', eventType: 'UPDATE', new: order });
+        const updatedRows = await updateRows(
+          'orders',
+          {
+            payment_status: 'Cancelled',
+            status: 'Cancelled',
+            admin_remarks: order.adminRemarks,
+            payment_audit_trail: order.paymentAuditTrail || [],
+            updated_at: order.updatedAt
+          },
+          (q) => q.eq('id', String(order.id))
+        );
+
+        const freshOrder = updatedRows[0] ? normalizeOrderFromDb(updatedRows[0]) : order;
+        broadcastRealtimeEvent({ table: 'orders', eventType: 'UPDATE', new: freshOrder || order });
       }
     }
   } catch (err: any) {
