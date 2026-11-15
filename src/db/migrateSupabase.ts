@@ -317,7 +317,6 @@ export async function runSupabaseMigration(
         const row: Record<string, any> = {
           id: String(o.id),
           user_id: validUid,
-          customer_id: String(o.customerId || o.userId || 'guest'),
           user_email: o.userEmail || '',
           user_name: o.userName || o.customerName || 'Customer',
           items: normalizedItems,
